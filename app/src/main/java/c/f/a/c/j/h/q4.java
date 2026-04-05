@@ -1,0 +1,43 @@
+package c.f.a.c.j.h;
+
+import java.io.PrintStream;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class q4 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final k4 f13490a;
+
+    static {
+        k4 o4Var;
+        Integer num = null;
+        try {
+            try {
+                num = (Integer) Class.forName("android.os.Build$VERSION").getField("SDK_INT").get(null);
+            } catch (Exception e2) {
+                System.err.println("Failed to retrieve value from android.os.Build$VERSION.SDK_INT due to the following exception.");
+                e2.printStackTrace(System.err);
+            }
+            o4Var = (num == null || num.intValue() < 19) ? !Boolean.getBoolean("com.google.devtools.build.android.desugar.runtime.twr_disable_mimic") ? new n4() : new o4() : new p4();
+        } catch (Throwable th) {
+            PrintStream printStream = System.err;
+            String name = o4.class.getName();
+            StringBuilder sb = new StringBuilder(name.length() + 133);
+            sb.append("An error has occurred when initializing the try-with-resources desuguring strategy. The default strategy ");
+            sb.append(name);
+            sb.append("will be used. The error is: ");
+            printStream.println(sb.toString());
+            th.printStackTrace(System.err);
+            o4Var = new o4();
+        }
+        f13490a = o4Var;
+        if (num == null) {
+            return;
+        }
+        num.intValue();
+    }
+
+    public static void a(Throwable th, Throwable th2) {
+        f13490a.a(th, th2);
+    }
+}

@@ -1,0 +1,21 @@
+package c.h.a.k.a;
+
+import com.amplifyframework.core.Consumer;
+import com.amplifyframework.storage.StorageException;
+import com.nst.iptvsmarterstvbox.view.activity.BackupAndRestoreActivity;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final /* synthetic */ class i implements Consumer {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ BackupAndRestoreActivity f17364a;
+
+    public /* synthetic */ i(BackupAndRestoreActivity backupAndRestoreActivity) {
+        this.f17364a = backupAndRestoreActivity;
+    }
+
+    @Override // com.amplifyframework.core.Consumer
+    public final void accept(Object obj) {
+        this.f17364a.h1((StorageException) obj);
+    }
+}

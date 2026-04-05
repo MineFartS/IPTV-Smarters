@@ -1,0 +1,49 @@
+package a.e;
+
+import android.R;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class e {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final int[] f1200a = {R.attr.minWidth, R.attr.minHeight, com.nst.iptvsmarterstvbox.R.attr.cardBackgroundColor, com.nst.iptvsmarterstvbox.R.attr.cardCornerRadius, com.nst.iptvsmarterstvbox.R.attr.cardElevation, com.nst.iptvsmarterstvbox.R.attr.cardMaxElevation, com.nst.iptvsmarterstvbox.R.attr.cardPreventCornerOverlap, com.nst.iptvsmarterstvbox.R.attr.cardUseCompatPadding, com.nst.iptvsmarterstvbox.R.attr.contentPadding, com.nst.iptvsmarterstvbox.R.attr.contentPaddingBottom, com.nst.iptvsmarterstvbox.R.attr.contentPaddingLeft, com.nst.iptvsmarterstvbox.R.attr.contentPaddingRight, com.nst.iptvsmarterstvbox.R.attr.contentPaddingTop};
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final int f1201b = 0;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public static final int f1202c = 1;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public static final int f1203d = 2;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public static final int f1204e = 3;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public static final int f1205f = 4;
+
+    /* JADX INFO: renamed from: g, reason: collision with root package name */
+    public static final int f1206g = 5;
+
+    /* JADX INFO: renamed from: h, reason: collision with root package name */
+    public static final int f1207h = 6;
+
+    /* JADX INFO: renamed from: i, reason: collision with root package name */
+    public static final int f1208i = 7;
+
+    /* JADX INFO: renamed from: j, reason: collision with root package name */
+    public static final int f1209j = 8;
+
+    /* JADX INFO: renamed from: k, reason: collision with root package name */
+    public static final int f1210k = 9;
+
+    /* JADX INFO: renamed from: l, reason: collision with root package name */
+    public static final int f1211l = 10;
+
+    /* JADX INFO: renamed from: m, reason: collision with root package name */
+    public static final int f1212m = 11;
+
+    /* JADX INFO: renamed from: n, reason: collision with root package name */
+    public static final int f1213n = 12;
+}

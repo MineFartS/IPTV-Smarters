@@ -1,0 +1,10 @@
+package c.f.a.c.j.c;
+
+/* JADX INFO: loaded from: classes2.dex */
+public interface ac extends dc, Cloneable {
+    bc s();
+
+    ac t(bc bcVar);
+
+    bc v();
+}

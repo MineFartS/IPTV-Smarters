@@ -1,0 +1,18 @@
+package com.facebook.ads.redexgen.X;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.Di, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public class C0643Di extends KQ {
+    public final /* synthetic */ AnonymousClass57 A00;
+
+    public C0643Di(AnonymousClass57 anonymousClass57) {
+        this.A00 = anonymousClass57;
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    @Override // com.facebook.ads.redexgen.X.C9F
+    /* JADX INFO: renamed from: A00, reason: merged with bridge method [inline-methods] */
+    public final void A04(C7q c7q) {
+        this.A00.A00.onCompleted();
+    }
+}

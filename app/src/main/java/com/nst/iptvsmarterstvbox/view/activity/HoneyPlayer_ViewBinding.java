@@ -1,0 +1,177 @@
+package com.nst.iptvsmarterstvbox.view.activity;
+
+import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
+import android.widget.SeekBar;
+import android.widget.TableLayout;
+import android.widget.TextView;
+import androidx.mediarouter.app.MediaRouteButton;
+import androidx.recyclerview.widget.RecyclerView;
+import b.c.c;
+import butterknife.Unbinder;
+import com.nst.iptvsmarterstvbox.R;
+import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes;
+
+/* JADX INFO: loaded from: classes2.dex */
+public class HoneyPlayer_ViewBinding implements Unbinder {
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public HoneyPlayer f25683b;
+
+    public HoneyPlayer_ViewBinding(HoneyPlayer honeyPlayer, View view) {
+        this.f25683b = honeyPlayer;
+        honeyPlayer.ll_player_header = (LinearLayout) c.c(view, R.id.ll_player_header, "field 'll_player_header'", LinearLayout.class);
+        honeyPlayer.ll_player_footer = (LinearLayout) c.c(view, R.id.ll_player_footer, "field 'll_player_footer'", LinearLayout.class);
+        honeyPlayer.mVideoView = (NSTIJKPlayerEpisodes) c.c(view, R.id.ll_video_view, "field 'mVideoView'", NSTIJKPlayerEpisodes.class);
+        honeyPlayer.iv_back = (ImageView) c.c(view, R.id.iv_back, "field 'iv_back'", ImageView.class);
+        honeyPlayer.ll_back_click = (LinearLayout) c.c(view, R.id.ll_back_click, "field 'll_back_click'", LinearLayout.class);
+        honeyPlayer.ll_audio_subtitle_settings_click = (LinearLayout) c.c(view, R.id.ll_audio_subtitle_settings_click, "field 'll_audio_subtitle_settings_click'", LinearLayout.class);
+        honeyPlayer.iv_audio_subtitle_track = (ImageView) c.c(view, R.id.iv_audio_subtitle_track, "field 'iv_audio_subtitle_track'", ImageView.class);
+        honeyPlayer.iv_play = (ImageView) c.c(view, R.id.iv_play, "field 'iv_play'", ImageView.class);
+        honeyPlayer.iv_pause = (ImageView) c.c(view, R.id.iv_pause, "field 'iv_pause'", ImageView.class);
+        honeyPlayer.hp_seekbar = (SeekBar) c.c(view, R.id.hp_seekbar, "field 'hp_seekbar'", SeekBar.class);
+        honeyPlayer.ll_episodes = (LinearLayout) c.c(view, R.id.ll_episodes, "field 'll_episodes'", LinearLayout.class);
+        honeyPlayer.ll_crop = (LinearLayout) c.c(view, R.id.ll_crop, "field 'll_crop'", LinearLayout.class);
+        honeyPlayer.ll_playback_speed = (LinearLayout) c.c(view, R.id.ll_playback_speed, "field 'll_playback_speed'", LinearLayout.class);
+        honeyPlayer.iv_playback = (ImageView) c.c(view, R.id.iv_playback, "field 'iv_playback'", ImageView.class);
+        honeyPlayer.ll_next_episode = (LinearLayout) c.c(view, R.id.ll_next_episode, "field 'll_next_episode'", LinearLayout.class);
+        honeyPlayer.ll_audio_subtitle_settings = (LinearLayout) c.c(view, R.id.ll_audio_subtitle_settings, "field 'll_audio_subtitle_settings'", LinearLayout.class);
+        honeyPlayer.ll_back = (LinearLayout) c.c(view, R.id.ll_back, "field 'll_back'", LinearLayout.class);
+        honeyPlayer.iv_back_episodes = (ImageView) c.c(view, R.id.iv_back_episodes, "field 'iv_back_episodes'", ImageView.class);
+        honeyPlayer.iv_back_settings = (ImageView) c.c(view, R.id.iv_back_settings, "field 'iv_back_settings'", ImageView.class);
+        honeyPlayer.tv_start_time = (TextView) c.c(view, R.id.tv_start_time, "field 'tv_start_time'", TextView.class);
+        honeyPlayer.tv_end_time = (TextView) c.c(view, R.id.tv_end_time, "field 'tv_end_time'", TextView.class);
+        honeyPlayer.ll_aspect_ratio = (LinearLayout) c.c(view, R.id.ll_aspect_ratio, "field 'll_aspect_ratio'", LinearLayout.class);
+        honeyPlayer.rg_subtitle = (RadioGroup) c.c(view, R.id.subtitle_radio_group, "field 'rg_subtitle'", RadioGroup.class);
+        honeyPlayer.rg_audio = (RadioGroup) c.c(view, R.id.audio_radio_group, "field 'rg_audio'", RadioGroup.class);
+        honeyPlayer.rg_video = (RadioGroup) c.c(view, R.id.video_radio_group, "field 'rg_video'", RadioGroup.class);
+        honeyPlayer.no_audio_track = (TextView) c.c(view, R.id.tv_no_audio_track, "field 'no_audio_track'", TextView.class);
+        honeyPlayer.no_subtitle_track = (TextView) c.c(view, R.id.tv_no_subtitle_track, "field 'no_subtitle_track'", TextView.class);
+        honeyPlayer.no_video_track = (TextView) c.c(view, R.id.tv_no_video_track, "field 'no_video_track'", TextView.class);
+        honeyPlayer.tv_sub_font_size = (TextView) c.c(view, R.id.tv_sub_font_size, "field 'tv_sub_font_size'", TextView.class);
+        honeyPlayer.fl_sub_font_size = (FrameLayout) c.c(view, R.id.fl_sub_font_size, "field 'fl_sub_font_size'", FrameLayout.class);
+        honeyPlayer.tv_speed = (TextView) c.c(view, R.id.tv_speed, "field 'tv_speed'", TextView.class);
+        honeyPlayer.rl_episodes_box = (RelativeLayout) c.c(view, R.id.rl_episodes_box, "field 'rl_episodes_box'", RelativeLayout.class);
+        honeyPlayer.rl_settings_box = (RelativeLayout) c.c(view, R.id.rl_settings_box, "field 'rl_settings_box'", RelativeLayout.class);
+        honeyPlayer.myRecyclerView = (RecyclerView) c.c(view, R.id.my_recycler_view, "field 'myRecyclerView'", RecyclerView.class);
+        honeyPlayer.tv_seek_left = (TextView) c.c(view, R.id.tv_seek_left, "field 'tv_seek_left'", TextView.class);
+        honeyPlayer.tv_seek_right = (TextView) c.c(view, R.id.tv_seek_right, "field 'tv_seek_right'", TextView.class);
+        honeyPlayer.tv_seek_count_right = (TextView) c.c(view, R.id.tv_seek_count_right, "field 'tv_seek_count_right'", TextView.class);
+        honeyPlayer.tv_seek_count_left = (TextView) c.c(view, R.id.tv_seek_count_left, "field 'tv_seek_count_left'", TextView.class);
+        honeyPlayer.fl_seek_right = (FrameLayout) c.c(view, R.id.fl_seek_right, "field 'fl_seek_right'", FrameLayout.class);
+        honeyPlayer.fl_seek_left = (FrameLayout) c.c(view, R.id.fl_seek_left, "field 'fl_seek_left'", FrameLayout.class);
+        honeyPlayer.sb_volume = (SeekBar) c.c(view, R.id.sb_volume, "field 'sb_volume'", SeekBar.class);
+        honeyPlayer.sb_brightness = (SeekBar) c.c(view, R.id.sb_brightness, "field 'sb_brightness'", SeekBar.class);
+        honeyPlayer.ll_brightness = (LinearLayout) c.c(view, R.id.ll_brightness, "field 'll_brightness'", LinearLayout.class);
+        honeyPlayer.ll_volume = (LinearLayout) c.c(view, R.id.ll_volume, "field 'll_volume'", LinearLayout.class);
+        honeyPlayer.tv_brightness = (TextView) c.c(view, R.id.tv_brightness, "field 'tv_brightness'", TextView.class);
+        honeyPlayer.tv_volume = (TextView) c.c(view, R.id.tv_volume, "field 'tv_volume'", TextView.class);
+        honeyPlayer.ll_pause_play = (LinearLayout) c.c(view, R.id.ll_pause_play, "field 'll_pause_play'", LinearLayout.class);
+        honeyPlayer.tv_episode_name = (TextView) c.c(view, R.id.tv_episode_name, "field 'tv_episode_name'", TextView.class);
+        honeyPlayer.tv_current_season = (TextView) c.c(view, R.id.tv_current_season, "field 'tv_current_season'", TextView.class);
+        honeyPlayer.iv_hp_lock = (ImageView) c.c(view, R.id.iv_hp_lock, "field 'iv_hp_lock'", ImageView.class);
+        honeyPlayer.ll_hp_lock_click = (LinearLayout) c.c(view, R.id.ll_hp_lock_click, "field 'll_hp_lock_click'", LinearLayout.class);
+        honeyPlayer.ll_screen_locked = (LinearLayout) c.c(view, R.id.ll_screen_locked, "field 'll_screen_locked'", LinearLayout.class);
+        honeyPlayer.iv_unlock_button = (ImageView) c.c(view, R.id.iv_unlock_button, "field 'iv_unlock_button'", ImageView.class);
+        honeyPlayer.rl_next_episode = (RelativeLayout) c.c(view, R.id.rl_next_episode, "field 'rl_next_episode'", RelativeLayout.class);
+        honeyPlayer.iv_next_episode = (ImageView) c.c(view, R.id.iv_next_episode, "field 'iv_next_episode'", ImageView.class);
+        honeyPlayer.cancel_autoplay = (TextView) c.c(view, R.id.cancel_autoplay, "field 'cancel_autoplay'", TextView.class);
+        honeyPlayer.tv_seconds_left = (TextView) c.c(view, R.id.tv_seconds_left, "field 'tv_seconds_left'", TextView.class);
+        honeyPlayer.tv_autoplay_next_episode_button = (TextView) c.c(view, R.id.tv_autoplay_next_episode_button, "field 'tv_autoplay_next_episode_button'", TextView.class);
+        honeyPlayer.ll_auto_play_next_episode = (LinearLayout) c.c(view, R.id.ll_auto_play_next_episode, "field 'll_auto_play_next_episode'", LinearLayout.class);
+        honeyPlayer.mHudView = (TableLayout) c.c(view, R.id.hud_view, "field 'mHudView'", TableLayout.class);
+        honeyPlayer.ll_chromecast_click = (LinearLayout) c.c(view, R.id.ll_chromecast_click, "field 'll_chromecast_click'", LinearLayout.class);
+        honeyPlayer.cast_button = (MediaRouteButton) c.c(view, R.id.cast_button, "field 'cast_button'", MediaRouteButton.class);
+        honeyPlayer.ll_casting_to_tv = (LinearLayout) c.c(view, R.id.ll_casting_to_tv, "field 'll_casting_to_tv'", LinearLayout.class);
+        honeyPlayer.tv_casting_status_text = (TextView) c.c(view, R.id.tv_casting_status_text, "field 'tv_casting_status_text'", TextView.class);
+        honeyPlayer.rl_movie_poster_box = (RelativeLayout) c.c(view, R.id.rl_movie_poster_box, "field 'rl_movie_poster_box'", RelativeLayout.class);
+        honeyPlayer.iv_movie_poster_box = (ImageView) c.c(view, R.id.iv_movie_poster_box, "field 'iv_movie_poster_box'", ImageView.class);
+        honeyPlayer.iv_hp_play_from_beginning = (ImageView) c.c(view, R.id.iv_hp_play_from_beginning, "field 'iv_hp_play_from_beginning'", ImageView.class);
+        honeyPlayer.ll_restart = (LinearLayout) c.c(view, R.id.ll_restart, "field 'll_restart'", LinearLayout.class);
+        honeyPlayer.ll_play_button_main_layout = (LinearLayout) c.c(view, R.id.ll_play_button_main_layout, "field 'll_play_button_main_layout'", LinearLayout.class);
+        honeyPlayer.ll_season_button_main_layout = (LinearLayout) c.c(view, R.id.ll_season_button_main_layout, "field 'll_season_button_main_layout'", LinearLayout.class);
+    }
+
+    @Override // butterknife.Unbinder
+    public void a() {
+        HoneyPlayer honeyPlayer = this.f25683b;
+        if (honeyPlayer == null) {
+            throw new IllegalStateException("Bindings already cleared.");
+        }
+        this.f25683b = null;
+        honeyPlayer.ll_player_header = null;
+        honeyPlayer.ll_player_footer = null;
+        honeyPlayer.mVideoView = null;
+        honeyPlayer.iv_back = null;
+        honeyPlayer.ll_back_click = null;
+        honeyPlayer.ll_audio_subtitle_settings_click = null;
+        honeyPlayer.iv_audio_subtitle_track = null;
+        honeyPlayer.iv_play = null;
+        honeyPlayer.iv_pause = null;
+        honeyPlayer.hp_seekbar = null;
+        honeyPlayer.ll_episodes = null;
+        honeyPlayer.ll_crop = null;
+        honeyPlayer.ll_playback_speed = null;
+        honeyPlayer.iv_playback = null;
+        honeyPlayer.ll_next_episode = null;
+        honeyPlayer.ll_audio_subtitle_settings = null;
+        honeyPlayer.ll_back = null;
+        honeyPlayer.iv_back_episodes = null;
+        honeyPlayer.iv_back_settings = null;
+        honeyPlayer.tv_start_time = null;
+        honeyPlayer.tv_end_time = null;
+        honeyPlayer.ll_aspect_ratio = null;
+        honeyPlayer.rg_subtitle = null;
+        honeyPlayer.rg_audio = null;
+        honeyPlayer.rg_video = null;
+        honeyPlayer.no_audio_track = null;
+        honeyPlayer.no_subtitle_track = null;
+        honeyPlayer.no_video_track = null;
+        honeyPlayer.tv_sub_font_size = null;
+        honeyPlayer.fl_sub_font_size = null;
+        honeyPlayer.tv_speed = null;
+        honeyPlayer.rl_episodes_box = null;
+        honeyPlayer.rl_settings_box = null;
+        honeyPlayer.myRecyclerView = null;
+        honeyPlayer.tv_seek_left = null;
+        honeyPlayer.tv_seek_right = null;
+        honeyPlayer.tv_seek_count_right = null;
+        honeyPlayer.tv_seek_count_left = null;
+        honeyPlayer.fl_seek_right = null;
+        honeyPlayer.fl_seek_left = null;
+        honeyPlayer.sb_volume = null;
+        honeyPlayer.sb_brightness = null;
+        honeyPlayer.ll_brightness = null;
+        honeyPlayer.ll_volume = null;
+        honeyPlayer.tv_brightness = null;
+        honeyPlayer.tv_volume = null;
+        honeyPlayer.ll_pause_play = null;
+        honeyPlayer.tv_episode_name = null;
+        honeyPlayer.tv_current_season = null;
+        honeyPlayer.iv_hp_lock = null;
+        honeyPlayer.ll_hp_lock_click = null;
+        honeyPlayer.ll_screen_locked = null;
+        honeyPlayer.iv_unlock_button = null;
+        honeyPlayer.rl_next_episode = null;
+        honeyPlayer.iv_next_episode = null;
+        honeyPlayer.cancel_autoplay = null;
+        honeyPlayer.tv_seconds_left = null;
+        honeyPlayer.tv_autoplay_next_episode_button = null;
+        honeyPlayer.ll_auto_play_next_episode = null;
+        honeyPlayer.mHudView = null;
+        honeyPlayer.ll_chromecast_click = null;
+        honeyPlayer.cast_button = null;
+        honeyPlayer.ll_casting_to_tv = null;
+        honeyPlayer.tv_casting_status_text = null;
+        honeyPlayer.rl_movie_poster_box = null;
+        honeyPlayer.iv_movie_poster_box = null;
+        honeyPlayer.iv_hp_play_from_beginning = null;
+        honeyPlayer.ll_restart = null;
+        honeyPlayer.ll_play_button_main_layout = null;
+        honeyPlayer.ll_season_button_main_layout = null;
+    }
+}

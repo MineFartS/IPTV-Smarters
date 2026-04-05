@@ -1,0 +1,18 @@
+package com.amplifyframework.core.plugin;
+
+import android.content.Context;
+import com.amplifyframework.core.category.CategoryTypeable;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface Plugin<E> extends CategoryTypeable {
+    void configure(JSONObject jSONObject, Context context);
+
+    E getEscapeHatch();
+
+    String getPluginKey();
+
+    String getVersion();
+
+    void initialize(Context context);
+}

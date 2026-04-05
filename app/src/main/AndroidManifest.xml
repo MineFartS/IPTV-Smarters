@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="112"
+    android:versionName="3.1.5.1"
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="com.nst.iptvsmarterstvbox"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11">
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="30"/>
+    <queries>
+        <intent>
+            <action android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_OWNER_DATA"/>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="false"/>
+    <uses-feature android:glEsVersion="0x20000"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.nst.iptvsmarterstvbox.miscelleneious.MyApplication"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:banner="@mipmap/tv_banner"
+        android:extractNativeLibs="true"
+        android:usesCleartextTraffic="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true"
+        android:allowNativeHeapPointerTagging="false">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.Local_media_Activity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.AudioPickActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VideoPickActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SpeedTestActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.MultiSettingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <provider
+            android:name="com.nst.iptvsmarterstvbox.miscelleneious.VedioFile"
+            android:exported="false"
+            android:authorities="com.nst.iptvsmarterstvbox.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path"/>
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:authorities="com.nst.iptvsmarterstvbox.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.AddedExternalPlayerActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ExternalPlayerActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SplashActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.LoginActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ParentalControlActivitity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.AccountInfoActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.PlayerSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ImportEPGActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.NewEPGActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.NewEPGCategoriesActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ViewDetailsCastActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.PlayRecordingExternalPlayerActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.StreamFormatActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.TVArchiveActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SubTVArchiveActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSecondSubCategories"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.LiveActivityNewFlow"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.TVArchiveActivityNewFlow"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.TVArchiveActivityLayout"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.TimeFormatActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.EPGChannelUpdateActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlow"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VodActivityLayout"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.AutomationActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesActivtyNewFlow"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.GeneralSettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <receiver
+            android:name="com.nst.iptvsmarterstvbox.view.activity.BootStartupActivity"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.YouTubePlayerActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.NotificationActivity"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.RecordingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VLCPlayerRecordingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.MxPlayerRecordingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.AnnouncementsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.AnnouncementAlertActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:resizeableActivity="false"
+            android:supportsPictureInPicture="true"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerVODActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerEPGActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.PlayerSettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.CheckAppupdateActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.RateUsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.FreeTrailActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ImportM3uActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="redirect_live_tv"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="redirect_vod"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.RoutingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.LoginM3uActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.MultiUserActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale">
+            <intent-filter>
+                <action android:name="m3u"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="api"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ViewDetailsTMDBActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesDetailM3UActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesActivityNewFlowSubCategoriesM3U"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesActivityNewFlowM3U"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.APPInPurchaseActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.ServicesDashboardActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.MySerivcesActiviy"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.MyTicketActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.MyInvoiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.ViewTicketActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.PaidInvoiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.UnpiadInvoiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.CancelInvoiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.InvoiceRefundedActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.ActiveServiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.CancelledSerivceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.PendingServiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.SuspendedServiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.TerminatedServiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.FraudServiceActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.ShowserviceInformationActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.OpenTicketActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.InvoicePaidDetailActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <service android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.notifications.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.notifications.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.BuyNowActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/ChromecastTheme"
+            android:label="@string/app_name"
+            android:name="com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity"/>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.CastOptionsProvider"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerMultiActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.vpn.activities.ProfileActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.vpn.activities.ImportVPNActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="de.blinkt.openvpn.LaunchVPN"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <service
+            android:name="de.blinkt.openvpn.core.OpenVPNService"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="de.blinkt.openvpn.core.OpenVPNStatusService"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="de.blinkt.openvpn.api.ExternalOpenVPNService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:process=":openvpn">
+            <intent-filter>
+                <action android:name="de.blinkt.openvpn.api.IOpenVPNAPIService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:label="@string/qs_title"
+            android:icon="@mipmap/ic_launcher"
+            android:name="de.blinkt.openvpn.OpenVPNTileService"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:value="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.ACTIVE_TILE"
+                android:value="false"/>
+        </service>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.vpn.LogWindow"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.vpn.DisconnectVPN"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity android:name="de.blinkt.openvpn.api.RemoteAction"/>
+        <activity-alias
+            android:name="de.blinkt.openvpn.api.ConnectVPN"
+            android:exported="true"
+            android:targetActivity="de.blinkt.openvpn.api.RemoteAction"/>
+        <activity android:name="de.blinkt.openvpn.api.GrantPermissionsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="de.blinkt.openvpn.api.ConfirmDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/app_restrictions"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:resizeableActivity="false"
+            android:supportsPictureInPicture="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="audio/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="audio/*"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.queue.QueueListViewActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|screenLayout|orientation"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SearchActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.FrontView"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ScreenTypeSettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.BackupAndRestoreActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <service android:name="com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.castserver.CastServerService"/>
+        <service
+            android:name="com.nst.iptvsmarterstvbox.miscelleneious.StopProcessingTasksService"
+            android:stopWithTask="false"/>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name="com.nst.iptvsmarterstvbox.view.demo.SampleChooserActivity"
+            android:exported="true"
+            android:configChanges="keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="asset"/>
+                <data android:scheme="file"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.exolist\\.json"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name="com.nst.iptvsmarterstvbox.view.demo.PlayerActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.google.android.exoplayer.demo.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="asset"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.exoplayer.demo.action.VIEW_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.activity.ExoPlayerMoviesSeriesActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|orientation|keyboardHidden|locale"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:resizeableActivity="false"
+            android:supportsPictureInPicture="true"/>
+        <activity
+            android:name="com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyTvActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation"
+            android:resizeableActivity="false"
+            android:supportsPictureInPicture="true"/>
+        <activity
+            android:theme="@style/EasyPermissions.Transparent"
+            android:label=""
+            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true"/>
+        <activity
+            android:theme="@style/OverlayActivity"
+            android:name="com.amplifyframework.devmenu.DeveloperMenuActivity"/>
+        <receiver
+            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:exported="false"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <provider
+            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+            android:exported="false"
+            android:authorities="com.nst.iptvsmarterstvbox.AudienceNetworkContentProvider"/>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.nst.iptvsmarterstvbox.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="4.0.0"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true">
+            <meta-data
+                android:name="com.google.android.play.core.assetpacks.versionCode"
+                android:value="10901"/>
+        </service>
+        <service
+            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+            android:enabled="false"
+            android:exported="false"/>
+    </application>
+</manifest>

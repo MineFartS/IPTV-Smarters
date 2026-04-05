@@ -1,0 +1,42 @@
+package c.f.a.c.j.c;
+
+/* JADX INFO: loaded from: classes2.dex */
+public enum b6 implements ra {
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_UNKNOWN(0),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_USER_DISMISSED(1),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_USER_STOPPED(2),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_RECEIVER_OFFLINE(3),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_SENDER_BECAME_PRIMARY(4),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_RECEIVER_PRIVATE_MODE(5),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_USER_DISABLE_FROM_SETTINGS(6),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_CONNECTION_TO_GMSCORE_FAILED(7),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_CONNECTION_TO_RECEIVER_FAILED(8),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_NEW_SERVICE_STARTED(9),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_INVALID_APPLICATION(10),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_APPLICATION_DISCONNECTED(11),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_NO_MEDIA_SESSION(12),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_REASON_SERVICE_STOPPED(13),
+    REMOTE_CONTROL_NOTIFICATION_CANCEL_SCEEN_OFF(14);
+
+    private static final ua<b6> zzahh = new ua<b6>() { // from class: c.f.a.c.j.c.a6
+    };
+    private final int value;
+
+    b6(int i2) {
+        this.value = i2;
+    }
+
+    public static ta zzgk() {
+        return d6.f12790a;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return "<" + b6.class.getName() + '@' + Integer.toHexString(System.identityHashCode(this)) + " number=" + this.value + " name=" + name() + '>';
+    }
+
+    @Override // c.f.a.c.j.c.ra
+    public final int zzgj() {
+        return this.value;
+    }
+}

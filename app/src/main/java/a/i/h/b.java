@@ -1,0 +1,14 @@
+package a.i.h;
+
+import android.app.ActivityManager;
+import android.os.Build;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class b {
+    public static boolean a(ActivityManager activityManager) {
+        if (Build.VERSION.SDK_INT >= 19) {
+            return activityManager.isLowRamDevice();
+        }
+        return false;
+    }
+}
