@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -26,11 +26,11 @@ import butterknife.Unbinder;
 import c.h.a.i.p;
 import c.h.a.i.q.m;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity;
-import com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyTvActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity;
+import minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyTvActivity;
+import minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import org.jetbrains.annotations.NotNull;
@@ -174,7 +174,7 @@ public class LiveAllDataRightSideAdapterSearch extends RecyclerView.h<RecyclerVi
         /* JADX INFO: renamed from: a, reason: collision with root package name */
         public final /* synthetic */ ViewHolder f27441a;
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapterSearch$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapterSearch$a$a, reason: collision with other inner class name */
         public class C0285a implements c.k.b.e {
             public C0285a() {
             }
@@ -693,7 +693,7 @@ public class LiveAllDataRightSideAdapterSearch extends RecyclerView.h<RecyclerVi
             Method dump skipped, instruction units count: 540
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapterSearch.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapterSearch.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
     }
 
     public final void F0(RecyclerView.e0 e0Var, int i2, ArrayList<c.h.a.i.f> arrayList) {

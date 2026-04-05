@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -36,10 +36,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import c.h.a.h.n.e;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow;
-import com.nst.iptvsmarterstvbox.view.adapter.VodSubCatAdpaterNew;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.VodAdapter;
+import minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow;
+import minefarts.iptvsmarters.view.adapter.VodSubCatAdpaterNew;
 import java.util.ArrayList;
 import java.util.Iterator;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -461,27 +461,27 @@ public class VodActivityNewFlowSubCategories extends a.b.k.c implements View.OnC
                 r8 = 0
                 return r8
             L41:
-                com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories r8 = com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
+                minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories r8 = minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
                 java.lang.String r8 = r8.V0()     // Catch: java.lang.Exception -> L5f
                 return r8
             L48:
-                com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories r0 = com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
+                minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories r0 = minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L5f
                 java.lang.String r8 = r0.Q0(r8)     // Catch: java.lang.Exception -> L5f
                 return r8
             L51:
-                com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories r8 = com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
+                minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories r8 = minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
                 java.lang.String r8 = r8.S0()     // Catch: java.lang.Exception -> L5f
                 return r8
             L58:
-                com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories r8 = com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
+                minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories r8 = minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.this     // Catch: java.lang.Exception -> L5f
                 java.lang.String r8 = r8.T0()     // Catch: java.lang.Exception -> L5f
                 return r8
             L5f:
                 java.lang.String r8 = "error"
                 return r8
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.q.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.q.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask
@@ -1157,7 +1157,7 @@ public class VodActivityNewFlowSubCategories extends a.b.k.c implements View.OnC
             Method dump skipped, instruction units count: 308
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.j1(android.app.Activity):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.j1(android.app.Activity):void");
     }
 
     @Override // androidx.activity.ComponentActivity, android.app.Activity
@@ -1196,7 +1196,7 @@ public class VodActivityNewFlowSubCategories extends a.b.k.c implements View.OnC
             Method dump skipped, instruction units count: 357
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.onCreate(android.os.Bundle):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.onCreate(android.os.Bundle):void");
     }
 
     @Override // android.app.Activity
@@ -1269,7 +1269,7 @@ public class VodActivityNewFlowSubCategories extends a.b.k.c implements View.OnC
             Method dump skipped, instruction units count: 779
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories.onOptionsItemSelected(android.view.MenuItem):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories.onOptionsItemSelected(android.view.MenuItem):boolean");
     }
 
     @Override // a.l.d.e, android.app.Activity

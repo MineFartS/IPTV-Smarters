@@ -12,8 +12,8 @@ import android.widget.Filterable;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity;
 import java.util.ArrayList;
 import org.jetbrains.annotations.NotNull;
 

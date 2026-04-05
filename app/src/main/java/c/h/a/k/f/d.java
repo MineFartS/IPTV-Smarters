@@ -1,12 +1,12 @@
 package c.h.a.k.f;
 
-import com.nst.iptvsmarterstvbox.model.callback.BillingAddOrderCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingCheckGPACallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingGetDevicesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingIsPurchasedCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingLoginClientCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingUpdateDevicesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.RegisterClientCallback;
+import minefarts.iptvsmarters.model.callback.BillingAddOrderCallback;
+import minefarts.iptvsmarters.model.callback.BillingCheckGPACallback;
+import minefarts.iptvsmarters.model.callback.BillingGetDevicesCallback;
+import minefarts.iptvsmarters.model.callback.BillingIsPurchasedCallback;
+import minefarts.iptvsmarters.model.callback.BillingLoginClientCallback;
+import minefarts.iptvsmarters.model.callback.BillingUpdateDevicesCallback;
+import minefarts.iptvsmarters.model.callback.RegisterClientCallback;
 
 /* JADX INFO: loaded from: classes2.dex */
 public interface d extends c {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.queue;
+package minefarts.iptvsmarters.miscelleneious.chromecastfeature.queue;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -12,7 +12,7 @@ import c.f.a.c.d.q;
 import c.f.a.c.d.u.d;
 import c.f.a.c.d.u.s;
 import c.f.a.c.d.u.u.i;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.List;
 
 /* JADX INFO: loaded from: classes2.dex */

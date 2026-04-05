@@ -1,11 +1,11 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.view.View;
 import android.widget.RelativeLayout;
 import androidx.appcompat.widget.AppCompatImageView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class YouTubePlayerActivity_ViewBinding implements Unbinder {

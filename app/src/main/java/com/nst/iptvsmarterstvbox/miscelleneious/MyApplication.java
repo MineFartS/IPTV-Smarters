@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.miscelleneious;
+package minefarts.iptvsmarters.miscelleneious;
 
 import a.u.a;
 import android.app.Application;

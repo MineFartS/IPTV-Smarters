@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.animation.ObjectAnimator;
@@ -21,9 +21,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.activity.AddedExternalPlayerActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.activity.AddedExternalPlayerActivity;
 import java.util.List;
 
 /* JADX INFO: loaded from: classes2.dex */

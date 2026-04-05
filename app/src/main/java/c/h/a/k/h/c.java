@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 import c.h.a.i.q.f;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;

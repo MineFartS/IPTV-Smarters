@@ -3,7 +3,7 @@
     android:background="@color/vw_BgRv"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.nst.iptvsmarterstvbox.view.utility.ListViewMaxHeight
+    <minefarts.iptvsmarters.view.utility.ListViewMaxHeight
         android:id="@+id/lv_ch"
         android:background="@color/vw_BgRv"
         android:focusable="true"
@@ -16,5 +16,5 @@
         android:paddingStart="10dp"
         android:paddingEnd="10dp">
         <requestFocus/>
-    </com.nst.iptvsmarterstvbox.view.utility.ListViewMaxHeight>
+    </minefarts.iptvsmarters.view.utility.ListViewMaxHeight>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media;
+package minefarts.iptvsmarters.view.ijkplayer.widget.media;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -18,7 +18,7 @@ import android.widget.MediaController;
 import android.widget.TextView;
 import c.h.a.k.d.c.a.c;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -472,7 +472,7 @@ public class NSTIJKPlayerMulti1 extends FrameLayout implements MediaController.M
             Method dump skipped, instruction units count: 243
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerMulti1.I(int):tv.danmaku.ijk.media.player.IMediaPlayer");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerMulti1.I(int):tv.danmaku.ijk.media.player.IMediaPlayer");
     }
 
     public void J() {

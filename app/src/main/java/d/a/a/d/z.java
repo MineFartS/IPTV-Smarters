@@ -3,7 +3,7 @@ package d.a.a.d;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.p;
 import d.a.a.d.x;
 import de.blinkt.openvpn.core.NativeUtils;

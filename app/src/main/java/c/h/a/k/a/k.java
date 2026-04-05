@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.List;
 import n.a.a.b;
 import n.a.a.c;

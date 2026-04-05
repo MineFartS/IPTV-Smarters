@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -24,7 +24,7 @@ import butterknife.Unbinder;
 import c.h.a.i.q.i;
 import c.h.a.i.q.m;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -331,22 +331,22 @@ public class MultiPlayerCategoriesAdapter extends RecyclerView.h<MyViewHolder> {
                 r7 = 0
                 return r7
             L40:
-                com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter r7 = com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter.this     // Catch: java.lang.Exception -> L55
+                minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter r7 = minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter.this     // Catch: java.lang.Exception -> L55
                 java.lang.String r7 = r7.x0()     // Catch: java.lang.Exception -> L55
                 return r7
             L47:
-                com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter r7 = com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter.this     // Catch: java.lang.Exception -> L55
-                java.lang.String r7 = com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter.l0(r7)     // Catch: java.lang.Exception -> L55
+                minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter r7 = minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter.this     // Catch: java.lang.Exception -> L55
+                java.lang.String r7 = minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter.l0(r7)     // Catch: java.lang.Exception -> L55
                 return r7
             L4e:
-                com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter r7 = com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter.this     // Catch: java.lang.Exception -> L55
-                java.lang.String r7 = com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter.i0(r7)     // Catch: java.lang.Exception -> L55
+                minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter r7 = minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter.this     // Catch: java.lang.Exception -> L55
+                java.lang.String r7 = minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter.i0(r7)     // Catch: java.lang.Exception -> L55
                 return r7
             L55:
                 java.lang.String r7 = "error"
                 return r7
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter.g.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter.g.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask

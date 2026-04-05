@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.demo;
+package minefarts.iptvsmarters.view.demo;
 
 import android.view.View;
 import android.widget.EditText;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class NSTEXOPlayerSkyTvActivity_ViewBinding implements Unbinder {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -104,7 +104,7 @@ public class SpeedTestActivity extends a.b.k.c {
             }
         }
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.activity.SpeedTestActivity$b$b, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.activity.SpeedTestActivity$b$b, reason: collision with other inner class name */
         public class RunnableC0277b implements Runnable {
 
             /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -402,7 +402,7 @@ public class SpeedTestActivity extends a.b.k.c {
                 Method dump skipped, instruction units count: 1040
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SpeedTestActivity.b.run():void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SpeedTestActivity.b.run():void");
         }
     }
 

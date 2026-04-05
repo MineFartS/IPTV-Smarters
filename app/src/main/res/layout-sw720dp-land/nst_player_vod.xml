@@ -4,7 +4,7 @@
     android:background="#000"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.nst.iptvsmarterstvbox.view.nstplayer.IjkVideoView
+    <minefarts.iptvsmarters.view.nstplayer.IjkVideoView
         android:id="@+id/video_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -253,7 +253,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_below="@+id/rl_settings">
-                        <com.nst.iptvsmarterstvbox.view.utility.NonSwipeableViewPager
+                        <minefarts.iptvsmarters.view.utility.NonSwipeableViewPager
                             android:id="@+id/viewpager"
                             android:focusable="false"
                             android:layout_width="match_parent"

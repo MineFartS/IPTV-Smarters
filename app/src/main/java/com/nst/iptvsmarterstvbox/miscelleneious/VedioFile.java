@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.miscelleneious;
+package minefarts.iptvsmarters.miscelleneious;
 
 import androidx.core.content.FileProvider;
 

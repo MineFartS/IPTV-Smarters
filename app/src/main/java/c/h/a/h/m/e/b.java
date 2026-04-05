@@ -17,7 +17,7 @@ import c.f.a.c.d.o;
 import c.h.a.h.m.b;
 import c.h.a.h.m.e.a;
 import com.android.volley.toolbox.NetworkImageView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class b extends RecyclerView.h<g> implements a.InterfaceC0224a {

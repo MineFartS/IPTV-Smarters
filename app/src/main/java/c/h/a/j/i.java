@@ -3,8 +3,8 @@ package c.h.a.j;
 import android.content.Context;
 import android.util.Log;
 import c.h.a.k.f.l;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.VPNServersCallback;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.VPNServersCallback;
 import o.m;
 
 /* JADX INFO: loaded from: classes2.dex */

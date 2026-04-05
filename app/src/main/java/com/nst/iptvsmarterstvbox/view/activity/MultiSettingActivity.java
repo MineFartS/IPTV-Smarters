@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class MultiSettingActivity extends a.b.k.c {
@@ -281,7 +281,7 @@ public class MultiSettingActivity extends a.b.k.c {
             Method dump skipped, instruction units count: 248
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.MultiSettingActivity.B0():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.MultiSettingActivity.B0():void");
     }
 
     @SuppressLint({"ResourceType"})

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox;
+package minefarts.iptvsmarters;
 
 import android.content.Context;
 import android.content.res.TypedArray;

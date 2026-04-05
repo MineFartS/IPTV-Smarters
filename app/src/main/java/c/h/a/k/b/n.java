@@ -6,7 +6,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 import com.facebook.ads.MediaView;
 import com.facebook.ads.NativeAdLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class n extends RecyclerView.e0 {

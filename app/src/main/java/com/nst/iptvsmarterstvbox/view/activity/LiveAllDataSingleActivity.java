@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -41,8 +41,8 @@ import c.h.a.i.p;
 import c.h.a.i.q.m;
 import c.h.a.k.b.l;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -215,7 +215,7 @@ public class LiveAllDataSingleActivity extends a.b.k.c implements View.OnClickLi
             }
         }
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity$b$b, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity$b$b, reason: collision with other inner class name */
         public class ViewOnFocusChangeListenerC0275b implements View.OnFocusChangeListener {
 
             /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -416,7 +416,7 @@ public class LiveAllDataSingleActivity extends a.b.k.c implements View.OnClickLi
                 Method dump skipped, instruction units count: 297
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.d.onClick(android.view.View):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.d.onClick(android.view.View):void");
         }
 
         /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
@@ -431,7 +431,7 @@ public class LiveAllDataSingleActivity extends a.b.k.c implements View.OnClickLi
                 Method dump skipped, instruction units count: 386
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.d.onCreate(android.os.Bundle):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.d.onCreate(android.os.Bundle):void");
         }
     }
 
@@ -509,23 +509,23 @@ public class LiveAllDataSingleActivity extends a.b.k.c implements View.OnClickLi
                 r8 = 0
                 return r8
             L40:
-                com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity r8 = com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.this     // Catch: java.lang.Exception -> L57
+                minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity r8 = minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.this     // Catch: java.lang.Exception -> L57
                 java.lang.String r8 = r8.R0()     // Catch: java.lang.Exception -> L57
                 return r8
             L47:
-                com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity r0 = com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.this     // Catch: java.lang.Exception -> L57
+                minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity r0 = minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.this     // Catch: java.lang.Exception -> L57
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L57
                 java.lang.String r8 = r0.Q0(r8)     // Catch: java.lang.Exception -> L57
                 return r8
             L50:
-                com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity r8 = com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.this     // Catch: java.lang.Exception -> L57
+                minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity r8 = minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.this     // Catch: java.lang.Exception -> L57
                 java.lang.String r8 = r8.S0()     // Catch: java.lang.Exception -> L57
                 return r8
             L57:
                 java.lang.String r8 = "error"
                 return r8
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.g.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.g.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask
@@ -1010,7 +1010,7 @@ public class LiveAllDataSingleActivity extends a.b.k.c implements View.OnClickLi
             Method dump skipped, instruction units count: 323
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity.h1():java.lang.Boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity.h1():java.lang.Boolean");
     }
 
     public void i1() {

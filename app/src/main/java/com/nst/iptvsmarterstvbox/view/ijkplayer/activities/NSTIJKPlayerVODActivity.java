@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.activities;
+package minefarts.iptvsmarters.view.ijkplayer.activities;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -32,9 +32,9 @@ import androidx.appcompat.widget.AppCompatImageView;
 import c.f.a.b.j3.x0;
 import c.h.a.k.a.m;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerVOD;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerVOD;
 import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -413,7 +413,7 @@ public class NSTIJKPlayerVODActivity extends a.b.k.c implements View.OnClickList
                 Method dump skipped, instruction units count: 432
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerVODActivity.h.run():void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerVODActivity.h.run():void");
         }
     }
 
@@ -802,7 +802,7 @@ public class NSTIJKPlayerVODActivity extends a.b.k.c implements View.OnClickList
             Method dump skipped, instruction units count: 2254
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerVODActivity.i1():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerVODActivity.i1():void");
     }
 
     public void j1() {
@@ -1088,7 +1088,7 @@ public class NSTIJKPlayerVODActivity extends a.b.k.c implements View.OnClickList
             Method dump skipped, instruction units count: 2302
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerVODActivity.onClick(android.view.View):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerVODActivity.onClick(android.view.View):void");
     }
 
     @Override // a.l.d.e, androidx.activity.ComponentActivity, a.i.h.g, android.app.Activity
@@ -1218,7 +1218,7 @@ public class NSTIJKPlayerVODActivity extends a.b.k.c implements View.OnClickList
             Method dump skipped, instruction units count: 332
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerVODActivity.onKeyUp(int, android.view.KeyEvent):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerVODActivity.onKeyUp(int, android.view.KeyEvent):boolean");
     }
 
     @Override // a.l.d.e, android.app.Activity
@@ -1293,12 +1293,12 @@ public class NSTIJKPlayerVODActivity extends a.b.k.c implements View.OnClickList
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public final void p1(java.util.List<com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback> r31, int r32) {
+    public final void p1(java.util.List<minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback> r31, int r32) {
         /*
             Method dump skipped, instruction units count: 790
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerVODActivity.p1(java.util.List, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerVODActivity.p1(java.util.List, int):void");
     }
 
     public final void q1() {

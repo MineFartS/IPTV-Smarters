@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,9 +24,9 @@ import c.h.a.h.n.e;
 import c.h.a.i.f;
 import c.h.a.i.q.m;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.SubTVArchiveActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.SubTVArchiveActivity;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -303,49 +303,49 @@ public class TVArchiveAdapter extends RecyclerView.h<MyViewHolder> {
             public void run() {
                 /*
                     r2 = this;
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
                     java.lang.String r0 = r0.f28324b
                     boolean r0 = android.text.TextUtils.isEmpty(r0)
                     if (r0 == 0) goto L16
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.this
-                    java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.e0(r0)
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.this
+                    java.util.List r1 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.e0(r0)
                 L12:
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.h0(r0, r1)
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.h0(r0, r1)
                     goto L3b
                 L16:
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.this
-                    java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.Z(r0)
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.this
+                    java.util.List r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.Z(r0)
                     boolean r0 = r0.isEmpty()
                     if (r0 == 0) goto L32
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.this
-                    java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.Z(r0)
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.this
+                    java.util.List r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.Z(r0)
                     boolean r0 = r0.isEmpty()
                     if (r0 == 0) goto L3b
                 L32:
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.this
-                    java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.Z(r0)
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.this
+                    java.util.List r1 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.Z(r0)
                     goto L12
                 L3b:
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.this
-                    java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.g0(r0)
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.this
+                    java.util.List r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.g0(r0)
                     int r0 = r0.size()
                     if (r0 != 0) goto L51
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
                     android.widget.TextView r0 = r0.f28325c
                     r1 = 0
                     r0.setVisibility(r1)
                 L51:
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter$d r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.this
-                    com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter$d r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.this
+                    minefarts.iptvsmarters.view.adapter.TVArchiveAdapter r0 = minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.this
                     r0.w()
                     return
                 */
-                throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter.d.a.run():void");
+                throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.TVArchiveAdapter.d.a.run():void");
             }
         }
 

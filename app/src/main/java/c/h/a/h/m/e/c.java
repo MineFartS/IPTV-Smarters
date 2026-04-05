@@ -14,8 +14,8 @@ import c.f.a.c.d.o;
 import c.f.a.c.d.u.d;
 import c.f.a.c.d.u.u.i;
 import c.h.a.h.m.e.b;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class c extends Fragment implements b.f {

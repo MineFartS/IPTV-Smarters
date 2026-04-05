@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.animation.ObjectAnimator;
@@ -40,12 +40,12 @@ import c.h.a.i.q.m;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.LoginCallback;
-import com.nst.iptvsmarterstvbox.view.activity.ImportM3uActivity;
-import com.nst.iptvsmarterstvbox.view.activity.MultiUserActivity;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.RoutingActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.LoginCallback;
+import minefarts.iptvsmarters.view.activity.ImportM3uActivity;
+import minefarts.iptvsmarters.view.activity.MultiUserActivity;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.RoutingActivity;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -1220,12 +1220,12 @@ public class MultiUserAdapter extends RecyclerView.h<MyViewHolder> implements c.
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void F(com.nst.iptvsmarterstvbox.view.adapter.MultiUserAdapter.MyViewHolder r23, int r24) {
+    public void F(minefarts.iptvsmarters.view.adapter.MultiUserAdapter.MyViewHolder r23, int r24) {
         /*
             Method dump skipped, instruction units count: 636
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.MultiUserAdapter.F(com.nst.iptvsmarterstvbox.view.adapter.MultiUserAdapter$MyViewHolder, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.MultiUserAdapter.F(minefarts.iptvsmarters.view.adapter.MultiUserAdapter$MyViewHolder, int):void");
     }
 
     @Override // androidx.recyclerview.widget.RecyclerView.h

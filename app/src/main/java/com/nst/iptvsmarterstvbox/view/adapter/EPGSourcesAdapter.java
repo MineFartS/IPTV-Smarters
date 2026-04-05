@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,8 +15,8 @@ import butterknife.Unbinder;
 import c.h.a.i.q.c;
 import c.h.a.i.q.e;
 import c.h.a.i.q.f;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.EPGSettingsActivity;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

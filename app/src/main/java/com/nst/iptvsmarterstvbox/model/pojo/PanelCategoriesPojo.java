@@ -1,9 +1,9 @@
-package com.nst.iptvsmarterstvbox.model.pojo;
+package minefarts.iptvsmarters.model.pojo;
 
 import c.f.d.v.a;
 import c.f.d.v.c;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.VodCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.VodCategoriesCallback;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.adapters;
+package minefarts.iptvsmarters.WHMCSClientapp.adapters;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -6,7 +6,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class UnpaidAdapter$ViewHolder_ViewBinding implements Unbinder {

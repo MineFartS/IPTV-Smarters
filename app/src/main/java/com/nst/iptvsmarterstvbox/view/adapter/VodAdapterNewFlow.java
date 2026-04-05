@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -23,8 +23,8 @@ import c.h.a.i.q.k;
 import c.h.a.k.b.m;
 import c.h.a.k.b.n;
 import com.facebook.ads.NativeAd;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -276,59 +276,59 @@ public class VodAdapterNewFlow extends RecyclerView.h<RecyclerView.e0> {
         public void run() {
             /*
                 r4 = this;
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
                 java.util.ArrayList r1 = new java.util.ArrayList
                 r1.<init>()
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.g0(r0, r1)
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.g0(r0, r1)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
                 java.lang.String r1 = r4.f28479b
                 int r1 = r1.length()
                 r0.f28465k = r1
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.e0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.e0(r0)
                 if (r0 == 0) goto L25
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.e0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.e0(r0)
                 r0.clear()
             L25:
                 java.lang.String r0 = r4.f28479b
                 boolean r0 = android.text.TextUtils.isEmpty(r0)
                 if (r0 == 0) goto L3d
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.e0(r0)
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.h0(r1)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.e0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.h0(r1)
                 r0.addAll(r1)
                 goto La3
             L3d:
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.i0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.i0(r0)
                 if (r0 == 0) goto L51
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.i0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.i0(r0)
                 int r0 = r0.size()
                 if (r0 == 0) goto L59
             L51:
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
                 int r1 = r0.f28464j
                 int r0 = r0.f28465k
                 if (r1 <= r0) goto L62
             L59:
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.h0(r0)
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.l0(r0, r1)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.h0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.l0(r0, r1)
             L62:
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.i0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.i0(r0)
                 if (r0 == 0) goto La3
                 r0 = 0
             L6b:
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.i0(r1)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                java.util.List r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.i0(r1)
                 int r1 = r1.size()
                 if (r0 >= r1) goto La3
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this     // Catch: java.lang.Exception -> La0
-                java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.i0(r1)     // Catch: java.lang.Exception -> La0
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this     // Catch: java.lang.Exception -> La0
+                java.util.List r1 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.i0(r1)     // Catch: java.lang.Exception -> La0
                 java.lang.Object r1 = r1.get(r0)     // Catch: java.lang.Exception -> La0
                 c.h.a.k.b.m r1 = (c.h.a.k.b.m) r1     // Catch: java.lang.Exception -> La0
                 java.lang.String r2 = r1.b()     // Catch: java.lang.Exception -> La0
@@ -337,22 +337,22 @@ public class VodAdapterNewFlow extends RecyclerView.h<RecyclerView.e0> {
                 java.lang.String r3 = r3.toLowerCase()     // Catch: java.lang.Exception -> La0
                 boolean r2 = r2.contains(r3)     // Catch: java.lang.Exception -> La0
                 if (r2 == 0) goto La0
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r2 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this     // Catch: java.lang.Exception -> La0
-                java.util.List r2 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.e0(r2)     // Catch: java.lang.Exception -> La0
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r2 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this     // Catch: java.lang.Exception -> La0
+                java.util.List r2 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.e0(r2)     // Catch: java.lang.Exception -> La0
                 r2.add(r1)     // Catch: java.lang.Exception -> La0
             La0:
                 int r0 = r0 + 1
                 goto L6b
             La3:
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.this
-                android.content.Context r0 = com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.c0(r0)
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.this
+                android.content.Context r0 = minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.c0(r0)
                 android.app.Activity r0 = (android.app.Activity) r0
-                com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow$e$a r1 = new com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow$e$a
+                minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow$e$a r1 = new minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow$e$a
                 r1.<init>()
                 r0.runOnUiThread(r1)
                 return
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.e.run():void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.e.run():void");
         }
     }
 
@@ -507,7 +507,7 @@ public class VodAdapterNewFlow extends RecyclerView.h<RecyclerView.e0> {
             Method dump skipped, instruction units count: 474
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
     }
 
     @Override // androidx.recyclerview.widget.RecyclerView.h

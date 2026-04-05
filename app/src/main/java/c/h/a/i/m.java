@@ -1,7 +1,7 @@
 package c.h.a.i;
 
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
 import java.util.ArrayList;
 import java.util.List;
 

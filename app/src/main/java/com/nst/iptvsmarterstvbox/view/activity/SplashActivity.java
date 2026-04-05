@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -27,9 +27,9 @@ import c.h.a.i.q.m;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.StopProcessingTasksService;
-import com.nst.iptvsmarterstvbox.model.callback.LoginCallback;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.StopProcessingTasksService;
+import minefarts.iptvsmarters.model.callback.LoginCallback;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;

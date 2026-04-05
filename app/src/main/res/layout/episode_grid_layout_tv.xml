@@ -153,7 +153,7 @@
                             android:visibility="gone"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
-                            <com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSeriesThumbnail
+                            <minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSeriesThumbnail
                                 android:layout_gravity="center"
                                 android:id="@+id/video_view"
                                 android:visibility="gone"

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.annotation.SuppressLint;
@@ -28,15 +28,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeasonsDetailCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.SeasonsDetailCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity;
+import minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity;
+import minefarts.iptvsmarters.view.activity.SeriesDetailActivity;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -260,7 +260,7 @@ public class SeriesAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e
         /* JADX INFO: renamed from: a, reason: collision with root package name */
         public final /* synthetic */ ContinueWatchingViewHolder f27962a;
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter$a$a, reason: collision with other inner class name */
         public class C0286a implements c.k.b.e {
             public C0286a() {
             }
@@ -833,7 +833,7 @@ public class SeriesAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e
                 }
             }
 
-            /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter$m$b$b, reason: collision with other inner class name */
+            /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter$m$b$b, reason: collision with other inner class name */
             public class ViewOnFocusChangeListenerC0287b implements View.OnFocusChangeListener {
 
                 /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -1494,7 +1494,7 @@ public class SeriesAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e
             Method dump skipped, instruction units count: 1585
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
     }
 
     @Override // androidx.recyclerview.widget.RecyclerView.h
@@ -1597,7 +1597,7 @@ public class SeriesAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e
             Method dump skipped, instruction units count: 533
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter.P0(org.json.JSONArray, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter.P0(org.json.JSONArray, int):void");
     }
 
     public int Q0() {
@@ -1726,7 +1726,7 @@ public class SeriesAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e
             Method dump skipped, instruction units count: 500
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter.Y0(org.json.JSONObject, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter.Y0(org.json.JSONObject, java.lang.String):void");
     }
 
     public final void Z0() {

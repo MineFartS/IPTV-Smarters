@@ -43,13 +43,13 @@ public final class a {
     public static final int z = 0;
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    public static final int[] f3647a = {R.attr.color, R.attr.alpha, com.nst.iptvsmarterstvbox.R.attr.alpha};
+    public static final int[] f3647a = {R.attr.color, R.attr.alpha, minefarts.iptvsmarters.R.attr.alpha};
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    public static final int[] f3648b = {com.nst.iptvsmarterstvbox.R.attr.fontProviderAuthority, com.nst.iptvsmarterstvbox.R.attr.fontProviderCerts, com.nst.iptvsmarterstvbox.R.attr.fontProviderFetchStrategy, com.nst.iptvsmarterstvbox.R.attr.fontProviderFetchTimeout, com.nst.iptvsmarterstvbox.R.attr.fontProviderPackage, com.nst.iptvsmarterstvbox.R.attr.fontProviderQuery, com.nst.iptvsmarterstvbox.R.attr.fontProviderSystemFontFamily};
+    public static final int[] f3648b = {minefarts.iptvsmarters.R.attr.fontProviderAuthority, minefarts.iptvsmarters.R.attr.fontProviderCerts, minefarts.iptvsmarters.R.attr.fontProviderFetchStrategy, minefarts.iptvsmarters.R.attr.fontProviderFetchTimeout, minefarts.iptvsmarters.R.attr.fontProviderPackage, minefarts.iptvsmarters.R.attr.fontProviderQuery, minefarts.iptvsmarters.R.attr.fontProviderSystemFontFamily};
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */
-    public static final int[] f3649c = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, com.nst.iptvsmarterstvbox.R.attr.font, com.nst.iptvsmarterstvbox.R.attr.fontStyle, com.nst.iptvsmarterstvbox.R.attr.fontVariationSettings, com.nst.iptvsmarterstvbox.R.attr.fontWeight, com.nst.iptvsmarterstvbox.R.attr.ttcIndex};
+    public static final int[] f3649c = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, minefarts.iptvsmarters.R.attr.font, minefarts.iptvsmarters.R.attr.fontStyle, minefarts.iptvsmarters.R.attr.fontVariationSettings, minefarts.iptvsmarters.R.attr.fontWeight, minefarts.iptvsmarters.R.attr.ttcIndex};
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */
     public static final int[] f3650d = {R.attr.startColor, R.attr.endColor, R.attr.type, R.attr.centerX, R.attr.centerY, R.attr.gradientRadius, R.attr.tileMode, R.attr.centerColor, R.attr.startX, R.attr.startY, R.attr.endX, R.attr.endY};
@@ -58,9 +58,9 @@ public final class a {
     public static final int[] f3651e = {R.attr.color, R.attr.offset};
 
     /* JADX INFO: renamed from: f, reason: collision with root package name */
-    public static final int[] f3652f = {R.attr.id, com.nst.iptvsmarterstvbox.R.attr.destination, com.nst.iptvsmarterstvbox.R.attr.enterAnim, com.nst.iptvsmarterstvbox.R.attr.exitAnim, com.nst.iptvsmarterstvbox.R.attr.launchSingleTop, com.nst.iptvsmarterstvbox.R.attr.popEnterAnim, com.nst.iptvsmarterstvbox.R.attr.popExitAnim, com.nst.iptvsmarterstvbox.R.attr.popUpTo, com.nst.iptvsmarterstvbox.R.attr.popUpToInclusive};
-    public static final int[] p = {R.attr.name, R.attr.defaultValue, com.nst.iptvsmarterstvbox.R.attr.argType, com.nst.iptvsmarterstvbox.R.attr.nullable};
-    public static final int[] u = {R.attr.autoVerify, com.nst.iptvsmarterstvbox.R.attr.action, com.nst.iptvsmarterstvbox.R.attr.mimeType, com.nst.iptvsmarterstvbox.R.attr.uri};
-    public static final int[] y = {com.nst.iptvsmarterstvbox.R.attr.startDestination};
+    public static final int[] f3652f = {R.attr.id, minefarts.iptvsmarters.R.attr.destination, minefarts.iptvsmarters.R.attr.enterAnim, minefarts.iptvsmarters.R.attr.exitAnim, minefarts.iptvsmarters.R.attr.launchSingleTop, minefarts.iptvsmarters.R.attr.popEnterAnim, minefarts.iptvsmarters.R.attr.popExitAnim, minefarts.iptvsmarters.R.attr.popUpTo, minefarts.iptvsmarters.R.attr.popUpToInclusive};
+    public static final int[] p = {R.attr.name, R.attr.defaultValue, minefarts.iptvsmarters.R.attr.argType, minefarts.iptvsmarters.R.attr.nullable};
+    public static final int[] u = {R.attr.autoVerify, minefarts.iptvsmarters.R.attr.action, minefarts.iptvsmarters.R.attr.mimeType, minefarts.iptvsmarters.R.attr.uri};
+    public static final int[] y = {minefarts.iptvsmarters.R.attr.startDestination};
     public static final int[] A = {R.attr.label, R.attr.id};
 }

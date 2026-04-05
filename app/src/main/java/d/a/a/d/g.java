@@ -7,7 +7,7 @@ import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Handler;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.p;
 import d.a.a.d.z;
 import java.util.Iterator;

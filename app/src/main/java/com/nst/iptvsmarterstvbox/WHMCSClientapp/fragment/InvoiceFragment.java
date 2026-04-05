@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.fragment;
+package minefarts.iptvsmarters.WHMCSClientapp.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.lang.reflect.Field;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

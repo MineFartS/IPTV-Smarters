@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.animation.ObjectAnimator;
@@ -24,14 +24,14 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.f.a.c.d.u.u.i;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer;
-import com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSeriesThumbnail;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.activity.HoneyPlayer;
+import minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSeriesThumbnail;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -632,12 +632,12 @@ public class EpisodeDetailAdapter extends RecyclerView.h<MyViewHolder> {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public EpisodeDetailAdapter(android.content.Context r8, java.lang.String r9, java.lang.String r10, java.util.List<com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel> r11, java.lang.String r12, java.lang.String r13) {
+    public EpisodeDetailAdapter(android.content.Context r8, java.lang.String r9, java.lang.String r10, java.util.List<minefarts.iptvsmarters.model.callback.SeriesDBModel> r11, java.lang.String r12, java.lang.String r13) {
         /*
             Method dump skipped, instruction units count: 542
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.EpisodeDetailAdapter.<init>(android.content.Context, java.lang.String, java.lang.String, java.util.List, java.lang.String, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.EpisodeDetailAdapter.<init>(android.content.Context, java.lang.String, java.lang.String, java.util.List, java.lang.String, java.lang.String):void");
     }
 
     public static long s0(SimpleDateFormat simpleDateFormat, String str, String str2) {
@@ -677,12 +677,12 @@ public class EpisodeDetailAdapter extends RecyclerView.h<MyViewHolder> {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void F(com.nst.iptvsmarterstvbox.view.adapter.EpisodeDetailAdapter.MyViewHolder r20, int r21) {
+    public void F(minefarts.iptvsmarters.view.adapter.EpisodeDetailAdapter.MyViewHolder r20, int r21) {
         /*
             Method dump skipped, instruction units count: 889
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.EpisodeDetailAdapter.F(com.nst.iptvsmarterstvbox.view.adapter.EpisodeDetailAdapter$MyViewHolder, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.EpisodeDetailAdapter.F(minefarts.iptvsmarters.view.adapter.EpisodeDetailAdapter$MyViewHolder, int):void");
     }
 
     public final void v0(int i2, int i3, String str, String str2, String str3, String str4, String str5, View view) {

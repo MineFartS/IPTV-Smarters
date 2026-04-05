@@ -2,7 +2,7 @@ package c.h.a.k.a;
 
 import com.amplifyframework.core.Consumer;
 import com.amplifyframework.storage.result.StorageUploadFileResult;
-import com.nst.iptvsmarterstvbox.view.activity.BackupAndRestoreActivity;
+import minefarts.iptvsmarters.view.activity.BackupAndRestoreActivity;
 
 /* JADX INFO: loaded from: classes2.dex */
 public final /* synthetic */ class e implements Consumer {

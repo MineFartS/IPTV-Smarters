@@ -1,6 +1,6 @@
-package com.nst.iptvsmarterstvbox.model.callback;
+package minefarts.iptvsmarters.model.callback;
 
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
 import java.util.List;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;

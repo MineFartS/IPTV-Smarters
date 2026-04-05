@@ -1,7 +1,7 @@
 package c.h.a.e.d;
 
 import android.content.Context;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import o.l;
 
 /* JADX INFO: loaded from: classes2.dex */

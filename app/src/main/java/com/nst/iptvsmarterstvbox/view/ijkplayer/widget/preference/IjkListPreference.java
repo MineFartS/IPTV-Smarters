@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.widget.preference;
+package minefarts.iptvsmarters.view.ijkplayer.widget.preference;
 
 import android.content.Context;
 import android.content.res.TypedArray;

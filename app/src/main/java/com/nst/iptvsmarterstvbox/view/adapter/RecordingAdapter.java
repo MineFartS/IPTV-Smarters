@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -16,9 +16,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.k.d.c.a.f;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.activity.RecordingActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.activity.RecordingActivity;
 import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -163,10 +163,10 @@ public class RecordingAdapter extends RecyclerView.h<MyViewHolder> {
 
         /* JADX WARN: Code restructure failed: missing block: B:14:0x003a, code lost:
         
-            r5 = new android.content.Intent(r8.f27712c.f27705o, (java.lang.Class<?>) com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity.class);
+            r5 = new android.content.Intent(r8.f27712c.f27705o, (java.lang.Class<?>) minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity.class);
             r5.putExtra("url", ((java.io.File) r8.f27710a.get(r8.f27711b)).getAbsolutePath());
-            r5.putExtra("app_name", ((com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass) r8.f27712c.f27698h.get(r4)).a());
-            r5.putExtra("packagename", ((com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass) r8.f27712c.f27698h.get(r4)).b());
+            r5.putExtra("app_name", ((minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass) r8.f27712c.f27698h.get(r4)).a());
+            r5.putExtra("packagename", ((minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass) r8.f27712c.f27698h.get(r4)).b());
             r8.f27712c.f27705o.startActivity(r5);
          */
         @Override // android.widget.PopupMenu.OnMenuItemClickListener
@@ -179,7 +179,7 @@ public class RecordingAdapter extends RecyclerView.h<MyViewHolder> {
                 Method dump skipped, instruction units count: 482
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.RecordingAdapter.c.onMenuItemClick(android.view.MenuItem):boolean");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.RecordingAdapter.c.onMenuItemClick(android.view.MenuItem):boolean");
         }
     }
 

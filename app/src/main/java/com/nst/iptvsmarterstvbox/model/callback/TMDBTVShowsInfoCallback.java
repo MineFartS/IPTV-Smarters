@@ -1,9 +1,9 @@
-package com.nst.iptvsmarterstvbox.model.callback;
+package minefarts.iptvsmarters.model.callback;
 
 import c.f.d.v.a;
 import c.f.d.v.c;
-import com.nst.iptvsmarterstvbox.model.pojo.TMDBTVShowsCreatedByPojo;
-import com.nst.iptvsmarterstvbox.model.pojo.TMDBTVShowsGenrePojo;
+import minefarts.iptvsmarters.model.pojo.TMDBTVShowsCreatedByPojo;
+import minefarts.iptvsmarters.model.pojo.TMDBTVShowsGenrePojo;
 import java.util.List;
 
 /* JADX INFO: loaded from: classes2.dex */

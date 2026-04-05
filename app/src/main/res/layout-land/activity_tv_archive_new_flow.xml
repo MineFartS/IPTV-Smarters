@@ -72,7 +72,7 @@
             android:layout_height="match_parent"
             android:layout_below="@+id/appbar_toolbar"
             android:layoutDirection="locale">
-            <com.nst.iptvsmarterstvbox.view.utility.NonSwipeableViewPager
+            <minefarts.iptvsmarters.view.utility.NonSwipeableViewPager
                 android:id="@+id/viewpager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

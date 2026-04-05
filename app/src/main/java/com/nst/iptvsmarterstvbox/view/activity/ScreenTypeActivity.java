@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.c;
 import a.i.i.b;
@@ -13,7 +13,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import butterknife.BindView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class ScreenTypeActivity extends c implements View.OnClickListener {
@@ -170,12 +170,12 @@ public class ScreenTypeActivity extends c implements View.OnClickListener {
             goto L62
         L5a:
             android.content.Intent r4 = new android.content.Intent
-            java.lang.Class<com.nst.iptvsmarterstvbox.view.activity.LoginActivity> r2 = com.nst.iptvsmarterstvbox.view.activity.LoginActivity.class
+            java.lang.Class<minefarts.iptvsmarters.view.activity.LoginActivity> r2 = minefarts.iptvsmarters.view.activity.LoginActivity.class
             r4.<init>(r3, r2)
             goto L69
         L62:
             android.content.Intent r4 = new android.content.Intent
-            java.lang.Class<com.nst.iptvsmarterstvbox.view.activity.RoutingActivity> r2 = com.nst.iptvsmarterstvbox.view.activity.RoutingActivity.class
+            java.lang.Class<minefarts.iptvsmarters.view.activity.RoutingActivity> r2 = minefarts.iptvsmarters.view.activity.RoutingActivity.class
             r4.<init>(r3, r2)
         L69:
             r3.startActivity(r4)
@@ -184,7 +184,7 @@ public class ScreenTypeActivity extends c implements View.OnClickListener {
         L72:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity.onClick(android.view.View):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ScreenTypeActivity.onClick(android.view.View):void");
     }
 
     /* JADX WARN: Can't wrap try/catch for region: R(10:0|2|(3:4|(1:6)(1:7)|8)|9|(1:11)(6:13|(1:15)|20|16|17|18)|12|20|16|17|18) */
@@ -254,21 +254,21 @@ public class ScreenTypeActivity extends c implements View.OnClickListener {
         L78:
             r4.A0()
             android.widget.RadioButton r5 = r4.rb_mobile
-            com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity$a r0 = new com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity$a
+            minefarts.iptvsmarters.view.activity.ScreenTypeActivity$a r0 = new minefarts.iptvsmarters.view.activity.ScreenTypeActivity$a
             r0.<init>(r5)
             r5.setOnFocusChangeListener(r0)
             android.widget.RadioButton r5 = r4.rb_tv
-            com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity$a r0 = new com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity$a
+            minefarts.iptvsmarters.view.activity.ScreenTypeActivity$a r0 = new minefarts.iptvsmarters.view.activity.ScreenTypeActivity$a
             r0.<init>(r5)
             r5.setOnFocusChangeListener(r0)
             android.widget.LinearLayout r5 = r4.ll_yes_button_main_layout
-            com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity$a r0 = new com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity$a
+            minefarts.iptvsmarters.view.activity.ScreenTypeActivity$a r0 = new minefarts.iptvsmarters.view.activity.ScreenTypeActivity$a
             r0.<init>(r5)
             r5.setOnFocusChangeListener(r0)
             r4.y0()
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ScreenTypeActivity.onCreate(android.os.Bundle):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ScreenTypeActivity.onCreate(android.os.Bundle):void");
     }
 
     @Override // android.app.Activity, android.view.Window.Callback

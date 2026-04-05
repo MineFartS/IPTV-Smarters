@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabaseLockedException;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import org.simpleframework.xml.strategy.Name;
@@ -318,7 +318,7 @@ public class l extends SQLiteOpenHelper {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public java.util.ArrayList<com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback> p(java.lang.String r11, java.lang.String r12) {
+    public java.util.ArrayList<minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback> p(java.lang.String r11, java.lang.String r12) {
         /*
             Method dump skipped, instruction units count: 300
             To view this dump change 'Code comments level' option to 'DEBUG'
@@ -361,7 +361,7 @@ public class l extends SQLiteOpenHelper {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public java.util.ArrayList<com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback> r(java.lang.String r9) {
+    public java.util.ArrayList<minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback> r(java.lang.String r9) {
         /*
             Method dump skipped, instruction units count: 376
             To view this dump change 'Code comments level' option to 'DEBUG'

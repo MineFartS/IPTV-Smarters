@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.c;
 import android.app.AlertDialog;
@@ -12,7 +12,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.Window;
 import c.h.a.h.n.e;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class MxPlayerRecordingActivity extends c {

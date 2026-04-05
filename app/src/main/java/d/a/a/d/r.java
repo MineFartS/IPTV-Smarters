@@ -12,7 +12,7 @@ import android.system.Os;
 import android.util.Log;
 import com.amazonaws.mobile.client.AWSMobileClient;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.e;
 import d.a.a.d.p;
 import d.a.a.d.s;

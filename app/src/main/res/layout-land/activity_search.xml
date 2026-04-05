@@ -28,7 +28,7 @@
             android:paddingEnd="10dp"
             android:layout_toEndOf="@+id/iv_back_button"/>
         <fragment
-            android:name="com.nst.iptvsmarterstvbox.view.fragment.SearchFragment"
+            android:name="minefarts.iptvsmarters.view.fragment.SearchFragment"
             android:id="@+id/search_fragment"
             android:layout_width="match_parent"
             android:layout_height="100dp"

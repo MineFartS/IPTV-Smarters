@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import a.b.q.j0;
@@ -46,18 +46,18 @@ import butterknife.OnClick;
 import c.k.b.c0;
 import c.k.b.t;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeasonsDetailCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTVShowsInfoCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTrailerCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.adapter.CastAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.EpisodeDetailAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.SeasonsButtonAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.SeasonsDetailCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.callback.TMDBCastsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTVShowsInfoCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTrailerCallback;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.adapter.CastAdapter;
+import minefarts.iptvsmarters.view.adapter.EpisodeDetailAdapter;
+import minefarts.iptvsmarters.view.adapter.SeasonsButtonAdapter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -711,7 +711,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
                 Method dump skipped, instruction units count: 513
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.v.onFocusChange(android.view.View, boolean):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.v.onFocusChange(android.view.View, boolean):void");
         }
     }
 
@@ -721,7 +721,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void M(com.nst.iptvsmarterstvbox.model.callback.SearchTMDBTVShowsCallback r6) {
+    public void M(minefarts.iptvsmarters.model.callback.SearchTMDBTVShowsCallback r6) {
         /*
             r5 = this;
             r0 = 0
@@ -740,7 +740,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             if (r2 == 0) goto L43
             java.util.List r6 = r6.a()     // Catch: java.lang.Exception -> L41
             java.lang.Object r6 = r6.get(r0)     // Catch: java.lang.Exception -> L41
-            com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo r6 = (com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo) r6     // Catch: java.lang.Exception -> L41
+            minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo r6 = (minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo) r6     // Catch: java.lang.Exception -> L41
             java.lang.Integer r6 = r6.c()     // Catch: java.lang.Exception -> L41
             int r6 = r6.intValue()     // Catch: java.lang.Exception -> L41
             c.h.a.j.f r2 = r5.R     // Catch: java.lang.Exception -> L41
@@ -764,14 +764,14 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             if (r2 >= r3) goto Lae
             java.util.List r3 = r6.a()     // Catch: java.lang.Exception -> L41
             java.lang.Object r3 = r3.get(r2)     // Catch: java.lang.Exception -> L41
-            com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo r3 = (com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo) r3     // Catch: java.lang.Exception -> L41
+            minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo r3 = (minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo) r3     // Catch: java.lang.Exception -> L41
             java.lang.String r3 = r3.d()     // Catch: java.lang.Exception -> L41
             java.lang.String r4 = r5.f26453d     // Catch: java.lang.Exception -> L41
             boolean r3 = r3.equals(r4)     // Catch: java.lang.Exception -> L41
             if (r3 != 0) goto L96
             java.util.List r3 = r6.a()     // Catch: java.lang.Exception -> L41
             java.lang.Object r3 = r3.get(r2)     // Catch: java.lang.Exception -> L41
-            com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo r3 = (com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo) r3     // Catch: java.lang.Exception -> L41
+            minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo r3 = (minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo) r3     // Catch: java.lang.Exception -> L41
             java.lang.String r3 = r3.e()     // Catch: java.lang.Exception -> L41
             java.lang.String r4 = r5.f26453d     // Catch: java.lang.Exception -> L41
             boolean r3 = r3.equals(r4)     // Catch: java.lang.Exception -> L41
@@ -784,7 +784,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             c.h.a.j.f r3 = r5.R     // Catch: java.lang.Exception -> L41
             java.util.List r6 = r6.a()     // Catch: java.lang.Exception -> L41
             java.lang.Object r6 = r6.get(r2)     // Catch: java.lang.Exception -> L41
-            com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo r6 = (com.nst.iptvsmarterstvbox.model.pojo.SearchTMDBTVShowsResultPojo) r6     // Catch: java.lang.Exception -> L41
+            minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo r6 = (minefarts.iptvsmarters.model.pojo.SearchTMDBTVShowsResultPojo) r6     // Catch: java.lang.Exception -> L41
             java.lang.Integer r6 = r6.c()     // Catch: java.lang.Exception -> L41
             int r6 = r6.intValue()     // Catch: java.lang.Exception -> L41
             r3.b(r6)     // Catch: java.lang.Exception -> L41
@@ -802,7 +802,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
         Lbb:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.M(com.nst.iptvsmarterstvbox.model.callback.SearchTMDBTVShowsCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.M(minefarts.iptvsmarters.model.callback.SearchTMDBTVShowsCallback):void");
     }
 
     public final void O0() {
@@ -863,7 +863,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 533
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.Q0(org.json.JSONArray, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.Q0(org.json.JSONArray, int):void");
     }
 
     @SuppressLint({"InlinedApi"})
@@ -1027,7 +1027,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 270
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.X0(org.json.JSONObject):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.X0(org.json.JSONObject):void");
     }
 
     /*  JADX ERROR: JadxRuntimeException in pass: RegionMakerVisitor
@@ -1042,7 +1042,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 500
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.Y0(org.json.JSONObject, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.Y0(org.json.JSONObject, java.lang.String):void");
     }
 
     @SuppressLint({"ResourceType"})
@@ -1101,7 +1101,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 991
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.a1():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.a1():void");
     }
 
     @Override // c.h.a.k.f.b
@@ -1231,7 +1231,7 @@ public class SeriesDetailActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 718
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity.d1(android.content.Context, java.lang.String, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailActivity.d1(android.content.Context, java.lang.String, java.lang.String):void");
     }
 
     @Override // a.b.k.c, a.i.h.g, android.app.Activity, android.view.Window.Callback

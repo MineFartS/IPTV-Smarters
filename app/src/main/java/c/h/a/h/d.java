@@ -21,9 +21,9 @@ import android.widget.ListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer;
-import com.nst.iptvsmarterstvbox.view.utility.ListViewMaxHeight;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.HoneyPlayer;
+import minefarts.iptvsmarters.view.utility.ListViewMaxHeight;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -272,7 +272,7 @@ public class d {
                     sb.append("/");
                     sb.append((String) d.this.f16804o.get(d.this.f16797h.get(i2)));
                     sb.append("/Android/data/");
-                    str = "com.nst.iptvsmarterstvbox";
+                    str = "minefarts.iptvsmarters";
                     sb.append(str);
                     string = sb.toString();
                 }
@@ -310,7 +310,7 @@ public class d {
                             }
                         }
                         if (new File(d.this.f16794e).getParent().equals("/storage/" + strArrSplit[2] + "/Android/data")) {
-                            d.this.f16794e = "/storage/" + strArrSplit[2] + "/Android/data/com.nst.iptvsmarterstvbox";
+                            d.this.f16794e = "/storage/" + strArrSplit[2] + "/Android/data/minefarts.iptvsmarters";
                         }
                     }
                     d.this.B();
@@ -404,7 +404,7 @@ public class d {
                         }
                     }
                     if (new File(d.this.f16794e).getParent().equals("/storage/" + strArrSplit[2] + "/Android/data")) {
-                        d.this.f16794e = "/storage/" + strArrSplit[2] + "/Android/data/com.nst.iptvsmarterstvbox";
+                        d.this.f16794e = "/storage/" + strArrSplit[2] + "/Android/data/minefarts.iptvsmarters";
                     }
                 }
                 d.this.B();

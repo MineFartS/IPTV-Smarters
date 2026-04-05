@@ -1,6 +1,6 @@
 package c.f.a.b.h3;
 
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public final class y0 {

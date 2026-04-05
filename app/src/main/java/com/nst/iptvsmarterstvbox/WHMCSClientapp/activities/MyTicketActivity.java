@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import a.b.k.c;
 import android.animation.ObjectAnimator;
@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.e.e.h;
 import com.github.ybq.android.spinkit.SpinKitView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import o.d;
 import o.l;

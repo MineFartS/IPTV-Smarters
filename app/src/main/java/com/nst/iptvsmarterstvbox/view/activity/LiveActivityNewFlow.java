@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -37,7 +37,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.facebook.ads.NativeAd;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -441,7 +441,7 @@ public class LiveActivityNewFlow extends a.b.k.c implements View.OnClickListener
             Method dump skipped, instruction units count: 848
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LiveActivityNewFlow.G0():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LiveActivityNewFlow.G0():boolean");
     }
 
     public final void H0() {

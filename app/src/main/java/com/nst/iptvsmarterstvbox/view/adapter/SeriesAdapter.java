@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.animation.ObjectAnimator;
@@ -24,9 +24,9 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.i.q.m;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.view.activity.SeriesDetailActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.view.activity.SeriesDetailActivity;
 import java.util.ArrayList;
 import java.util.List;
 import me.zhanghai.android.materialprogressbar.BuildConfig;

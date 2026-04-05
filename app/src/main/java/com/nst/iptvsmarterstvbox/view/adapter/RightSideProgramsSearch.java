@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -28,13 +28,13 @@ import c.h.a.i.e;
 import c.h.a.i.p;
 import c.h.a.i.q.f;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.SearchActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK;
-import com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyTvActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.SearchActivity;
+import minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK;
+import minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyTvActivity;
+import minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;

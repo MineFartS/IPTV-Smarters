@@ -1,8 +1,8 @@
-package com.nst.iptvsmarterstvbox.model.callback;
+package minefarts.iptvsmarters.model.callback;
 
 import c.f.d.v.a;
 import c.f.d.v.c;
-import com.nst.iptvsmarterstvbox.model.pojo.BillingCheckGPAPojo;
+import minefarts.iptvsmarters.model.pojo.BillingCheckGPAPojo;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class BillingCheckGPACallback {

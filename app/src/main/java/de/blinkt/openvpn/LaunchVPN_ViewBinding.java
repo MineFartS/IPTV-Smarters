@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import com.skyfishjy.library.RippleBackground;
 
 /* JADX INFO: loaded from: classes2.dex */

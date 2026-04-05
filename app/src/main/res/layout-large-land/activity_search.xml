@@ -19,7 +19,7 @@
             android:paddingStart="18dp"
             android:paddingEnd="18dp"/>
         <fragment
-            android:name="com.nst.iptvsmarterstvbox.view.fragment.SearchFragment"
+            android:name="minefarts.iptvsmarters.view.fragment.SearchFragment"
             android:id="@+id/search_fragment"
             android:layout_width="match_parent"
             android:layout_height="115dp"

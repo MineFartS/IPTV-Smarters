@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import a.l.d.y;
@@ -19,14 +19,14 @@ import androidx.appcompat.widget.ActionMenuView;
 import androidx.appcompat.widget.Toolbar;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlCategoriesFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlM3UFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlRadioCategoriesFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlSeriesCatFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlSettingFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlVODCatFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalCotrolFragment;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.fragment.ParentalControlCategoriesFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlM3UFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlRadioCategoriesFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlSeriesCatFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlSettingFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlVODCatFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalCotrolFragment;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

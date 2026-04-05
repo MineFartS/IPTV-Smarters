@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.model.pojo;
+package minefarts.iptvsmarters.model.pojo;
 
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

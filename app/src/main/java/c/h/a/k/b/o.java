@@ -3,7 +3,7 @@ package c.h.a.k.b;
 import android.content.Context;
 import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
-import com.nst.iptvsmarterstvbox.view.fragment.NewEPGFragment;
+import minefarts.iptvsmarters.view.fragment.NewEPGFragment;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

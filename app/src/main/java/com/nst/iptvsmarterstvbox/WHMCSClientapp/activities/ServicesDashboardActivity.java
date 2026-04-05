@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -19,10 +19,10 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.h.n.e;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.AnnouncementsActivity;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.AnnouncementsActivity;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
 import com.wang.avi.AVLoadingIndicatorView;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -290,7 +290,7 @@ public class ServicesDashboardActivity extends a.b.k.c implements c.h.a.e.a.a {
                 Method dump skipped, instruction units count: 569
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.ServicesDashboardActivity.g.onFocusChange(android.view.View, boolean):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.WHMCSClientapp.activities.ServicesDashboardActivity.g.onFocusChange(android.view.View, boolean):void");
         }
     }
 

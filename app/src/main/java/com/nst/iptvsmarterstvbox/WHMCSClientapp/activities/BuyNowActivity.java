@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.h.n.e;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

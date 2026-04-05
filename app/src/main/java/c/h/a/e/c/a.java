@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.ShowserviceInformationActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.WHMCSClientapp.activities.ShowserviceInformationActivity;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

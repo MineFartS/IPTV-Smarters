@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import a.b.k.b;
 import a.i.r.j;
@@ -33,10 +33,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
-import com.nst.iptvsmarterstvbox.view.adapter.TVArchiveAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.view.adapter.TVArchiveAdapter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import me.zhanghai.android.materialprogressbar.BuildConfig;

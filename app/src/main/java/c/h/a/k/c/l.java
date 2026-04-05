@@ -19,7 +19,7 @@ import c.f.a.b.g3.f;
 import c.f.a.b.g3.j;
 import com.google.android.exoplayer2.ui.TrackSelectionView;
 import com.google.android.material.tabs.TabLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

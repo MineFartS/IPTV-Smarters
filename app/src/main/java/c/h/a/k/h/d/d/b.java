@@ -8,7 +8,7 @@ import c.k.a.q;
 import c.k.b.c0;
 import c.k.b.s;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 import me.zhanghai.android.materialprogressbar.BuildConfig;

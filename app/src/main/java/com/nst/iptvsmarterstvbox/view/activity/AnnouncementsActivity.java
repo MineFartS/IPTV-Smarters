@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,8 +15,8 @@ import c.h.a.f.f;
 import c.h.a.f.g;
 import c.h.a.h.n.e;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.AnnouncementsResponsePojo;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.AnnouncementsResponsePojo;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;

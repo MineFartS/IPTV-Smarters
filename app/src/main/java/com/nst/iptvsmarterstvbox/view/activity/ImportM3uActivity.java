@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,8 +22,8 @@ import c.h.a.i.q.f;
 import c.h.a.i.q.g;
 import c.h.a.i.q.m;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.utility.LoadingGearSpinner;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.utility.LoadingGearSpinner;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;

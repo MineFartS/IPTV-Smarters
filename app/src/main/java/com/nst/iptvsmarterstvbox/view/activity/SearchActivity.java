@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.i.i.b;
 import android.animation.ObjectAnimator;
@@ -22,14 +22,14 @@ import c.h.a.i.f;
 import c.h.a.i.m;
 import c.h.a.i.p;
 import c.h.a.k.a.l;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.adapter.LeftSideChannelsSearch;
-import com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapterSearch;
-import com.nst.iptvsmarterstvbox.view.adapter.RightSideProgramsSearch;
-import com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAllDataRightSideAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.adapter.LeftSideChannelsSearch;
+import minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapterSearch;
+import minefarts.iptvsmarters.view.adapter.RightSideProgramsSearch;
+import minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter;
+import minefarts.iptvsmarters.view.adapter.VodAllDataRightSideAdapter;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

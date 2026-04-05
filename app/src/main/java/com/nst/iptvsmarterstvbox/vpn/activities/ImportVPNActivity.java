@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.vpn.activities;
+package minefarts.iptvsmarters.vpn.activities;
 
 import a.b.k.b;
 import android.content.ContentResolver;
@@ -30,7 +30,7 @@ import c.h.a.l.a.c;
 import c.h.a.l.a.e;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
 import com.amazonaws.services.s3.util.Mimetypes;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -310,7 +310,7 @@ public class ImportVPNActivity extends a.b.k.c implements c.h.a.l.b.b.a {
             Method dump skipped, instruction units count: 891
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.vpn.activities.ImportVPNActivity.G0(java.lang.String, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.vpn.activities.ImportVPNActivity.G0(java.lang.String, java.lang.String):void");
     }
 
     public final void H0(Intent intent) throws Throwable {
@@ -444,7 +444,7 @@ public class ImportVPNActivity extends a.b.k.c implements c.h.a.l.b.b.a {
             Method dump skipped, instruction units count: 264
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.vpn.activities.ImportVPNActivity.L0(java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.vpn.activities.ImportVPNActivity.L0(java.lang.String):void");
     }
 
     public void M0(String str) {

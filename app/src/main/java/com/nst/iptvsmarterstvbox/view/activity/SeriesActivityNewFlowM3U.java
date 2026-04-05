@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -42,7 +42,7 @@ import com.facebook.ads.AdError;
 import com.facebook.ads.NativeAd;
 import com.facebook.ads.NativeAdsManager;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -532,7 +532,7 @@ public class SeriesActivityNewFlowM3U extends a.b.k.c implements View.OnClickLis
             Method dump skipped, instruction units count: 542
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesActivityNewFlowM3U.O0():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesActivityNewFlowM3U.O0():boolean");
     }
 
     public final void P0() {

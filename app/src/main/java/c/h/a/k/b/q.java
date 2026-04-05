@@ -8,13 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.fragment.app.Fragment;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlCategoriesFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlM3UFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlRadioCategoriesFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlSeriesCatFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlSettingFragment;
-import com.nst.iptvsmarterstvbox.view.fragment.ParentalControlVODCatFragment;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.fragment.ParentalControlCategoriesFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlM3UFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlRadioCategoriesFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlSeriesCatFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlSettingFragment;
+import minefarts.iptvsmarters.view.fragment.ParentalControlVODCatFragment;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.vpn.activities;
+package minefarts.iptvsmarters.vpn.activities;
 
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
@@ -24,7 +24,7 @@ import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.OnClick;
 import c.h.a.l.a.d;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.i;
 import d.a.a.d.v;
 import de.blinkt.openvpn.LaunchVPN;
@@ -570,7 +570,7 @@ public class VPNLoginActivity extends a.b.k.c {
             Method dump skipped, instruction units count: 371
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.vpn.activities.VPNLoginActivity.onCreate(android.os.Bundle):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.vpn.activities.VPNLoginActivity.onCreate(android.os.Bundle):void");
     }
 
     @OnClick

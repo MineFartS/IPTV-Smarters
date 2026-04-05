@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -35,7 +35,7 @@ import c.f.a.b.x1;
 import c.f.a.b.z1;
 import c.h.a.k.c.i;
 import com.google.android.exoplayer2.ui.StyledPlayerView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Collections;
 import java.util.List;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -330,7 +330,7 @@ public class ExoPlayerMoviesSeriesActivity extends a.b.k.c implements View.OnCli
             Method dump skipped, instruction units count: 928
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ExoPlayerMoviesSeriesActivity.F0():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ExoPlayerMoviesSeriesActivity.F0():boolean");
     }
 
     public void I0() {

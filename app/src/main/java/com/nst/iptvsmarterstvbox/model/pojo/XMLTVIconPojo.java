@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.model.pojo;
+package minefarts.iptvsmarters.model.pojo;
 
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Root;

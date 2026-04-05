@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -26,7 +26,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.h.n.e;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
@@ -405,7 +405,7 @@ public class AccountInfoActivity extends a.b.k.c implements View.OnClickListener
             Method dump skipped, instruction units count: 490
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.AccountInfoActivity.E0():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.AccountInfoActivity.E0():void");
     }
 
     public void b() {

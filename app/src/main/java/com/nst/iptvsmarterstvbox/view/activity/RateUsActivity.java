@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.h.n.e;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Calendar;
 
 /* JADX INFO: loaded from: classes2.dex */

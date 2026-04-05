@@ -1,9 +1,9 @@
-package com.nst.iptvsmarterstvbox.vpn;
+package minefarts.iptvsmarters.vpn;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 import c.h.a.l.b.a;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class LogWindow extends a {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -42,10 +42,10 @@ import c.h.a.i.q.l;
 import c.h.a.i.q.m;
 import c.h.a.k.b.w;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.view.adapter.SeriesAllDataRightSideAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.view.adapter.SeriesAllDataRightSideAdapter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -219,7 +219,7 @@ public class SeriesAllDataSingleActivity extends a.b.k.c implements View.OnClick
             }
         }
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity$b$b, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity$b$b, reason: collision with other inner class name */
         public class ViewOnFocusChangeListenerC0276b implements View.OnFocusChangeListener {
 
             /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -569,28 +569,28 @@ public class SeriesAllDataSingleActivity extends a.b.k.c implements View.OnClick
                 r8 = 0
                 return r8
             L41:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity r0 = com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity r0 = minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L61
                 java.lang.String r8 = r0.U0(r8)     // Catch: java.lang.Exception -> L61
                 return r8
             L4a:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity r8 = com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
-                java.lang.String r8 = com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.F0(r8)     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity r8 = minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                java.lang.String r8 = minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.F0(r8)     // Catch: java.lang.Exception -> L61
                 return r8
             L51:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity r0 = com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity r0 = minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L61
                 java.lang.String r8 = r0.Q0(r8)     // Catch: java.lang.Exception -> L61
                 return r8
             L5a:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity r8 = com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity r8 = minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
                 java.lang.String r8 = r8.R0()     // Catch: java.lang.Exception -> L61
                 return r8
             L61:
                 java.lang.String r8 = "error"
                 return r8
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.h.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.h.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask
@@ -1399,7 +1399,7 @@ public class SeriesAllDataSingleActivity extends a.b.k.c implements View.OnClick
             Method dump skipped, instruction units count: 303
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesAllDataSingleActivity.s1():java.lang.Boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesAllDataSingleActivity.s1():java.lang.Boolean");
     }
 
     public void t1(String str) {

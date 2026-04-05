@@ -1,6 +1,6 @@
 package c.h.a.k.f;
 
-import com.nst.iptvsmarterstvbox.model.callback.LoginCallback;
+import minefarts.iptvsmarters.model.callback.LoginCallback;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

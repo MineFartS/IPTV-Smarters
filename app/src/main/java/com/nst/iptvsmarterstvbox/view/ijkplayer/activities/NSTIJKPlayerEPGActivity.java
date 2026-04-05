@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.activities;
+package minefarts.iptvsmarters.view.ijkplayer.activities;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -31,9 +31,9 @@ import c.h.a.i.q.m;
 import c.h.a.k.d.c.a.g;
 import c.h.a.k.d.c.a.h;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEPG;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.preference.IjkListPreference;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEPG;
+import minefarts.iptvsmarters.view.ijkplayer.widget.preference.IjkListPreference;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -370,7 +370,7 @@ public class NSTIJKPlayerEPGActivity extends a.b.k.c implements SurfaceHolder.Ca
             }
         }
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerEPGActivity$b$b, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerEPGActivity$b$b, reason: collision with other inner class name */
         public class RunnableC0293b implements Runnable {
             public RunnableC0293b() {
             }
@@ -1155,7 +1155,7 @@ public class NSTIJKPlayerEPGActivity extends a.b.k.c implements SurfaceHolder.Ca
             Method dump skipped, instruction units count: 434
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerEPGActivity.m1(java.lang.String, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerEPGActivity.m1(java.lang.String, java.lang.String):void");
     }
 
     @Override // androidx.activity.ComponentActivity, android.app.Activity
@@ -1773,7 +1773,7 @@ public class NSTIJKPlayerEPGActivity extends a.b.k.c implements SurfaceHolder.Ca
         /*
             r3 = this;
             super.onResume()
-            com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEPG r0 = r3.Z0
+            minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEPG r0 = r3.Z0
             if (r0 == 0) goto La
             r3.Z0()
         La:
@@ -1825,7 +1825,7 @@ public class NSTIJKPlayerEPGActivity extends a.b.k.c implements SurfaceHolder.Ca
             r3.N0()
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerEPGActivity.onResume():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerEPGActivity.onResume():void");
     }
 
     @Override // a.b.k.c, a.l.d.e, android.app.Activity

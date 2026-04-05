@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -28,8 +28,8 @@ import c.h.a.i.q.f;
 import c.h.a.i.q.g;
 import c.h.a.i.q.m;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.LoginActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.LoginActivity;
 import java.net.NetworkInterface;
 import java.util.Collections;
 import java.util.Random;
@@ -502,6 +502,6 @@ public class FreeTrailActivity extends a.b.k.c {
     public void z0() {
         x.b bVar = new x.b();
         TimeUnit timeUnit = TimeUnit.SECONDS;
-        ((c.h.a.e.d.a) new m.b().b("https://cms.alldrama.tv/").f(bVar.c(300L, timeUnit).g(300L, timeUnit).e(300L, timeUnit).d(false).a()).a(o.p.a.a.d()).d().d(c.h.a.e.d.a.class)).i("OUBQqC6334OcxjS", "61Ce6WTJP12wy1a", "freetrail", "yes", this.f24718k, this.f24719l, this.f24720m, this.C, "com.nst.iptvsmarterstvbox").x(new c());
+        ((c.h.a.e.d.a) new m.b().b("https://cms.alldrama.tv/").f(bVar.c(300L, timeUnit).g(300L, timeUnit).e(300L, timeUnit).d(false).a()).a(o.p.a.a.d()).d().d(c.h.a.e.d.a.class)).i("OUBQqC6334OcxjS", "61Ce6WTJP12wy1a", "freetrail", "yes", this.f24718k, this.f24719l, this.f24720m, this.C, "minefarts.iptvsmarters").x(new c());
     }
 }

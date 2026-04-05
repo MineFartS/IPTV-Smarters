@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.z;
 import java.io.ByteArrayInputStream;
 import java.io.UnsupportedEncodingException;

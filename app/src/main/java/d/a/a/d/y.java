@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Build;
 import com.amazonaws.event.ProgressEvent;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import de.blinkt.openvpn.core.NativeUtils;
 import java.io.File;
 import java.io.FileOutputStream;

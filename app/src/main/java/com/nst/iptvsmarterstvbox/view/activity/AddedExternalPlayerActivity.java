@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.c;
 import android.annotation.SuppressLint;
@@ -16,9 +16,9 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.h.n.e;
 import c.h.a.i.q.d;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.adapter.AddedExternalPlayerAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.adapter.AddedExternalPlayerAdapter;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

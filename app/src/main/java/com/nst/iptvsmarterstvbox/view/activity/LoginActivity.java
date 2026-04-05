@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -34,11 +34,11 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.i.q.m;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.FreeTrailActivity;
-import com.nst.iptvsmarterstvbox.model.callback.ActivationCallBack;
-import com.nst.iptvsmarterstvbox.model.callback.LoginCallback;
-import com.nst.iptvsmarterstvbox.vpn.activities.ProfileActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.WHMCSClientapp.activities.FreeTrailActivity;
+import minefarts.iptvsmarters.model.callback.ActivationCallBack;
+import minefarts.iptvsmarters.model.callback.LoginCallback;
+import minefarts.iptvsmarters.vpn.activities.ProfileActivity;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -640,7 +640,7 @@ public class LoginActivity extends a.b.k.c implements c.h.a.k.f.f, c.h.a.f.c<Str
      */
     /* JADX WARN: Code restructure failed: missing block: B:68:0x03e7, code lost:
     
-        r0 = getResources().getString(com.nst.iptvsmarterstvbox.R.string.invalid_detail);
+        r0 = getResources().getString(minefarts.iptvsmarters.R.string.invalid_detail);
      */
     /* JADX WARN: Code restructure failed: missing block: B:70:0x03f8, code lost:
     
@@ -655,12 +655,12 @@ public class LoginActivity extends a.b.k.c implements c.h.a.k.f.f, c.h.a.f.c<Str
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void D(com.nst.iptvsmarterstvbox.model.callback.LoginCallback r19, java.lang.String r20, java.util.ArrayList<java.lang.String> r21) {
+    public void D(minefarts.iptvsmarters.model.callback.LoginCallback r19, java.lang.String r20, java.util.ArrayList<java.lang.String> r21) {
         /*
             Method dump skipped, instruction units count: 1022
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LoginActivity.D(com.nst.iptvsmarterstvbox.model.callback.LoginCallback, java.lang.String, java.util.ArrayList):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LoginActivity.D(minefarts.iptvsmarters.model.callback.LoginCallback, java.lang.String, java.util.ArrayList):void");
     }
 
     @Override // c.h.a.k.f.a

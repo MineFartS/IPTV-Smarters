@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,7 +24,7 @@ import c.h.a.k.b.j;
 import c.h.a.k.b.p;
 import com.amazonaws.services.s3.internal.Constants;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.File;
 import java.text.DecimalFormat;
 import java.util.ArrayList;

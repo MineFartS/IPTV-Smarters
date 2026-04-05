@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.notifications;
+package minefarts.iptvsmarters.WHMCSClientapp.notifications;
 
 import c.f.c.q.n;
 

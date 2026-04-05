@@ -9,7 +9,7 @@ import android.security.KeyChain;
 import android.security.KeyChainException;
 import android.text.TextUtils;
 import android.util.Base64;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.a0;
 import d.a.a.d.e;
 import d.a.a.d.h;

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -40,8 +40,8 @@ import com.amplifyframework.storage.result.StorageRemoveResult;
 import com.amplifyframework.storage.result.StorageTransferProgress;
 import com.amplifyframework.storage.result.StorageUploadFileResult;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -679,7 +679,7 @@ public class BackupAndRestoreActivity extends a.b.k.c implements View.OnClickLis
             Method dump skipped, instruction units count: 310
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.BackupAndRestoreActivity.O0(com.amplifyframework.storage.result.StorageListResult):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.BackupAndRestoreActivity.O0(com.amplifyframework.storage.result.StorageListResult):void");
     }
 
     public final void P0(StorageException storageException) {
@@ -1043,7 +1043,7 @@ public class BackupAndRestoreActivity extends a.b.k.c implements View.OnClickLis
             Method dump skipped, instruction units count: 2054
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.BackupAndRestoreActivity.g1(java.lang.String):java.lang.Boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.BackupAndRestoreActivity.g1(java.lang.String):java.lang.Boolean");
     }
 
     public final void h1(StorageException storageException) {
@@ -1081,8 +1081,8 @@ public class BackupAndRestoreActivity extends a.b.k.c implements View.OnClickLis
                     return true;
                 }
                 String name = nextEntry.getName();
-                if (name.contains("/com.nst.iptvsmarterstvbox/")) {
-                    name = name.replaceAll("/com.nst.iptvsmarterstvbox/", BuildConfig.FLAVOR);
+                if (name.contains("/minefarts.iptvsmarters/")) {
+                    name = name.replaceAll("/minefarts.iptvsmarters/", BuildConfig.FLAVOR);
                 }
                 if (nextEntry.isDirectory()) {
                     new File(str + name).mkdirs();

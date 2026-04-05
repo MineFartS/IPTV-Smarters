@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import a.b.q.j0;
@@ -42,12 +42,12 @@ import butterknife.OnClick;
 import c.k.b.c0;
 import c.k.b.t;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBPersonInfoCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTrailerCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.view.adapter.CastAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.model.callback.TMDBPersonInfoCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTrailerCallback;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.view.adapter.CastAdapter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -614,12 +614,12 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void L(com.nst.iptvsmarterstvbox.model.callback.SearchTMDBMoviesCallback r9) {
+    public void L(minefarts.iptvsmarters.model.callback.SearchTMDBMoviesCallback r9) {
         /*
             Method dump skipped, instruction units count: 417
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity.L(com.nst.iptvsmarterstvbox.model.callback.SearchTMDBMoviesCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ViewDetailsActivity.L(minefarts.iptvsmarters.model.callback.SearchTMDBMoviesCallback):void");
     }
 
     public final void L0() {
@@ -867,7 +867,7 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
             Method dump skipped, instruction units count: 218
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity.U0(android.content.Context, java.lang.String, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ViewDetailsActivity.U0(android.content.Context, java.lang.String, java.lang.String):void");
     }
 
     public void V0() {
@@ -953,12 +953,12 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void Y(com.nst.iptvsmarterstvbox.model.callback.VodInfoCallback r14) {
+    public void Y(minefarts.iptvsmarters.model.callback.VodInfoCallback r14) {
         /*
             Method dump skipped, instruction units count: 891
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity.Y(com.nst.iptvsmarterstvbox.model.callback.VodInfoCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ViewDetailsActivity.Y(minefarts.iptvsmarters.model.callback.VodInfoCallback):void");
     }
 
     @Override // c.h.a.k.f.b
@@ -994,7 +994,7 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void j0(com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback r6) {
+    public void j0(minefarts.iptvsmarters.model.callback.TMDBCastsCallback r6) {
         /*
             r5 = this;
             if (r6 == 0) goto L42
@@ -1012,7 +1012,7 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
             a.y.e.c r1 = new a.y.e.c     // Catch: java.lang.Exception -> L49
             r1.<init>()     // Catch: java.lang.Exception -> L49
             r0.setItemAnimator(r1)     // Catch: java.lang.Exception -> L49
-            com.nst.iptvsmarterstvbox.view.adapter.CastAdapter r0 = new com.nst.iptvsmarterstvbox.view.adapter.CastAdapter     // Catch: java.lang.Exception -> L49
+            minefarts.iptvsmarters.view.adapter.CastAdapter r0 = new minefarts.iptvsmarters.view.adapter.CastAdapter     // Catch: java.lang.Exception -> L49
             java.util.List r6 = r6.a()     // Catch: java.lang.Exception -> L49
             android.content.Context r1 = r5.f26915j     // Catch: java.lang.Exception -> L49
             r3 = 1
@@ -1031,7 +1031,7 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
         L49:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity.j0(com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ViewDetailsActivity.j0(minefarts.iptvsmarters.model.callback.TMDBCastsCallback):void");
     }
 
     @Override // c.h.a.k.f.i
@@ -1296,12 +1296,12 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void s(com.nst.iptvsmarterstvbox.model.callback.TMDBGenreCallback r8) {
+    public void s(minefarts.iptvsmarters.model.callback.TMDBGenreCallback r8) {
         /*
             Method dump skipped, instruction units count: 343
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity.s(com.nst.iptvsmarterstvbox.model.callback.TMDBGenreCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ViewDetailsActivity.s(minefarts.iptvsmarters.model.callback.TMDBGenreCallback):void");
     }
 
     /* JADX WARN: Removed duplicated region for block: B:53:0x00ca A[Catch: Exception -> 0x018b, TryCatch #0 {Exception -> 0x018b, blocks: (B:4:0x0009, B:6:0x000f, B:8:0x0019, B:11:0x0021, B:13:0x0027, B:14:0x0048, B:16:0x0058, B:18:0x005c, B:20:0x0060, B:22:0x0066, B:27:0x007d, B:66:0x00e6, B:68:0x00ec, B:70:0x00f6, B:73:0x00fd, B:75:0x0103, B:77:0x0115, B:78:0x0120, B:79:0x0123, B:81:0x0127, B:83:0x012b, B:86:0x0131, B:88:0x0137, B:90:0x013f, B:91:0x014f, B:93:0x0153, B:94:0x0156, B:96:0x015a, B:97:0x015d, B:99:0x0161, B:100:0x0165, B:102:0x0169, B:103:0x016c, B:105:0x0170, B:106:0x0173, B:109:0x0178, B:111:0x017c, B:112:0x017f, B:114:0x0183, B:115:0x0186, B:28:0x0088, B:29:0x0093, B:31:0x0097, B:32:0x009a, B:34:0x009e, B:35:0x00a1, B:37:0x00a5, B:38:0x00a8, B:40:0x00ac, B:41:0x00b0, B:43:0x00b4, B:44:0x00b7, B:46:0x00bb, B:47:0x00be, B:49:0x00c2, B:50:0x00c5, B:53:0x00ca, B:55:0x00ce, B:56:0x00d1, B:58:0x00d5, B:59:0x00d8, B:61:0x00dc, B:62:0x00df), top: B:120:0x0009 }] */
@@ -1310,11 +1310,11 @@ public class ViewDetailsActivity extends a.b.k.c implements View.OnClickListener
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void x(com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback r9) {
+    public void x(minefarts.iptvsmarters.model.callback.TMDBCastsCallback r9) {
         /*
             Method dump skipped, instruction units count: 396
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity.x(com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.ViewDetailsActivity.x(minefarts.iptvsmarters.model.callback.TMDBCastsCallback):void");
     }
 }

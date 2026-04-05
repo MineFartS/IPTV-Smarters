@@ -2,12 +2,12 @@ package c.h.a.j;
 
 import android.content.Context;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
-import com.nst.iptvsmarterstvbox.model.callback.GetSeriesStreamCallback;
-import com.nst.iptvsmarterstvbox.model.callback.GetSeriesStreamCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.VodCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.VodStreamsCallback;
+import minefarts.iptvsmarters.model.callback.GetSeriesStreamCallback;
+import minefarts.iptvsmarters.model.callback.GetSeriesStreamCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamsCallback;
+import minefarts.iptvsmarters.model.callback.VodCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.VodStreamsCallback;
 import java.util.List;
 import o.l;
 import o.m;

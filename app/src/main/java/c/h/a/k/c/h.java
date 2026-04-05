@@ -10,7 +10,7 @@ import c.f.a.b.c3.y;
 import c.f.a.b.h3.k0;
 import c.f.a.b.j3.g0;
 import c.f.a.b.j3.x0;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.List;
 
 /* JADX INFO: loaded from: classes2.dex */

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -28,7 +28,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
@@ -489,19 +489,19 @@ public class PlayerSettingsActivity extends a.b.k.c implements View.OnClickListe
             if (r3 != r4) goto L5f
             r3 = 10
         L95:
-            com.nst.iptvsmarterstvbox.view.activity.PlayerSettingsActivity$j r4 = new com.nst.iptvsmarterstvbox.view.activity.PlayerSettingsActivity$j
+            minefarts.iptvsmarters.view.activity.PlayerSettingsActivity$j r4 = new minefarts.iptvsmarters.view.activity.PlayerSettingsActivity$j
             r4.<init>()
             r2.l(r1, r3, r4)
             a.b.k.b r1 = r2.create()
             r0.t = r1
-            com.nst.iptvsmarterstvbox.view.activity.PlayerSettingsActivity$a r2 = new com.nst.iptvsmarterstvbox.view.activity.PlayerSettingsActivity$a
+            minefarts.iptvsmarters.view.activity.PlayerSettingsActivity$a r2 = new minefarts.iptvsmarters.view.activity.PlayerSettingsActivity$a
             r2.<init>()
             r1.setOnDismissListener(r2)
             a.b.k.b r1 = r0.t
             r1.show()
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.PlayerSettingsActivity.A0():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.PlayerSettingsActivity.A0():void");
     }
 
     public final void B0(int i2) {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -31,8 +31,8 @@ import androidx.cardview.widget.CardView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.vpn.activities.ProfileActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.vpn.activities.ProfileActivity;
 import java.util.ArrayList;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;

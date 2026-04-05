@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -22,7 +22,7 @@ import c.f.b.b.n;
 import c.h.a.i.f;
 import c.h.a.i.q.m;
 import c.h.a.k.f.g;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -308,12 +308,12 @@ public class MultiPlayerChannelsAdapter extends RecyclerView.h<MyViewHolder> {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void F(com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerChannelsAdapter.MyViewHolder r18, int r19) {
+    public void F(minefarts.iptvsmarters.view.adapter.MultiPlayerChannelsAdapter.MyViewHolder r18, int r19) {
         /*
             Method dump skipped, instruction units count: 468
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerChannelsAdapter.F(com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerChannelsAdapter$MyViewHolder, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.MultiPlayerChannelsAdapter.F(minefarts.iptvsmarters.view.adapter.MultiPlayerChannelsAdapter$MyViewHolder, int):void");
     }
 
     @Override // androidx.recyclerview.widget.RecyclerView.h
@@ -338,7 +338,7 @@ public class MultiPlayerChannelsAdapter extends RecyclerView.h<MyViewHolder> {
             Method dump skipped, instruction units count: 418
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerChannelsAdapter.i0():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.MultiPlayerChannelsAdapter.i0():void");
     }
 
     @Override // androidx.recyclerview.widget.RecyclerView.h

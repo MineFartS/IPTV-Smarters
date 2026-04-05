@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -42,9 +42,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.adapter.EPGSourcesAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.adapter.EPGSourcesAdapter;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -547,7 +547,7 @@ public class EPGSettingsActivity extends a.b.k.c implements View.OnClickListener
                 Method dump skipped, instruction units count: 497
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.l.onClick(android.view.View):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.EPGSettingsActivity.l.onClick(android.view.View):void");
         }
 
         @Override // android.app.Dialog
@@ -1134,16 +1134,16 @@ public class EPGSettingsActivity extends a.b.k.c implements View.OnClickListener
                 if (r4 == 0) goto L58
                 r4 = 0
                 c.h.a.h.n.a.q0 = r4
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r1 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this
-                java.util.ArrayList r1 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.D0(r1)
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r1 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this
+                java.util.ArrayList r1 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.D0(r1)
                 if (r1 == 0) goto L4a
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r1 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this
-                java.util.ArrayList r1 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.D0(r1)
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r1 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this
+                java.util.ArrayList r1 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.D0(r1)
                 int r1 = r1.size()
                 if (r1 <= 0) goto L4a
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity$q$a r1 = new com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity$q$a     // Catch: java.lang.Exception -> L35
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r2 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L35
-                android.content.Context r2 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.y0(r2)     // Catch: java.lang.Exception -> L35
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity$q$a r1 = new minefarts.iptvsmarters.view.activity.EPGSettingsActivity$q$a     // Catch: java.lang.Exception -> L35
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r2 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L35
+                android.content.Context r2 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.y0(r2)     // Catch: java.lang.Exception -> L35
                 r1.<init>(r2)     // Catch: java.lang.Exception -> L35
                 java.util.concurrent.Executor r2 = android.os.AsyncTask.THREAD_POOL_EXECUTOR     // Catch: java.lang.Exception -> L35
                 java.lang.String[] r4 = new java.lang.String[r4]     // Catch: java.lang.Exception -> L35
@@ -1151,38 +1151,38 @@ public class EPGSettingsActivity extends a.b.k.c implements View.OnClickListener
                 c.h.a.h.n.e.f17068j = r4     // Catch: java.lang.Exception -> L35
                 goto L68
             L35:
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
-                c.h.a.i.q.f r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.z0(r4)     // Catch: java.lang.Exception -> L48
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
+                c.h.a.i.q.f r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.z0(r4)     // Catch: java.lang.Exception -> L48
                 java.lang.String r1 = "0"
                 java.lang.String r2 = r3.f25556c     // Catch: java.lang.Exception -> L48
                 r4.v2(r0, r1, r2)     // Catch: java.lang.Exception -> L48
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
             L44:
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.K0(r4)     // Catch: java.lang.Exception -> L48
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity.K0(r4)     // Catch: java.lang.Exception -> L48
                 goto L68
             L48:
                 goto L68
             L4a:
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r0 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r0 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this
                 java.lang.String r1 = "loginPrefs"
                 android.content.SharedPreferences r4 = r0.getSharedPreferences(r1, r4)
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.F0(r0, r4)
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity.F0(r0, r4)
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
                 goto L44
             L58:
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
-                c.h.a.i.q.f r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.z0(r4)     // Catch: java.lang.Exception -> L48
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
+                c.h.a.i.q.f r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.z0(r4)     // Catch: java.lang.Exception -> L48
                 java.lang.String r1 = "2"
                 java.lang.String r2 = r3.f25556c     // Catch: java.lang.Exception -> L48
                 r4.v2(r0, r1, r2)     // Catch: java.lang.Exception -> L48
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r4 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r4 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this     // Catch: java.lang.Exception -> L48
                 goto L44
             L68:
                 java.io.File r4 = new java.io.File
                 java.lang.StringBuilder r0 = new java.lang.StringBuilder
                 r0.<init>()
-                com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity r1 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.this
-                android.content.Context r1 = com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.y0(r1)
+                minefarts.iptvsmarters.view.activity.EPGSettingsActivity r1 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.this
+                android.content.Context r1 = minefarts.iptvsmarters.view.activity.EPGSettingsActivity.y0(r1)
                 java.io.File r1 = r1.getFilesDir()
                 r0.append(r1)
                 java.lang.String r1 = "/epgZip.xml"
@@ -1198,7 +1198,7 @@ public class EPGSettingsActivity extends a.b.k.c implements View.OnClickListener
             L9a:
                 return
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.EPGSettingsActivity.q.onPostExecute(java.lang.Boolean):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.EPGSettingsActivity.q.onPostExecute(java.lang.Boolean):void");
         }
 
         @Override // android.os.AsyncTask

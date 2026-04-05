@@ -1,7 +1,7 @@
 package c.h.a.k.a;
 
 import android.content.Context;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
 import java.util.ArrayList;
 import java.util.List;
 

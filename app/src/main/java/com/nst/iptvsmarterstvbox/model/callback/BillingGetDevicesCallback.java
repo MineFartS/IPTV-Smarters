@@ -1,8 +1,8 @@
-package com.nst.iptvsmarterstvbox.model.callback;
+package minefarts.iptvsmarters.model.callback;
 
 import c.f.d.v.a;
 import c.f.d.v.c;
-import com.nst.iptvsmarterstvbox.model.pojo.BillingGetDevicesPojo;
+import minefarts.iptvsmarters.model.pojo.BillingGetDevicesPojo;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class BillingGetDevicesCallback {

@@ -31,7 +31,7 @@
             android:layout_marginEnd="20sp"
             android:layout_toEndOf="@+id/iv_back_button"/>
         <fragment
-            android:name="com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK"
+            android:name="minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK"
             android:id="@+id/search_fragment"
             android:layout_width="match_parent"
             android:layout_height="100dp"

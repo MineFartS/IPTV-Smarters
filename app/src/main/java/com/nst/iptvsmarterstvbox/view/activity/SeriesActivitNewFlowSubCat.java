@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -38,12 +38,12 @@ import c.h.a.h.n.e;
 import c.h.a.i.q.l;
 import c.h.a.i.q.m;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.view.adapter.SeriesAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow;
-import com.nst.iptvsmarterstvbox.view.adapter.VodSubCatAdpaterNew;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.view.adapter.SeriesAdapter;
+import minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow;
+import minefarts.iptvsmarters.view.adapter.VodSubCatAdpaterNew;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -316,23 +316,23 @@ public class SeriesActivitNewFlowSubCat extends a.b.k.c implements View.OnClickL
                 r8 = 0
                 return r8
             L40:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat r8 = com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.this     // Catch: java.lang.Exception -> L57
-                java.lang.String r8 = com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.H0(r8)     // Catch: java.lang.Exception -> L57
+                minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat r8 = minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.this     // Catch: java.lang.Exception -> L57
+                java.lang.String r8 = minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.H0(r8)     // Catch: java.lang.Exception -> L57
                 return r8
             L47:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat r0 = com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.this     // Catch: java.lang.Exception -> L57
+                minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat r0 = minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.this     // Catch: java.lang.Exception -> L57
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L57
                 java.lang.String r8 = r0.M0(r8)     // Catch: java.lang.Exception -> L57
                 return r8
             L50:
-                com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat r8 = com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.this     // Catch: java.lang.Exception -> L57
+                minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat r8 = minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.this     // Catch: java.lang.Exception -> L57
                 java.lang.String r8 = r8.N0()     // Catch: java.lang.Exception -> L57
                 return r8
             L57:
                 java.lang.String r8 = "error"
                 return r8
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.h.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.h.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         /* JADX WARN: Failed to restore switch over string. Please report as a decompilation issue */
@@ -671,7 +671,7 @@ public class SeriesActivitNewFlowSubCat extends a.b.k.c implements View.OnClickL
             Method dump skipped, instruction units count: 209
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.U0():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.U0():void");
     }
 
     public final void V0() {
@@ -759,7 +759,7 @@ public class SeriesActivitNewFlowSubCat extends a.b.k.c implements View.OnClickL
             Method dump skipped, instruction units count: 320
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.Z0(android.app.Activity):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.Z0(android.app.Activity):void");
     }
 
     public void a() {
@@ -890,7 +890,7 @@ public class SeriesActivitNewFlowSubCat extends a.b.k.c implements View.OnClickL
             Method dump skipped, instruction units count: 330
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesActivitNewFlowSubCat.onOptionsItemSelected(android.view.MenuItem):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesActivitNewFlowSubCat.onOptionsItemSelected(android.view.MenuItem):boolean");
     }
 
     @Override // a.l.d.e, android.app.Activity

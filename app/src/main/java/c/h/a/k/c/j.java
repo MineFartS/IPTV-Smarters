@@ -27,7 +27,7 @@ import c.f.a.b.p1;
 import c.f.a.b.x2.a0;
 import c.f.a.b.x2.p0;
 import c.f.a.b.x2.y;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;

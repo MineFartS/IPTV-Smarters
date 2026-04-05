@@ -134,7 +134,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             layout="@layout/nst_exo_player_vod"/>
-                        <com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG
+                        <minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG
                             android:layout_gravity="center"
                             android:id="@+id/video_view"
                             android:visibility="gone"
@@ -228,7 +228,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.6">
-            <com.nst.iptvsmarterstvbox.view.utility.epg.EPG
+            <minefarts.iptvsmarters.view.utility.epg.EPG
                 android:id="@+id/epg"
                 android:paddingTop="10dp"
                 android:nextFocusUp="@+id/sliding_tabs"

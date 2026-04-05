@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -38,7 +38,7 @@ import c.h.a.h.n.e;
 import c.h.a.i.q.m;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
 /* JADX INFO: loaded from: classes2.dex */

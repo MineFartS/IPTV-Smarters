@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -38,10 +38,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.h.n.e;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.SeriesAdapterM3U;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow;
-import com.nst.iptvsmarterstvbox.view.adapter.VodSubCatAdpaterNew;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.SeriesAdapterM3U;
+import minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow;
+import minefarts.iptvsmarters.view.adapter.VodSubCatAdpaterNew;
 import java.util.ArrayList;
 import java.util.Iterator;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -1120,7 +1120,7 @@ public class SeriesActivityNewFlowSubCategoriesM3U extends a.b.k.c implements Vi
             Method dump skipped, instruction units count: 596
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesActivityNewFlowSubCategoriesM3U.onOptionsItemSelected(android.view.MenuItem):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesActivityNewFlowSubCategoriesM3U.onOptionsItemSelected(android.view.MenuItem):boolean");
     }
 
     @Override // a.l.d.e, android.app.Activity

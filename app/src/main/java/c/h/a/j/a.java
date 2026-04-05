@@ -3,8 +3,8 @@ package c.h.a.j;
 import android.content.Context;
 import android.util.Log;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.ActivationCallBack;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.ActivationCallBack;
 import o.l;
 
 /* JADX INFO: loaded from: classes2.dex */

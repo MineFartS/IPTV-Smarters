@@ -222,7 +222,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.6">
-            <com.nst.iptvsmarterstvbox.view.utility.epg.EPG
+            <minefarts.iptvsmarters.view.utility.epg.EPG
                 android:id="@+id/epg"
                 android:paddingTop="10dp"
                 android:nextFocusUp="@+id/sliding_tabs"

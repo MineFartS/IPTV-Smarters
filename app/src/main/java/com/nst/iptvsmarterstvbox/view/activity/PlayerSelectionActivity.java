@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -34,8 +34,8 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.h.n.e;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Iterator;

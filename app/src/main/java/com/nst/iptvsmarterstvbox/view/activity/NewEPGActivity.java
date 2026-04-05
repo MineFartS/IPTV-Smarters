@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,7 +20,7 @@ import c.h.a.i.e;
 import c.h.a.k.b.o;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -247,7 +247,7 @@ public class NewEPGActivity extends a.b.k.c implements View.OnClickListener {
             boolean r6 = super.dispatchKeyEvent(r6)
             return r6
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewEPGActivity.dispatchKeyEvent(android.view.KeyEvent):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewEPGActivity.dispatchKeyEvent(android.view.KeyEvent):boolean");
     }
 
     @Override // androidx.activity.ComponentActivity, android.app.Activity

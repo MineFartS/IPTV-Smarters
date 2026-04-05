@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -45,11 +45,11 @@ import c.h.a.k.a.m;
 import com.amazonaws.services.s3.internal.Constants;
 import com.amazonaws.services.s3.model.InstructionFileId;
 import com.google.android.gms.cast.MediaInfo;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.PanelAvailableChannelsPojo;
-import com.nst.iptvsmarterstvbox.view.adapter.EpisodeDetailAdapter;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.pojo.PanelAvailableChannelsPojo;
+import minefarts.iptvsmarters.view.adapter.EpisodeDetailAdapter;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes;
 import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -686,12 +686,12 @@ public class HoneyPlayer extends a.b.k.c implements View.OnClickListener {
         public g() {
         }
 
-        @Override // com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes.g0
+        @Override // minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes.g0
         public void a() {
             HoneyPlayer.this.H1(R.drawable.hplib_ic_pause, "pause", 2, 2);
         }
 
-        @Override // com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes.g0
+        @Override // minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes.g0
         public void b() {
             HoneyPlayer.this.H1(R.drawable.hp_play, "play", 1, 1);
         }
@@ -1396,7 +1396,7 @@ public class HoneyPlayer extends a.b.k.c implements View.OnClickListener {
             Method dump skipped, instruction units count: 851
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer.i1(java.util.ArrayList, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.HoneyPlayer.i1(java.util.ArrayList, int):void");
     }
 
     public final void j1(ArrayList<File> arrayList, int i2) {
@@ -1741,19 +1741,19 @@ public class HoneyPlayer extends a.b.k.c implements View.OnClickListener {
             if (r2 == 0) goto L50
             r2 = 7
         L89:
-            com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer$c r3 = new com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer$c
+            minefarts.iptvsmarters.view.activity.HoneyPlayer$c r3 = new minefarts.iptvsmarters.view.activity.HoneyPlayer$c
             r3.<init>()
             r4.l(r1, r2, r3)
             a.b.k.b r1 = r4.create()
             r0.d1 = r1
-            com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer$d r2 = new com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer$d
+            minefarts.iptvsmarters.view.activity.HoneyPlayer$d r2 = new minefarts.iptvsmarters.view.activity.HoneyPlayer$d
             r2.<init>()
             r1.setOnDismissListener(r2)
             a.b.k.b r1 = r0.d1
             r1.show()
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer.o1():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.HoneyPlayer.o1():void");
     }
 
     @Override // androidx.activity.ComponentActivity, android.app.Activity
@@ -2253,7 +2253,7 @@ public class HoneyPlayer extends a.b.k.c implements View.OnClickListener {
             Method dump skipped, instruction units count: 795
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer.onCreate(android.os.Bundle):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.HoneyPlayer.onCreate(android.os.Bundle):void");
     }
 
     @Override // a.b.k.c, a.l.d.e, android.app.Activity
@@ -2599,7 +2599,7 @@ public class HoneyPlayer extends a.b.k.c implements View.OnClickListener {
             Method dump skipped, instruction units count: 2100
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer.q1():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.HoneyPlayer.q1():void");
     }
 
     public final void r1() {
@@ -2857,6 +2857,6 @@ public class HoneyPlayer extends a.b.k.c implements View.OnClickListener {
             Method dump skipped, instruction units count: 242
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer.z1():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.HoneyPlayer.z1():void");
     }
 }

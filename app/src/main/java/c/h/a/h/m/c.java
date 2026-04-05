@@ -3,7 +3,7 @@ package c.h.a.h.m;
 import android.content.Context;
 import android.content.Intent;
 import com.amazonaws.services.s3.model.InstructionFileId;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.castserver.CastServerService;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.castserver.CastServerService;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class c {

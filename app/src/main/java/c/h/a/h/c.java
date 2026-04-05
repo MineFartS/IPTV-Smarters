@@ -2,7 +2,7 @@ package c.h.a.h;
 
 import android.view.View;
 import androidx.recyclerview.widget.RecyclerView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class c extends RecyclerView.e0 {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -8,7 +8,7 @@ import androidx.viewpager.widget.ViewPager;
 import b.c.c;
 import butterknife.Unbinder;
 import com.google.android.material.tabs.TabLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class ParentalCotrolFragment_ViewBinding implements Unbinder {

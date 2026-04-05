@@ -66,7 +66,7 @@
             android:textDirection="locale"
             android:layout_marginStart="4dp"/>
     </LinearLayout>
-    <com.nst.iptvsmarterstvbox.miscelleneious.FullScreenVideoView
+    <minefarts.iptvsmarters.miscelleneious.FullScreenVideoView
         android:id="@+id/video_splash"
         android:visibility="gone"
         android:layout_width="wrap_content"

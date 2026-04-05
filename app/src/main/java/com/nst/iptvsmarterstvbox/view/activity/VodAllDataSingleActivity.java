@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -43,8 +43,8 @@ import c.h.a.i.q.k;
 import c.h.a.i.q.m;
 import c.h.a.k.b.b0;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAllDataRightSideAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.VodAllDataRightSideAdapter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -217,7 +217,7 @@ public class VodAllDataSingleActivity extends a.b.k.c implements View.OnClickLis
             }
         }
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity$b$b, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity$b$b, reason: collision with other inner class name */
         public class ViewOnFocusChangeListenerC0278b implements View.OnFocusChangeListener {
 
             /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -567,28 +567,28 @@ public class VodAllDataSingleActivity extends a.b.k.c implements View.OnClickLis
                 r8 = 0
                 return r8
             L41:
-                com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity r0 = com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity r0 = minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L61
                 java.lang.String r8 = r0.U0(r8)     // Catch: java.lang.Exception -> L61
                 return r8
             L4a:
-                com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity r8 = com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
-                java.lang.String r8 = com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.F0(r8)     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity r8 = minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                java.lang.String r8 = minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.F0(r8)     // Catch: java.lang.Exception -> L61
                 return r8
             L51:
-                com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity r0 = com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity r0 = minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
                 r8 = r8[r6]     // Catch: java.lang.Exception -> L61
                 java.lang.String r8 = r0.Q0(r8)     // Catch: java.lang.Exception -> L61
                 return r8
             L5a:
-                com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity r8 = com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
+                minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity r8 = minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.this     // Catch: java.lang.Exception -> L61
                 java.lang.String r8 = r8.R0()     // Catch: java.lang.Exception -> L61
                 return r8
             L61:
                 java.lang.String r8 = "error"
                 return r8
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.h.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.h.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask
@@ -757,7 +757,7 @@ public class VodAllDataSingleActivity extends a.b.k.c implements View.OnClickLis
             Method dump skipped, instruction units count: 294
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity.B1():java.lang.Boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity.B1():java.lang.Boolean");
     }
 
     public final void L0() {

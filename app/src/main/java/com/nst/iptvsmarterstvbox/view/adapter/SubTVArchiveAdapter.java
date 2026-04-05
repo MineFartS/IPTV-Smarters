@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.annotation.SuppressLint;
@@ -19,10 +19,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.h.n.e;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity;
 import java.nio.charset.StandardCharsets;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -371,7 +371,7 @@ public class SubTVArchiveAdapter extends RecyclerView.h<MyViewHolder> {
             Method dump skipped, instruction units count: 207
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.SubTVArchiveAdapter.p0(android.view.View, android.content.Context, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.SubTVArchiveAdapter.p0(android.view.View, android.content.Context, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void");
     }
 
     public final String q0(String str) {

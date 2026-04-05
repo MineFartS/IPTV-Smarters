@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.annotation.SuppressLint;
@@ -30,9 +30,9 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.i.p;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.view.activity.LiveAllDataSingleActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.view.activity.LiveAllDataSingleActivity;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import org.jetbrains.annotations.NotNull;
@@ -178,7 +178,7 @@ public class LiveAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0>
         /* JADX INFO: renamed from: a, reason: collision with root package name */
         public final /* synthetic */ ViewHolder f27346a;
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter$a$a, reason: collision with other inner class name */
         public class C0281a implements c.k.b.e {
             public C0281a() {
             }
@@ -234,7 +234,7 @@ public class LiveAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0>
             }
         }
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter$b$b, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter$b$b, reason: collision with other inner class name */
         public class DialogC0282b extends Dialog implements View.OnClickListener {
 
             /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -255,7 +255,7 @@ public class LiveAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0>
             /* JADX INFO: renamed from: g, reason: collision with root package name */
             public LinearLayout f27361g;
 
-            /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter$b$b$a */
+            /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter$b$b$a */
             public class a implements Runnable {
                 public a() {
                 }
@@ -268,7 +268,7 @@ public class LiveAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0>
                 }
             }
 
-            /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter$b$b$b, reason: collision with other inner class name */
+            /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter$b$b$b, reason: collision with other inner class name */
             public class ViewOnFocusChangeListenerC0283b implements View.OnFocusChangeListener {
 
                 /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -440,7 +440,7 @@ public class LiveAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0>
                 }
             }
 
-            /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter$c$b$b, reason: collision with other inner class name */
+            /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter$c$b$b, reason: collision with other inner class name */
             public class ViewOnFocusChangeListenerC0284b implements View.OnFocusChangeListener {
 
                 /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -1138,7 +1138,7 @@ public class LiveAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0>
             Method dump skipped, instruction units count: 540
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.LiveAllDataRightSideAdapter.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.LiveAllDataRightSideAdapter.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
     }
 
     public final void F0(RecyclerView.e0 e0Var, int i2, ArrayList<c.h.a.i.f> arrayList) {

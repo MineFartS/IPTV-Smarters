@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -33,13 +33,13 @@ import c.h.a.h.n.e;
 import com.amazonaws.services.s3.internal.Constants;
 import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.SkuDetails;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.BillingCheckGPACallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingGetDevicesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingLoginClientCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingUpdateDevicesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.RegisterClientCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.BillingDeviceInfo;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.BillingCheckGPACallback;
+import minefarts.iptvsmarters.model.callback.BillingGetDevicesCallback;
+import minefarts.iptvsmarters.model.callback.BillingLoginClientCallback;
+import minefarts.iptvsmarters.model.callback.BillingUpdateDevicesCallback;
+import minefarts.iptvsmarters.model.callback.RegisterClientCallback;
+import minefarts.iptvsmarters.model.pojo.BillingDeviceInfo;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -244,7 +244,7 @@ public class APPInPurchaseActivity extends Activity implements View.OnClickListe
                             break;
                         }
                         Purchase next = it.next();
-                        if (next.f().contains("com.nst.iptvsmarterstvbox.billing") && APPInPurchaseActivity.this.f25213i.k() != null && APPInPurchaseActivity.this.f25213i.n() != null && APPInPurchaseActivity.this.f25213i.l() == 0 && APPInPurchaseActivity.this.f25213i.k().equals(BuildConfig.FLAVOR) && APPInPurchaseActivity.this.f25213i.n().equals(BuildConfig.FLAVOR)) {
+                        if (next.f().contains("minefarts.iptvsmarters.billing") && APPInPurchaseActivity.this.f25213i.k() != null && APPInPurchaseActivity.this.f25213i.n() != null && APPInPurchaseActivity.this.f25213i.l() == 0 && APPInPurchaseActivity.this.f25213i.k().equals(BuildConfig.FLAVOR) && APPInPurchaseActivity.this.f25213i.n().equals(BuildConfig.FLAVOR)) {
                             APPInPurchaseActivity.this.g();
                             String strA = next.a();
                             String strP = c.h.a.h.n.e.P(strA + "*Njh0&$@ZH098GP-Vu6HilnbLo63-" + c.h.a.f.b.f16735b + "-");
@@ -268,7 +268,7 @@ public class APPInPurchaseActivity extends Activity implements View.OnClickListe
         public void a(c.c.a.a.g gVar) {
             if (gVar.b() == 0) {
                 ArrayList arrayList = new ArrayList();
-                arrayList.add("com.nst.iptvsmarterstvbox.billing");
+                arrayList.add("minefarts.iptvsmarters.billing");
                 APPInPurchaseActivity.this.r.g(c.c.a.a.j.c().c("inapp").b(arrayList).a(), APPInPurchaseActivity.this);
                 APPInPurchaseActivity.this.r.f("inapp", new a());
             } else {
@@ -331,7 +331,7 @@ public class APPInPurchaseActivity extends Activity implements View.OnClickListe
                         break;
                     }
                     Purchase next = it.next();
-                    if (next.f().contains("com.nst.iptvsmarterstvbox.billing")) {
+                    if (next.f().contains("minefarts.iptvsmarters.billing")) {
                         this.f25225a[0] = true;
                         this.f25226b[0] = next.a();
                         break;
@@ -798,12 +798,12 @@ public class APPInPurchaseActivity extends Activity implements View.OnClickListe
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void E(com.nst.iptvsmarterstvbox.model.callback.BillingAddOrderCallback r4) {
+    public void E(minefarts.iptvsmarters.model.callback.BillingAddOrderCallback r4) {
         /*
             Method dump skipped, instruction units count: 214
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.APPInPurchaseActivity.E(com.nst.iptvsmarterstvbox.model.callback.BillingAddOrderCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.APPInPurchaseActivity.E(minefarts.iptvsmarters.model.callback.BillingAddOrderCallback):void");
     }
 
     public final void F(boolean z) {
@@ -1034,12 +1034,12 @@ public class APPInPurchaseActivity extends Activity implements View.OnClickListe
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void V(com.nst.iptvsmarterstvbox.model.callback.BillingIsPurchasedCallback r5) {
+    public void V(minefarts.iptvsmarters.model.callback.BillingIsPurchasedCallback r5) {
         /*
             Method dump skipped, instruction units count: 233
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.APPInPurchaseActivity.V(com.nst.iptvsmarterstvbox.model.callback.BillingIsPurchasedCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.APPInPurchaseActivity.V(minefarts.iptvsmarters.model.callback.BillingIsPurchasedCallback):void");
     }
 
     @Override // c.h.a.k.f.c
@@ -1209,7 +1209,7 @@ public class APPInPurchaseActivity extends Activity implements View.OnClickListe
                 Purchase next = it.next();
                 if (next.c() == 1) {
                     String strA = next.a();
-                    if (next.f().contains("com.nst.iptvsmarterstvbox.billing")) {
+                    if (next.f().contains("minefarts.iptvsmarters.billing")) {
                         this.f25213i.Q(Boolean.FALSE);
                         if (this.f25213i.k() != null && this.f25213i.n() != null && this.f25213i.l() != 0 && !this.f25213i.k().equals(BuildConfig.FLAVOR) && !this.f25213i.n().equals(BuildConfig.FLAVOR)) {
                             g();

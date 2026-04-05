@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -16,7 +16,7 @@ import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;

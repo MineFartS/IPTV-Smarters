@@ -139,10 +139,10 @@ public class d extends AsyncTask<String, Void, String> {
     public void d(Context context, String str) {
         Dialog dialog = new Dialog(context, R.style.Theme.Translucent.NoTitleBar);
         this.f16746j = dialog;
-        dialog.setContentView(com.nst.iptvsmarterstvbox.R.layout.layout_progress_bar);
+        dialog.setContentView(minefarts.iptvsmarters.R.layout.layout_progress_bar);
         this.f16746j.getWindow().setBackgroundDrawable(new ColorDrawable(0));
         this.f16746j.setCancelable(false);
-        ((TextView) this.f16746j.findViewById(com.nst.iptvsmarterstvbox.R.id.message)).setText(str);
+        ((TextView) this.f16746j.findViewById(minefarts.iptvsmarters.R.id.message)).setText(str);
         try {
             if (((Activity) this.f16741e).isFinishing()) {
                 Log.e("FINISHED", "FINISHED");

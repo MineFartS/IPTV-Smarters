@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.activities;
+package minefarts.iptvsmarters.view.ijkplayer.activities;
 
 import android.view.View;
 import android.widget.FrameLayout;
@@ -10,7 +10,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class NSTIJKPlayerEPGActivity_ViewBinding implements Unbinder {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.activities;
+package minefarts.iptvsmarters.view.ijkplayer.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -23,12 +23,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import c.f.a.b.j3.z;
 import c.h.a.i.q.m;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.MultiPlayerCategoriesAdapter;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerMulti1;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerMulti2;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerMulti3;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerMulti4;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.MultiPlayerCategoriesAdapter;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerMulti1;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerMulti2;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerMulti3;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerMulti4;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -465,7 +465,7 @@ public class NSTIJKPlayerMultiActivity extends a.b.k.c implements c.h.a.k.f.g, V
             Method dump skipped, instruction units count: 279
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerMultiActivity.P0(int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerMultiActivity.P0(int):void");
     }
 
     public final ArrayList<String> R0() {
@@ -613,7 +613,7 @@ public class NSTIJKPlayerMultiActivity extends a.b.k.c implements c.h.a.k.f.g, V
             Method dump skipped, instruction units count: 630
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerMultiActivity.V0():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerMultiActivity.V0():boolean");
     }
 
     public void W0(int i2) {
@@ -1218,7 +1218,7 @@ public class NSTIJKPlayerMultiActivity extends a.b.k.c implements c.h.a.k.f.g, V
             Method dump skipped, instruction units count: 548
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerMultiActivity.onKeyDown(int, android.view.KeyEvent):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerMultiActivity.onKeyDown(int, android.view.KeyEvent):boolean");
     }
 
     @Override // android.app.Activity, android.view.KeyEvent.Callback

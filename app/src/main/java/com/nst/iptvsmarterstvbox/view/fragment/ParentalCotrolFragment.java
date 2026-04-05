@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -18,7 +18,7 @@ import butterknife.Unbinder;
 import c.h.a.i.q.m;
 import c.h.a.k.b.q;
 import com.google.android.material.tabs.TabLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

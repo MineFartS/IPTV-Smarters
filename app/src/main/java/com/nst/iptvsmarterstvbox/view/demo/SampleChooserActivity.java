@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.demo;
+package minefarts.iptvsmarters.view.demo;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -29,7 +29,7 @@ import c.h.a.k.c.i;
 import c.h.a.k.c.j;
 import c.h.a.k.c.k;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -232,12 +232,12 @@ public class SampleChooserActivity extends a.b.k.c implements j.c, ExpandableLis
             Code decompiled incorrectly, please refer to instructions dump.
             To view partially-correct code enable 'Show inconsistent code' option in preferences
         */
-        public final com.nst.iptvsmarterstvbox.view.demo.SampleChooserActivity.c d(android.util.JsonReader r16, boolean r17) throws java.io.IOException {
+        public final minefarts.iptvsmarters.view.demo.SampleChooserActivity.c d(android.util.JsonReader r16, boolean r17) throws java.io.IOException {
             /*
                 Method dump skipped, instruction units count: 746
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.SampleChooserActivity.e.d(android.util.JsonReader, boolean):com.nst.iptvsmarterstvbox.view.demo.SampleChooserActivity$c");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.SampleChooserActivity.e.d(android.util.JsonReader, boolean):minefarts.iptvsmarters.view.demo.SampleChooserActivity$c");
         }
 
         public final void e(JsonReader jsonReader, List<b> list) throws IOException {

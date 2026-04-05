@@ -3,7 +3,7 @@ package c.h.a.k.d.a;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
 /* JADX INFO: loaded from: classes2.dex */

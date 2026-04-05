@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import a.b.k.b;
 import android.app.Activity;
@@ -34,11 +34,11 @@ import c.h.a.h.n.e;
 import c.h.a.i.q.f;
 import c.h.a.i.q.i;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
-import com.nst.iptvsmarterstvbox.view.adapter.SeriesStreamsAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.view.adapter.SeriesStreamsAdapter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import me.zhanghai.android.materialprogressbar.BuildConfig;

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.annotation.SuppressLint;
@@ -23,8 +23,8 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.i.q.m;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -396,53 +396,53 @@ public class LiveStreamsAdapter extends RecyclerView.h<MyViewHolder> {
         public void run() {
             /*
                 r4 = this;
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
                 java.util.ArrayList r1 = new java.util.ArrayList
                 r1.<init>()
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.g0(r0, r1)
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.g0(r0, r1)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
                 java.lang.String r1 = r4.f27529b
                 int r1 = r1.length()
                 r0.q = r1
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.e0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.e0(r0)
                 if (r0 == 0) goto L25
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.e0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.e0(r0)
                 r0.clear()
             L25:
                 java.lang.String r0 = r4.f27529b
                 boolean r0 = android.text.TextUtils.isEmpty(r0)
                 if (r0 == 0) goto L3d
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.e0(r0)
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r1 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.h0(r1)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.e0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r1 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r1 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.h0(r1)
                 r0.addAll(r1)
                 goto La4
             L3d:
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.i0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.i0(r0)
                 if (r0 == 0) goto L51
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.i0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.i0(r0)
                 int r0 = r0.size()
                 if (r0 == 0) goto L59
             L51:
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
                 int r1 = r0.p
                 int r0 = r0.q
                 if (r1 <= r0) goto L62
             L59:
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r1 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.h0(r0)
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.l0(r0, r1)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r1 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.h0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.l0(r0, r1)
             L62:
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.i0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.i0(r0)
                 if (r0 == 0) goto La4
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.i0(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.i0(r0)
                 java.util.Iterator r0 = r0.iterator()
             L74:
                 boolean r1 = r0.hasNext()
@@ -457,20 +457,20 @@ public class LiveStreamsAdapter extends RecyclerView.h<MyViewHolder> {
                 java.lang.String r3 = r3.toLowerCase()
                 boolean r2 = r2.contains(r3)
                 if (r2 == 0) goto L74
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r2 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                java.util.List r2 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.e0(r2)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r2 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                java.util.List r2 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.e0(r2)
                 r2.add(r1)
                 goto L74
             La4:
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.this
-                android.content.Context r0 = com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.Z(r0)
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.this
+                android.content.Context r0 = minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.Z(r0)
                 android.app.Activity r0 = (android.app.Activity) r0
-                com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter$h$a r1 = new com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter$h$a
+                minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter$h$a r1 = new minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter$h$a
                 r1.<init>()
                 r0.runOnUiThread(r1)
                 return
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter.h.run():void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter.h.run():void");
         }
     }
 

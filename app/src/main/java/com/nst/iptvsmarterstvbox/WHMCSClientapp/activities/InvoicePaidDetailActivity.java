@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import a.b.k.c;
 import android.content.Context;
@@ -11,7 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.e.b.a;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
 /* JADX INFO: loaded from: classes2.dex */

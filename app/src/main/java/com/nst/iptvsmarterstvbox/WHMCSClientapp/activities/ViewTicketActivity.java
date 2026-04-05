@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -21,7 +21,7 @@ import c.h.a.e.e.g;
 import c.h.a.e.e.h;
 import c.h.a.h.n.e;
 import com.github.ybq.android.spinkit.SpinKitView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import o.l;

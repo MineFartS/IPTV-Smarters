@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.utility;
+package minefarts.iptvsmarters.view.utility;
 
 import android.content.Context;
 import android.util.AttributeSet;

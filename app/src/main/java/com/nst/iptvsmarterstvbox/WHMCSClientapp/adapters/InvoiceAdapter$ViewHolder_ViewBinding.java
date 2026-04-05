@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.adapters;
+package minefarts.iptvsmarters.WHMCSClientapp.adapters;
 
 import android.view.View;
 import butterknife.Unbinder;

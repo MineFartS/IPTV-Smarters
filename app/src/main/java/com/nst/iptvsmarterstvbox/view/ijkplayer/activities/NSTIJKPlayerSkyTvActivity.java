@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.activities;
+package minefarts.iptvsmarters.view.ijkplayer.activities;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -60,13 +60,13 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.h.n.e;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -929,7 +929,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 Method dump skipped, instruction units count: 949
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.c0.onPostExecute(java.util.HashMap):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.c0.onPostExecute(java.util.HashMap):void");
         }
 
         @Override // android.os.AsyncTask
@@ -1136,15 +1136,15 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 int r2 = r2.length()     // Catch: java.lang.Exception -> L34
                 if (r2 > 0) goto L14
             Lc:
-                com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L34
-                boolean r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.G1(r2)     // Catch: java.lang.Exception -> L34
+                minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L34
+                boolean r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.G1(r2)     // Catch: java.lang.Exception -> L34
                 if (r2 == 0) goto L34
             L14:
-                com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L34
-                c.h.a.k.b.r r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.C1(r2)     // Catch: java.lang.Exception -> L34
+                minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L34
+                c.h.a.k.b.r r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.C1(r2)     // Catch: java.lang.Exception -> L34
                 if (r2 == 0) goto L34
-                com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L34
-                c.h.a.k.b.r r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.C1(r2)     // Catch: java.lang.Exception -> L34
+                minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L34
+                c.h.a.k.b.r r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.C1(r2)     // Catch: java.lang.Exception -> L34
                 android.widget.Filter r2 = r2.getFilter()     // Catch: java.lang.Exception -> L34
                 java.lang.String r1 = r1.toString()     // Catch: java.lang.Exception -> L34
                 r2.filter(r1)     // Catch: java.lang.Exception -> L34
@@ -1154,7 +1154,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             L34:
                 return
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.e.onTextChanged(java.lang.CharSequence, int, int, int):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.e.onTextChanged(java.lang.CharSequence, int, int, int):void");
         }
     }
 
@@ -1725,7 +1725,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 Method dump skipped, instruction units count: 294
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.p.onCreate(android.os.Bundle):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.p.onCreate(android.os.Bundle):void");
         }
     }
 
@@ -1836,7 +1836,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 Method dump skipped, instruction units count: 2914
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.s.onItemClick(android.widget.AdapterView, android.view.View, int, long):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.s.onItemClick(android.widget.AdapterView, android.view.View, int, long):void");
         }
     }
 
@@ -2195,7 +2195,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             /* JADX INFO: renamed from: f, reason: collision with root package name */
             public final /* synthetic */ String f29381f;
 
-            /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a$a, reason: collision with other inner class name */
+            /* JADX INFO: renamed from: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a$a, reason: collision with other inner class name */
             public class DialogC0294a extends Dialog implements View.OnClickListener {
 
                 /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -2216,7 +2216,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 /* JADX INFO: renamed from: g, reason: collision with root package name */
                 public LinearLayout f29388g;
 
-                /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a$a$a, reason: collision with other inner class name */
+                /* JADX INFO: renamed from: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a$a$a, reason: collision with other inner class name */
                 public class ViewOnFocusChangeListenerC0295a implements View.OnFocusChangeListener {
 
                     /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -2280,51 +2280,51 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                         if (r2 == r0) goto L10
                         goto Lb4
                     L10:
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
-                        android.app.ProgressDialog r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        android.app.ProgressDialog r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
                         if (r2 != 0) goto L45
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                         android.content.Context r0 = r2.f29293k     // Catch: java.lang.Exception -> Lb4
-                        android.app.ProgressDialog r0 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.f2(r0)     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.b1(r2, r0)     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
-                        android.app.ProgressDialog r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
+                        android.app.ProgressDialog r0 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.f2(r0)     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.b1(r2, r0)     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        android.app.ProgressDialog r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
                         if (r2 == 0) goto L5c
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                     L3d:
-                        android.app.ProgressDialog r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
+                        android.app.ProgressDialog r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
                         r2.show()     // Catch: java.lang.Exception -> Lb4
                         goto L5c
                     L45:
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
-                        android.app.ProgressDialog r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        android.app.ProgressDialog r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.a1(r2)     // Catch: java.lang.Exception -> Lb4
                         boolean r2 = r2.isShowing()     // Catch: java.lang.Exception -> Lb4
                         if (r2 != 0) goto L5c
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                         goto L3d
                     L5c:
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
-                        java.lang.String r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.j1(r2)     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        java.lang.String r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.j1(r2)     // Catch: java.lang.Exception -> Lb4
                         java.lang.String r0 = "m3u"
                         boolean r2 = r2.equals(r0)     // Catch: java.lang.Exception -> Lb4
                         if (r2 == 0) goto L80
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                         c.h.a.i.q.f r0 = r2.U     // Catch: java.lang.Exception -> Lb4
                         java.lang.String r2 = r2.J     // Catch: java.lang.Exception -> Lb4
                         java.lang.String r2 = java.lang.String.valueOf(r2)     // Catch: java.lang.Exception -> Lb4
@@ -2332,27 +2332,27 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                         r0.L0(r2)     // Catch: java.lang.Exception -> Lb4
                         goto L8f
                     L80:
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                         c.h.a.i.q.f r0 = r2.U     // Catch: java.lang.Exception -> Lb4
                         int r2 = r2.I     // Catch: java.lang.Exception -> Lb4
                         java.lang.String r2 = java.lang.String.valueOf(r2)     // Catch: java.lang.Exception -> Lb4
                         goto L7c
                     L8f:
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                         java.lang.String r0 = "-6"
                         r2.D2(r0)     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
-                        c.h.a.k.b.r r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.C1(r2)     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        c.h.a.k.b.r r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.C1(r2)     // Catch: java.lang.Exception -> Lb4
                         r2.w()     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
-                        com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v$a r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity$v r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.this     // Catch: java.lang.Exception -> Lb4
+                        minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r2 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> Lb4
                         r2.z2()     // Catch: java.lang.Exception -> Lb4
                         goto Lb4
                     Lb1:
@@ -2361,7 +2361,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                         r1.dismiss()
                         return
                     */
-                    throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.DialogC0294a.onClick(android.view.View):void");
+                    throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.DialogC0294a.onClick(android.view.View):void");
                 }
 
                 @Override // android.app.Dialog
@@ -2427,7 +2427,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
              */
             /* JADX WARN: Code restructure failed: missing block: B:19:0x0066, code lost:
             
-                r4 = new android.content.Intent(r10.f29382g.f29375a.f29293k, (java.lang.Class<?>) com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity.class);
+                r4 = new android.content.Intent(r10.f29382g.f29375a.f29293k, (java.lang.Class<?>) minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity.class);
                 r4.putExtra("url", r10.f29382g.f29375a.S);
                 r4.putExtra("app_name", r10.f29382g.f29375a.L2.get(r3).a());
                 r4.putExtra("packagename", r10.f29382g.f29375a.L2.get(r3).b());
@@ -2443,7 +2443,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                     Method dump skipped, instruction units count: 396
                     To view this dump change 'Code comments level' option to 'DEBUG'
                 */
-                throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.onMenuItemClick(android.view.MenuItem):boolean");
+                throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.v.a.onMenuItemClick(android.view.MenuItem):boolean");
             }
         }
 
@@ -2946,15 +2946,15 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 r7 = 0
                 return r7
             L41:
-                com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r7 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L5b
+                minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r7 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L5b
                 java.lang.String r7 = r7.W1()     // Catch: java.lang.Exception -> L5b
                 return r7
             L48:
-                com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r7 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L5b
+                minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r7 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L5b
                 java.lang.String r7 = r7.m2()     // Catch: java.lang.Exception -> L5b
                 return r7
             L4f:
-                com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r7 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L5b
+                minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity r7 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.this     // Catch: java.lang.Exception -> L5b
                 java.lang.String r7 = r7.S1()     // Catch: java.lang.Exception -> L5b
                 return r7
             L56:
@@ -2964,7 +2964,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
                 java.lang.String r7 = "error"
                 return r7
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.z.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.z.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask
@@ -3115,7 +3115,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             Method dump skipped, instruction units count: 642
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.A2():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.A2():boolean");
     }
 
     public final void B2() {
@@ -4155,7 +4155,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             Method dump skipped, instruction units count: 869
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.X2(java.lang.String):java.util.HashMap");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.X2(java.lang.String):java.util.HashMap");
     }
 
     public void Y1(int i2) {
@@ -4428,7 +4428,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
         L5c:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.g3(java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.g3(java.lang.String):void");
     }
 
     public void h2() {
@@ -4890,7 +4890,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             r0.setVisibility(r1)     // Catch: java.lang.Exception -> Lb7
             return
         L31:
-            boolean r0 = com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.f29288f     // Catch: java.lang.Exception -> Lb7
+            boolean r0 = minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.f29288f     // Catch: java.lang.Exception -> Lb7
             if (r0 == 0) goto Lb7
             android.widget.LinearLayout r0 = r4.ll_player_header_footer     // Catch: java.lang.Exception -> Lb7
             int r0 = r0.getVisibility()     // Catch: java.lang.Exception -> Lb7
@@ -4963,7 +4963,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             r4.overridePendingTransition(r0, r1)
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.onBackPressed():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.onBackPressed():void");
     }
 
     /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
@@ -4979,7 +4979,7 @@ public class NSTIJKPlayerSkyTvActivity extends a.b.k.c implements SurfaceHolder.
             Method dump skipped, instruction units count: 1416
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.onClick(android.view.View):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity.onClick(android.view.View):void");
     }
 
     @Override // a.b.k.c, a.l.d.e, android.app.Activity, android.content.ComponentCallbacks

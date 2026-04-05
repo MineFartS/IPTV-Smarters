@@ -1,6 +1,6 @@
 package a.g.c;
 
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes.dex */
 public final class i {

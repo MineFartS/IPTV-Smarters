@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -31,9 +31,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.VodSubCatAdpaterNew;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.VodAdapter;
+import minefarts.iptvsmarters.view.adapter.VodSubCatAdpaterNew;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
@@ -574,7 +574,7 @@ public class VodActivityLayout extends a.b.k.c implements View.OnClickListener {
             Method dump skipped, instruction units count: 496
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodActivityLayout.onOptionsItemSelected(android.view.MenuItem):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodActivityLayout.onOptionsItemSelected(android.view.MenuItem):boolean");
     }
 
     @Override // a.l.d.e, android.app.Activity

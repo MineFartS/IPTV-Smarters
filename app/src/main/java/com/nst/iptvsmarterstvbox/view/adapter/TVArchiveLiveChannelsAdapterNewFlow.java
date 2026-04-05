@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -22,9 +22,9 @@ import c.f.b.b.n;
 import c.h.a.h.n.e;
 import c.h.a.i.f;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.SubTVArchiveActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.SubTVArchiveActivity;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;

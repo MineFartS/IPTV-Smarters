@@ -1,7 +1,7 @@
 package c.h.a.h;
 
 import androidx.recyclerview.widget.RecyclerView;
-import com.nst.iptvsmarterstvbox.view.adapter.SubCategoriesChildAdapter;
+import minefarts.iptvsmarters.view.adapter.SubCategoriesChildAdapter;
 import java.util.ArrayList;
 import java.util.List;
 

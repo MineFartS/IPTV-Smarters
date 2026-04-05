@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import a.n.q.v;
 import android.annotation.SuppressLint;
@@ -20,10 +20,10 @@ import android.widget.Filterable;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.i.q.f;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -102,73 +102,73 @@ public class SearchFragmentLowerSDK extends Fragment implements Filterable {
             Code decompiled incorrectly, please refer to instructions dump.
             To view partially-correct code enable 'Show inconsistent code' option in preferences
         */
-        public void onPostExecute(java.util.ArrayList<com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo> r3) {
+        public void onPostExecute(java.util.ArrayList<minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo> r3) {
             /*
                 r2 = this;
                 super.onPostExecute(r3)
                 if (r3 == 0) goto L69
                 int r0 = r3.size()     // Catch: java.lang.Exception -> L99
                 if (r0 <= 0) goto L69
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r0 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r0 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 r1 = 1
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.e(r0, r1)     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r0 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.e(r0, r1)     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r0 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r0 = r0.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r0 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r0     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r0 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r0     // Catch: java.lang.Exception -> L99
                 r0.i()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r0 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r0 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r0 = r0.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r0 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r0     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r0 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r0     // Catch: java.lang.Exception -> L99
                 r1 = 0
                 r0.z(r3, r1)     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 r3.J()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 boolean r3 = r3.b()     // Catch: java.lang.Exception -> L99
                 if (r3 != 0) goto L7f
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 boolean r3 = r3.c()     // Catch: java.lang.Exception -> L99
                 if (r3 != 0) goto L7f
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 boolean r3 = r3.d()     // Catch: java.lang.Exception -> L99
                 if (r3 != 0) goto L7f
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 r3.I()     // Catch: java.lang.Exception -> L99
                 goto L7f
             L69:
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 r3.k()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 r3.j()     // Catch: java.lang.Exception -> L99
             L7f:
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
-                boolean r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.d(r3)     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                boolean r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.d(r3)     // Catch: java.lang.Exception -> L99
                 if (r3 != 0) goto L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.i(r3)     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.i(r3)     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L99
                 android.app.Activity r3 = r3.getActivity()     // Catch: java.lang.Exception -> L99
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r3 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r3 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r3     // Catch: java.lang.Exception -> L99
                 java.lang.String r0 = "No Record Found"
                 r3.H(r0)     // Catch: java.lang.Exception -> L99
             L99:
                 return
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.b.onPostExecute(java.util.ArrayList):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.b.onPostExecute(java.util.ArrayList):void");
         }
 
         @Override // android.os.AsyncTask
@@ -200,7 +200,7 @@ public class SearchFragmentLowerSDK extends Fragment implements Filterable {
                 Method dump skipped, instruction units count: 394
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.c.onPostExecute(java.util.ArrayList):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.c.onPostExecute(java.util.ArrayList):void");
         }
 
         @Override // android.os.AsyncTask
@@ -227,7 +227,7 @@ public class SearchFragmentLowerSDK extends Fragment implements Filterable {
             Code decompiled incorrectly, please refer to instructions dump.
             To view partially-correct code enable 'Show inconsistent code' option in preferences
         */
-        public void onPostExecute(java.util.ArrayList<com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel> r5) {
+        public void onPostExecute(java.util.ArrayList<minefarts.iptvsmarters.model.callback.SeriesDBModel> r5) {
             /*
                 r4 = this;
                 super.onPostExecute(r5)
@@ -235,37 +235,37 @@ public class SearchFragmentLowerSDK extends Fragment implements Filterable {
                 if (r5 == 0) goto L49
                 int r1 = r5.size()     // Catch: java.lang.Exception -> L60
                 if (r1 <= 0) goto L49
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r1 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.e(r1, r0)     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r1 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r1 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.e(r1, r0)     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r1 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r1 = r1.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r1 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r1     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r1 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r1     // Catch: java.lang.Exception -> L60
                 r1.i()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r1 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r1 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r1 = r1.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r1 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r1     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r1 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r1     // Catch: java.lang.Exception -> L60
                 r1.j()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r1 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r1 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r1 = r1.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r1 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r1     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r1 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r1     // Catch: java.lang.Exception -> L60
                 r1.C(r5)     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r5 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r5 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r5 = r5.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r5 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r5 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
                 r5.L()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r5 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r5 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r5 = r5.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r5 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r5 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
                 r5.K()     // Catch: java.lang.Exception -> L60
                 goto L7b
             L49:
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r5 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r5 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r5 = r5.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r5 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r5 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
                 r5.m()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r5 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r5 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this     // Catch: java.lang.Exception -> L60
                 android.app.Activity r5 = r5.getActivity()     // Catch: java.lang.Exception -> L60
-                com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK r5 = (com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
+                minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK r5 = (minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK) r5     // Catch: java.lang.Exception -> L60
                 r5.l()     // Catch: java.lang.Exception -> L60
                 goto L7b
             L60:
@@ -280,20 +280,20 @@ public class SearchFragmentLowerSDK extends Fragment implements Filterable {
                 java.lang.String r1 = "SearchFragmentLowerSDK"
                 android.util.Log.e(r1, r5)
             L7b:
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK$c r5 = new com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK$c
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r1 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK$c r5 = new minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK$c
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r1 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this
                 r5.<init>()
                 java.util.concurrent.Executor r1 = android.os.AsyncTask.THREAD_POOL_EXECUTOR
                 java.lang.String[] r0 = new java.lang.String[r0]
                 r2 = 0
-                com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.this
-                java.lang.String r3 = com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.f(r3)
+                minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.this
+                java.lang.String r3 = minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.f(r3)
                 r0[r2] = r3
                 android.os.AsyncTask r5 = r5.executeOnExecutor(r1, r0)
                 c.h.a.h.n.e.f17066h = r5
                 return
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.fragment.SearchFragmentLowerSDK.d.onPostExecute(java.util.ArrayList):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.fragment.SearchFragmentLowerSDK.d.onPostExecute(java.util.ArrayList):void");
         }
 
         @Override // android.os.AsyncTask

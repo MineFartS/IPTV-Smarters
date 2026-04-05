@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -17,8 +17,8 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.k.b.e;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.TMDBPersonProfilePojo;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.TMDBPersonProfilePojo;
 import java.util.List;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import org.jetbrains.annotations.NotNull;

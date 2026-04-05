@@ -1,6 +1,6 @@
 package c.h.a.k.f;
 
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamsEpgCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamsEpgCallback;
 
 /* JADX INFO: loaded from: classes2.dex */
 public interface e extends b {

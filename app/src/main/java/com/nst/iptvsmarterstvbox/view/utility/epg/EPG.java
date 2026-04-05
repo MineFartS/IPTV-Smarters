@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.utility.epg;
+package minefarts.iptvsmarters.view.utility.epg;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -34,8 +34,8 @@ import c.f.b.b.d0;
 import c.h.a.i.q.m;
 import c.k.b.c0;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG;
 import java.net.CookieManager;
 import java.net.CookiePolicy;
 import java.text.DateFormat;
@@ -1171,7 +1171,7 @@ public class EPG extends ViewGroup {
             Method dump skipped, instruction units count: 291
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.utility.epg.EPG.g0(c.h.a.k.h.d.c.b, boolean, java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.utility.epg.EPG.g0(c.h.a.k.h.d.c.b, boolean, java.lang.String):void");
     }
 
     public String getExtensionType() {

@@ -4,7 +4,7 @@ import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
 import c.h.a.i.f;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

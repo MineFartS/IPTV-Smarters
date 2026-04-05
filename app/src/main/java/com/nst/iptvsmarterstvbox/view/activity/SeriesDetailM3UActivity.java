@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -35,10 +35,10 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.SearchTMDBTVShowsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTrailerCallback;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.SearchTMDBTVShowsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBCastsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTrailerCallback;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -764,12 +764,12 @@ public class SeriesDetailM3UActivity extends a.b.k.c implements View.OnClickList
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void T(com.nst.iptvsmarterstvbox.model.callback.TMDBTVShowsInfoCallback r7) {
+    public void T(minefarts.iptvsmarters.model.callback.TMDBTVShowsInfoCallback r7) {
         /*
             Method dump skipped, instruction units count: 355
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.SeriesDetailM3UActivity.T(com.nst.iptvsmarterstvbox.model.callback.TMDBTVShowsInfoCallback):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.SeriesDetailM3UActivity.T(minefarts.iptvsmarters.model.callback.TMDBTVShowsInfoCallback):void");
     }
 
     @Override // c.h.a.k.f.b

@@ -4,7 +4,7 @@
     android:background="#fff"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.nst.iptvsmarterstvbox.view.inbuiltsmartersplayer.VideoView
+    <minefarts.iptvsmarters.view.inbuiltsmartersplayer.VideoView
         android:id="@+id/video_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

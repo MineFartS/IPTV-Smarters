@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -25,8 +25,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.h.n.e;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.ExternalPlayerAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.ExternalPlayerAdapter;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -264,7 +264,7 @@ public class ExternalPlayerActivity extends a.b.k.c implements ExternalPlayerAda
         return Boolean.TRUE;
     }
 
-    @Override // com.nst.iptvsmarterstvbox.view.adapter.ExternalPlayerAdapter.b
+    @Override // minefarts.iptvsmarters.view.adapter.ExternalPlayerAdapter.b
     public void G(View view, String str, String str2) {
         H0(str, str2);
     }

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.model.callback;
+package minefarts.iptvsmarters.model.callback;
 
 import c.f.d.v.c;
 import c.h.a.h.n.a;
@@ -12,7 +12,7 @@ import org.simpleframework.xml.strategy.Name;
 public class GetEpisdoeDetailsCallback implements Serializable {
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    public static Comparator<GetEpisdoeDetailsCallback> f24966b = new Comparator<GetEpisdoeDetailsCallback>() { // from class: com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback.1
+    public static Comparator<GetEpisdoeDetailsCallback> f24966b = new Comparator<GetEpisdoeDetailsCallback>() { // from class: minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback.1
         @Override // java.util.Comparator
         /* JADX INFO: renamed from: a, reason: merged with bridge method [inline-methods] */
         public int compare(GetEpisdoeDetailsCallback getEpisdoeDetailsCallback, GetEpisdoeDetailsCallback getEpisdoeDetailsCallback2) {

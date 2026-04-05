@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.demo;
+package minefarts.iptvsmarters.view.demo;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -84,13 +84,13 @@ import c.f.a.b.z1;
 import c.h.a.h.n.e;
 import com.google.android.exoplayer2.ui.PlayerView;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSky;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSky;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -977,7 +977,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
              */
             /* JADX WARN: Code restructure failed: missing block: B:19:0x0066, code lost:
             
-                r4 = new android.content.Intent(r10.f28666f.f28660a.f28650k, (java.lang.Class<?>) com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity.class);
+                r4 = new android.content.Intent(r10.f28666f.f28660a.f28650k, (java.lang.Class<?>) minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity.class);
                 r4.putExtra("url", r10.f28666f.f28660a.V);
                 r4.putExtra("app_name", r10.f28666f.f28660a.W2.get(r3).a());
                 r4.putExtra("packagename", r10.f28666f.f28660a.W2.get(r3).b());
@@ -993,7 +993,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                     Method dump skipped, instruction units count: 362
                     To view this dump change 'Code comments level' option to 'DEBUG'
                 */
-                throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.c.a.onMenuItemClick(android.view.MenuItem):boolean");
+                throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.c.a.onMenuItemClick(android.view.MenuItem):boolean");
             }
         }
 
@@ -1023,7 +1023,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                 Method dump skipped, instruction units count: 546
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.c.onItemLongClick(android.widget.AdapterView, android.view.View, int, long):boolean");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.c.onItemLongClick(android.widget.AdapterView, android.view.View, int, long):boolean");
         }
     }
 
@@ -1235,7 +1235,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                 Method dump skipped, instruction units count: 3079
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.d0.onItemClick(android.widget.AdapterView, android.view.View, int, long):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.d0.onItemClick(android.widget.AdapterView, android.view.View, int, long):void");
         }
     }
 
@@ -1463,26 +1463,26 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                 r7 = 0
                 return r7
             L41:
-                com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity r7 = com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
+                minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity r7 = minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
                 java.lang.String r7 = r7.X1()     // Catch: java.lang.Exception -> L5d
                 return r7
             L48:
-                com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity r7 = com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
+                minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity r7 = minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
                 java.lang.String r7 = r7.m2()     // Catch: java.lang.Exception -> L5d
                 return r7
             L4f:
-                com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity r7 = com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
+                minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity r7 = minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
                 java.lang.String r7 = r7.S1()     // Catch: java.lang.Exception -> L5d
                 return r7
             L56:
-                com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity r7 = com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
+                minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity r7 = minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.this     // Catch: java.lang.Exception -> L5d
                 java.lang.String r7 = r7.Q1()     // Catch: java.lang.Exception -> L5d
                 return r7
             L5d:
                 java.lang.String r7 = "error"
                 return r7
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.g0.doInBackground(java.lang.String[]):java.lang.String");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.g0.doInBackground(java.lang.String[]):java.lang.String");
         }
 
         @Override // android.os.AsyncTask
@@ -1802,12 +1802,12 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
         public j() {
         }
 
-        @Override // com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSky.w
+        @Override // minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSky.w
         public void a() {
             NSTEXOPlayerSkyActivity.this.t3(R.drawable.hplib_ic_pause, "pause", 2, 2);
         }
 
-        @Override // com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSky.w
+        @Override // minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSky.w
         public void b() {
             NSTEXOPlayerSkyActivity.this.t3(R.drawable.hp_play, "play", 1, 1);
         }
@@ -2296,7 +2296,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                 Method dump skipped, instruction units count: 374
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.l.onClick(android.view.View):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.l.onClick(android.view.View):void");
         }
 
         /* JADX WARN: Can't fix incorrect switch cases order, some code will duplicate */
@@ -2311,7 +2311,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                 Method dump skipped, instruction units count: 386
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.l.onCreate(android.os.Bundle):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.l.onCreate(android.os.Bundle):void");
         }
     }
 
@@ -2386,7 +2386,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
                 Method dump skipped, instruction units count: 993
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.m0.onPostExecute(java.util.HashMap):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.m0.onPostExecute(java.util.HashMap):void");
         }
 
         @Override // android.os.AsyncTask
@@ -2787,7 +2787,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
             Method dump skipped, instruction units count: 459
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.C2():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.C2():boolean");
     }
 
     public final void D2() {
@@ -2824,7 +2824,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
             Method dump skipped, instruction units count: 2592
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.E2():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.E2():void");
     }
 
     public boolean F2() {
@@ -3846,7 +3846,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
             Method dump skipped, instruction units count: 869
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.d3(java.lang.String):java.util.HashMap");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.d3(java.lang.String):java.util.HashMap");
     }
 
     /* JADX WARN: Multi-variable type inference failed */
@@ -4562,7 +4562,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
             Method dump skipped, instruction units count: 1552
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.onClick(android.view.View):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.onClick(android.view.View):void");
     }
 
     @Override // a.b.k.c, a.l.d.e, android.app.Activity, android.content.ComponentCallbacks
@@ -5092,7 +5092,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
             android.content.SharedPreferences$Editor r0 = r0.edit()
             r6.I2 = r0
             int r0 = r6.F2
-            int[] r3 = com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.f28648i
+            int[] r3 = minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.f28648i
             int r4 = r3.length
             int r0 = r0 % r4
             r6.F2 = r0
@@ -5163,14 +5163,14 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
             r2 = 0
             r1.removeCallbacksAndMessages(r2)
             android.os.Handler r1 = r6.Q2
-            com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity$r r2 = new com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity$r
+            minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity$r r2 = new minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity$r
             r2.<init>(r0)
             r3 = 3000(0xbb8, double:1.482E-320)
             r1.postDelayed(r2, r3)
             int r0 = r6.G2
             return r0
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.p3():int");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.p3():int");
     }
 
     public final boolean q2(ArrayList<c.h.a.i.f> arrayList, ArrayList<String> arrayList2) {
@@ -5338,7 +5338,7 @@ public class NSTEXOPlayerSkyActivity extends a.b.k.c implements SurfaceHolder.Ca
         L5c:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity.s3(java.lang.String):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity.s3(java.lang.String):void");
     }
 
     @Override // android.view.SurfaceHolder.Callback

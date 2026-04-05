@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -43,8 +43,8 @@ import c.h.a.i.q.m;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.vpn.activities.ProfileActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.vpn.activities.ProfileActivity;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -1300,7 +1300,7 @@ public class LoginM3uActivity extends a.b.k.c implements c.h.a.f.c<String> {
         Lad:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.LoginM3uActivity.n(int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.LoginM3uActivity.n(int):void");
     }
 
     @Override // a.l.d.e, androidx.activity.ComponentActivity, android.app.Activity

@@ -1,10 +1,10 @@
 package c.h.a.j;
 
 import android.content.Context;
-import com.nst.iptvsmarterstvbox.model.callback.SearchTMDBTVShowsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTVShowsInfoCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTrailerCallback;
+import minefarts.iptvsmarters.model.callback.SearchTMDBTVShowsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBCastsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTVShowsInfoCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTrailerCallback;
 import o.l;
 import o.m;
 

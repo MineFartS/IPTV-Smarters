@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.demo;
+package minefarts.iptvsmarters.view.demo;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -43,7 +43,7 @@ import c.f.a.b.z1;
 import c.h.a.k.c.i;
 import c.h.a.k.c.k;
 import com.google.android.exoplayer2.ui.StyledPlayerView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

@@ -6,7 +6,7 @@ import android.R;
 public final class e {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    public static final int[] f1200a = {R.attr.minWidth, R.attr.minHeight, com.nst.iptvsmarterstvbox.R.attr.cardBackgroundColor, com.nst.iptvsmarterstvbox.R.attr.cardCornerRadius, com.nst.iptvsmarterstvbox.R.attr.cardElevation, com.nst.iptvsmarterstvbox.R.attr.cardMaxElevation, com.nst.iptvsmarterstvbox.R.attr.cardPreventCornerOverlap, com.nst.iptvsmarterstvbox.R.attr.cardUseCompatPadding, com.nst.iptvsmarterstvbox.R.attr.contentPadding, com.nst.iptvsmarterstvbox.R.attr.contentPaddingBottom, com.nst.iptvsmarterstvbox.R.attr.contentPaddingLeft, com.nst.iptvsmarterstvbox.R.attr.contentPaddingRight, com.nst.iptvsmarterstvbox.R.attr.contentPaddingTop};
+    public static final int[] f1200a = {R.attr.minWidth, R.attr.minHeight, minefarts.iptvsmarters.R.attr.cardBackgroundColor, minefarts.iptvsmarters.R.attr.cardCornerRadius, minefarts.iptvsmarters.R.attr.cardElevation, minefarts.iptvsmarters.R.attr.cardMaxElevation, minefarts.iptvsmarters.R.attr.cardPreventCornerOverlap, minefarts.iptvsmarters.R.attr.cardUseCompatPadding, minefarts.iptvsmarters.R.attr.contentPadding, minefarts.iptvsmarters.R.attr.contentPaddingBottom, minefarts.iptvsmarters.R.attr.contentPaddingLeft, minefarts.iptvsmarters.R.attr.contentPaddingRight, minefarts.iptvsmarters.R.attr.contentPaddingTop};
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
     public static final int f1201b = 0;

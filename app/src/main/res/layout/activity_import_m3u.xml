@@ -51,7 +51,7 @@
             android:fontFamily="@string/font_family_condensed"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"/>
-        <com.nst.iptvsmarterstvbox.view.utility.LoadingGearSpinner
+        <minefarts.iptvsmarters.view.utility.LoadingGearSpinner
             android:layout_gravity="center"
             android:id="@+id/iv_gear_loader"
             android:visibility="gone"

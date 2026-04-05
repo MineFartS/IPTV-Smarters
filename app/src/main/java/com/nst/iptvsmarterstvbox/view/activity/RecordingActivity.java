@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -29,8 +29,8 @@ import butterknife.OnClick;
 import c.h.a.h.f;
 import c.h.a.h.n.e;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.RecordingAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.RecordingAdapter;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;

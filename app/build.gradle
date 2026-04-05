@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-	namespace "com.nst.iptvsmarterstvbox"
+	namespace "minefarts.iptvsmarters"
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId 'com.nst.iptvsmarterstvbox'
+        applicationId 'minefarts.iptvsmarters'
         minSdkVersion 17
         //noinspection ExpiringTargetSdkVersion,ExpiredTargetSdkVersion
         targetSdkVersion 30

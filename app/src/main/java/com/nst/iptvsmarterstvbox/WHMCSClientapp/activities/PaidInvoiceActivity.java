@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import a.b.k.c;
 import android.content.Context;
@@ -12,7 +12,7 @@ import c.h.a.e.a.b;
 import c.h.a.e.d.d;
 import c.h.a.h.n.e;
 import com.github.ybq.android.spinkit.SpinKitView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.Calendar;
 
 /* JADX INFO: loaded from: classes2.dex */
@@ -38,7 +38,7 @@ public class PaidInvoiceActivity extends c implements b {
 
     public class a implements Runnable {
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.PaidInvoiceActivity$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.WHMCSClientapp.activities.PaidInvoiceActivity$a$a, reason: collision with other inner class name */
         public class RunnableC0272a implements Runnable {
             public RunnableC0272a() {
             }

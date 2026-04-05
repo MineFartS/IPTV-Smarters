@@ -61,7 +61,7 @@ public class d extends AsyncTask<Void, Void, Boolean> {
             d.a.a.a aVarF = cVar.f();
             v vVarG = v.g(this.f17950a.get());
             aVarF.f30070f = this.f17953d;
-            aVarF.l0 = "com.nst.iptvsmarterstvbox";
+            aVarF.l0 = "minefarts.iptvsmarters";
             aVarF.D = null;
             aVarF.C = null;
             vVarG.a(aVarF);

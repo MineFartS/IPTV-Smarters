@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/small_problem"/>
         </LinearLayout>
-        <com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerMulti3
+        <minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerMulti3
             android:layout_gravity="center"
             android:id="@+id/video_view_3"
             android:visibility="gone"
@@ -730,7 +730,7 @@
                             android:layout_height="match_parent"
                             android:layout_below="@+id/rl_settings"
                             android:layoutDirection="locale">
-                            <com.nst.iptvsmarterstvbox.view.utility.NonSwipeableViewPager
+                            <minefarts.iptvsmarters.view.utility.NonSwipeableViewPager
                                 android:id="@+id/viewpager"
                                 android:focusable="false"
                                 android:layout_width="match_parent"

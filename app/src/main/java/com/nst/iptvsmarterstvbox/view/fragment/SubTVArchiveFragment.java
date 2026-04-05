@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import a.b.k.b;
 import a.y.e.c;
@@ -24,11 +24,11 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.h.n.e;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamsCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
-import com.nst.iptvsmarterstvbox.view.adapter.SubTVArchiveAdapter;
+import minefarts.iptvsmarters.model.callback.LiveStreamsCallback;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.view.adapter.SubTVArchiveAdapter;
 import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -199,7 +199,7 @@ public class SubTVArchiveFragment extends Fragment implements c.h.a.k.f.b {
 
     @Override // androidx.fragment.app.Fragment
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
-        View viewInflate = layoutInflater.inflate(com.nst.iptvsmarterstvbox.R.layout.fragment_epg, viewGroup, false);
+        View viewInflate = layoutInflater.inflate(minefarts.iptvsmarters.R.layout.fragment_epg, viewGroup, false);
         this.f29103g = ButterKnife.b(this, viewInflate);
         a.i.h.a.n(getActivity());
         setHasOptionsMenu(true);
@@ -218,20 +218,20 @@ public class SubTVArchiveFragment extends Fragment implements c.h.a.k.f.b {
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         Context context;
         int itemId = menuItem.getItemId();
-        if (itemId == com.nst.iptvsmarterstvbox.R.id.nav_home) {
+        if (itemId == minefarts.iptvsmarters.R.id.nav_home) {
             startActivity(new Intent(this.f29102f, (Class<?>) NewDashboardActivity.class));
         }
-        if (itemId == com.nst.iptvsmarterstvbox.R.id.nav_settings) {
+        if (itemId == minefarts.iptvsmarters.R.id.nav_settings) {
             startActivity(new Intent(this.f29102f, (Class<?>) SettingsActivity.class));
         }
-        if (itemId != com.nst.iptvsmarterstvbox.R.id.action_logout1 || (context = this.f29102f) == null) {
+        if (itemId != minefarts.iptvsmarters.R.id.action_logout1 || (context = this.f29102f) == null) {
             return false;
         }
-        new b.a(context, com.nst.iptvsmarterstvbox.R.style.AlertDialogCustom).setTitle(getResources().getString(com.nst.iptvsmarterstvbox.R.string.logout_title)).f(getResources().getString(com.nst.iptvsmarterstvbox.R.string.logout_message)).j(getResources().getString(com.nst.iptvsmarterstvbox.R.string.yes), new b()).g(getResources().getString(com.nst.iptvsmarterstvbox.R.string.no), new a()).n();
+        new b.a(context, minefarts.iptvsmarters.R.style.AlertDialogCustom).setTitle(getResources().getString(minefarts.iptvsmarters.R.string.logout_title)).f(getResources().getString(minefarts.iptvsmarters.R.string.logout_message)).j(getResources().getString(minefarts.iptvsmarters.R.string.yes), new b()).g(getResources().getString(minefarts.iptvsmarters.R.string.no), new a()).n();
         return false;
     }
 
     public final void q() {
-        this.f29101e = (Toolbar) getActivity().findViewById(com.nst.iptvsmarterstvbox.R.id.toolbar);
+        this.f29101e = (Toolbar) getActivity().findViewById(minefarts.iptvsmarters.R.id.toolbar);
     }
 }

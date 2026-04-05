@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.model.pojo;
+package minefarts.iptvsmarters.model.pojo;
 
 import c.f.d.v.a;
 import c.f.d.v.c;

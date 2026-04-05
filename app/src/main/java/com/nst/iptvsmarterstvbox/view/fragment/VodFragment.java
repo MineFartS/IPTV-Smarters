@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -31,10 +31,10 @@ import butterknife.Unbinder;
 import c.h.a.i.n;
 import c.h.a.i.q.k;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.VodStreamsCallback;
-import com.nst.iptvsmarterstvbox.view.adapter.SubCategoriesChildAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.VodStreamsCallback;
+import minefarts.iptvsmarters.view.adapter.SubCategoriesChildAdapter;
+import minefarts.iptvsmarters.view.adapter.VodAdapter;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
@@ -571,7 +571,7 @@ public class VodFragment extends Fragment {
             Method dump skipped, instruction units count: 506
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.fragment.VodFragment.onOptionsItemSelected(android.view.MenuItem):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.fragment.VodFragment.onOptionsItemSelected(android.view.MenuItem):boolean");
     }
 
     @Override // androidx.fragment.app.Fragment

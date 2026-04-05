@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature;
+package minefarts.iptvsmarters.miscelleneious.chromecastfeature;
 
 import android.content.Context;
 import c.f.a.c.d.u.c;

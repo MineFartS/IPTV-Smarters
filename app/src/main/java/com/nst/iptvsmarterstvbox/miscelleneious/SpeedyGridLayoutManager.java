@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.miscelleneious;
+package minefarts.iptvsmarters.miscelleneious;
 
 import a.y.e.j;
 import android.content.Context;

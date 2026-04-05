@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media;
+package minefarts.iptvsmarters.view.ijkplayer.widget.media;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -37,9 +37,9 @@ import android.widget.TableLayout;
 import android.widget.TextView;
 import c.h.a.k.d.c.a.c;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferTable;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.VodInfoCallback;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.VodInfoCallback;
+import minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyTvActivity;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -1175,7 +1175,7 @@ public class NSTIJKPlayerSkyTv extends FrameLayout implements MediaController.Me
             Method dump skipped, instruction units count: 221
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.J0(int):tv.danmaku.ijk.media.player.IMediaPlayer");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.J0(int):tv.danmaku.ijk.media.player.IMediaPlayer");
     }
 
     public void K0(int i2) {
@@ -1756,7 +1756,7 @@ public class NSTIJKPlayerSkyTv extends FrameLayout implements MediaController.Me
             Method dump skipped, instruction units count: 517
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.d1(int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.d1(int):void");
     }
 
     public void e1() {
@@ -2028,7 +2028,7 @@ public class NSTIJKPlayerSkyTv extends FrameLayout implements MediaController.Me
             android.content.SharedPreferences$Editor r0 = r0.edit()
             r6.O = r0
             int r0 = r6.R1
-            int[] r2 = com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.f29726c
+            int[] r2 = minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.f29726c
             int r4 = r2.length
             int r0 = r0 % r4
             r6.R1 = r0
@@ -2103,7 +2103,7 @@ public class NSTIJKPlayerSkyTv extends FrameLayout implements MediaController.Me
             r2 = 0
             r1.removeCallbacksAndMessages(r2)
             android.os.Handler r1 = r6.H
-            com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv$f r2 = new com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv$f
+            minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv$f r2 = new minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv$f
             r2.<init>(r0)
             r3 = 3000(0xbb8, double:1.482E-320)
             r1.postDelayed(r2, r3)
@@ -2111,7 +2111,7 @@ public class NSTIJKPlayerSkyTv extends FrameLayout implements MediaController.Me
             int r0 = r6.S1
             return r0
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.j1():int");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSkyTv.j1():int");
     }
 
     public void k1() {

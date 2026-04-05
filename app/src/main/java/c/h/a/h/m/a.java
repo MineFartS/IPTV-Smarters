@@ -13,7 +13,7 @@ import c.f.a.c.d.u.d;
 import c.f.a.c.d.u.u.i;
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.gms.cast.MediaTrack;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
 import java.io.IOException;
 import java.util.List;
 import k.a0;

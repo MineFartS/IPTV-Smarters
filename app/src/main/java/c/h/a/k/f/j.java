@@ -1,9 +1,9 @@
 package c.h.a.k.f;
 
-import com.nst.iptvsmarterstvbox.model.callback.SearchTMDBTVShowsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBCastsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTVShowsInfoCallback;
-import com.nst.iptvsmarterstvbox.model.callback.TMDBTrailerCallback;
+import minefarts.iptvsmarters.model.callback.SearchTMDBTVShowsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBCastsCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTVShowsInfoCallback;
+import minefarts.iptvsmarters.model.callback.TMDBTrailerCallback;
 
 /* JADX INFO: loaded from: classes2.dex */
 public interface j extends b {

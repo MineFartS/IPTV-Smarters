@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.c;
 import a.i.i.b;
@@ -17,9 +17,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.h.a.h.n.e;
 import c.h.a.i.q.f;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.utility.LoadingGearSpinner;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.utility.LoadingGearSpinner;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
@@ -71,7 +71,7 @@ public class ImportEPGActivity extends c {
         /* JADX INFO: renamed from: a, reason: collision with root package name */
         public c.h.a.k.h.c f25689a;
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.activity.ImportEPGActivity$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.activity.ImportEPGActivity$a$a, reason: collision with other inner class name */
         @SuppressLint({"StaticFieldLeak"})
         public class AsyncTaskC0274a extends AsyncTask<String, Integer, Boolean> {
 

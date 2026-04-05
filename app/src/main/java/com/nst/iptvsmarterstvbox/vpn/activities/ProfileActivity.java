@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.vpn.activities;
+package minefarts.iptvsmarters.vpn.activities;
 
 import a.b.k.b;
 import android.annotation.SuppressLint;
@@ -30,10 +30,10 @@ import butterknife.OnClick;
 import c.h.a.h.n.e;
 import c.h.a.k.f.l;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.VPNServersCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.VPNServerPojo;
-import com.nst.iptvsmarterstvbox.vpn.adapters.VpnProfileAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.VPNServersCallback;
+import minefarts.iptvsmarters.model.pojo.VPNServerPojo;
+import minefarts.iptvsmarters.vpn.adapters.VpnProfileAdapter;
 import d.a.a.d.f;
 import d.a.a.d.i;
 import d.a.a.d.u;
@@ -419,7 +419,7 @@ public class ProfileActivity extends a.b.k.c implements l {
         this.f29943k = getIntent().getStringExtra("typeid");
         d.a.a.c.b bVar = new d.a.a.c.b(this.p);
         bVar.d();
-        bVar.a("com.nst.iptvsmarterstvbox");
+        bVar.a("minefarts.iptvsmarters");
     }
 
     @Override // a.b.k.c, a.l.d.e, android.app.Activity
@@ -540,6 +540,6 @@ public class ProfileActivity extends a.b.k.c implements l {
         L3a:
             return
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.vpn.activities.ProfileActivity.z0(boolean):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.vpn.activities.ProfileActivity.z0(boolean):void");
     }
 }

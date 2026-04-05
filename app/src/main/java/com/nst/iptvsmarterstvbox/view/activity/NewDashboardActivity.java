@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -42,23 +42,23 @@ import android.widget.Toast;
 import butterknife.BindView;
 import c.h.a.h.n.e;
 import com.amazonaws.services.s3.internal.Constants;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.BillingAddOrderCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingCheckGPACallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingGetDevicesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingIsPurchasedCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingLoginClientCallback;
-import com.nst.iptvsmarterstvbox.model.callback.BillingUpdateDevicesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.GetSeriesStreamCallback;
-import com.nst.iptvsmarterstvbox.model.callback.GetSeriesStreamCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamsCallback;
-import com.nst.iptvsmarterstvbox.model.callback.LoginCallback;
-import com.nst.iptvsmarterstvbox.model.callback.RegisterClientCallback;
-import com.nst.iptvsmarterstvbox.model.callback.SeriesDBModel;
-import com.nst.iptvsmarterstvbox.model.callback.VodCategoriesCallback;
-import com.nst.iptvsmarterstvbox.model.callback.VodStreamsCallback;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.BillingAddOrderCallback;
+import minefarts.iptvsmarters.model.callback.BillingCheckGPACallback;
+import minefarts.iptvsmarters.model.callback.BillingGetDevicesCallback;
+import minefarts.iptvsmarters.model.callback.BillingIsPurchasedCallback;
+import minefarts.iptvsmarters.model.callback.BillingLoginClientCallback;
+import minefarts.iptvsmarters.model.callback.BillingUpdateDevicesCallback;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.callback.GetSeriesStreamCallback;
+import minefarts.iptvsmarters.model.callback.GetSeriesStreamCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamsCallback;
+import minefarts.iptvsmarters.model.callback.LoginCallback;
+import minefarts.iptvsmarters.model.callback.RegisterClientCallback;
+import minefarts.iptvsmarters.model.callback.SeriesDBModel;
+import minefarts.iptvsmarters.model.callback.VodCategoriesCallback;
+import minefarts.iptvsmarters.model.callback.VodStreamsCallback;
 import d.a.a.d.i;
 import d.a.a.d.z;
 import de.blinkt.openvpn.LaunchVPN;
@@ -1212,7 +1212,7 @@ public class NewDashboardActivity extends a.b.k.c implements View.OnClickListene
                 Method dump skipped, instruction units count: 684
                 To view this dump change 'Code comments level' option to 'DEBUG'
             */
-            throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity.t.onFocusChange(android.view.View, boolean):void");
+            throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewDashboardActivity.t.onFocusChange(android.view.View, boolean):void");
         }
     }
 
@@ -1443,7 +1443,7 @@ public class NewDashboardActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 275
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity.d1():void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewDashboardActivity.d1():void");
     }
 
     @Override // c.h.a.k.f.d
@@ -1479,7 +1479,7 @@ public class NewDashboardActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 1048
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity.f1(boolean):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewDashboardActivity.f1(boolean):void");
     }
 
     @Override // c.h.a.k.f.d
@@ -1623,7 +1623,7 @@ public class NewDashboardActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 2096
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity.onClick(android.view.View):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewDashboardActivity.onClick(android.view.View):void");
     }
 
     /* JADX WARN: Removed duplicated region for block: B:101:0x046c  */
@@ -1645,7 +1645,7 @@ public class NewDashboardActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 1370
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity.onCreate(android.os.Bundle):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewDashboardActivity.onCreate(android.os.Bundle):void");
     }
 
     @Override // a.b.k.c, a.l.d.e, android.app.Activity
@@ -1721,7 +1721,7 @@ public class NewDashboardActivity extends a.b.k.c implements View.OnClickListene
             Method dump skipped, instruction units count: 898
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity.onKeyDown(int, android.view.KeyEvent):boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.NewDashboardActivity.onKeyDown(int, android.view.KeyEvent):boolean");
     }
 
     @Override // a.l.d.e, android.app.Activity

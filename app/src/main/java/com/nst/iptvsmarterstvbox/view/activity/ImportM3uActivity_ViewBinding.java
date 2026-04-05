@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.view.View;
 import android.widget.LinearLayout;
@@ -7,8 +7,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.utility.LoadingGearSpinner;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.utility.LoadingGearSpinner;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class ImportM3uActivity_ViewBinding implements Unbinder {

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.activities;
+package minefarts.iptvsmarters.WHMCSClientapp.activities;
 
 import android.view.View;
 import android.webkit.WebView;
@@ -6,7 +6,7 @@ import android.widget.Button;
 import b.c.b;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class InvoicePaidDetailActivity_ViewBinding implements Unbinder {

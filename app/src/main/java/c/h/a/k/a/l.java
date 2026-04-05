@@ -1,7 +1,7 @@
 package c.h.a.k.a;
 
 import android.content.Intent;
-import com.nst.iptvsmarterstvbox.view.activity.SearchActivity;
+import minefarts.iptvsmarters.view.activity.SearchActivity;
 
 /* JADX INFO: loaded from: classes2.dex */
 public abstract class l extends a.l.d.e {

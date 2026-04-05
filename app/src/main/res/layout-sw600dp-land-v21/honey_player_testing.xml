@@ -30,7 +30,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layoutDirection="locale">
-        <com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes
+        <minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes
             android:layout_gravity="center"
             android:id="@+id/ll_video_view"
             android:layout_width="match_parent"

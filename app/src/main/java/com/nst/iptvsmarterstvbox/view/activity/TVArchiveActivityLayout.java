@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.app.Activity;
@@ -32,9 +32,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.LiveStreamsAdapter;
-import com.nst.iptvsmarterstvbox.view.adapter.TVArchiveLiveChannelsAdapterNewFlow;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.LiveStreamsAdapter;
+import minefarts.iptvsmarters.view.adapter.TVArchiveLiveChannelsAdapterNewFlow;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Iterator;

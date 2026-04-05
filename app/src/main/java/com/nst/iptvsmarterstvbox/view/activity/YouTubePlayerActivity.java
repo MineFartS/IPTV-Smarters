@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import androidx.appcompat.widget.AppCompatImageView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import c.i.a.f.f;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import com.pierfrancescosoffritti.youtubeplayer.player.YouTubePlayerView;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 
@@ -48,7 +48,7 @@ public class YouTubePlayerActivity extends a.b.k.c implements View.OnClickListen
 
     public class a implements f {
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.activity.YouTubePlayerActivity$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.activity.YouTubePlayerActivity$a$a, reason: collision with other inner class name */
         public class C0279a extends c.i.a.f.a {
 
             /* JADX INFO: renamed from: b, reason: collision with root package name */

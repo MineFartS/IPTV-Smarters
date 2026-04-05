@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,10 +22,10 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.i.q.m;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.SearchActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SearchActivityLowerSDK;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.SearchActivity;
+import minefarts.iptvsmarters.view.activity.SearchActivityLowerSDK;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import org.jetbrains.annotations.NotNull;
@@ -143,7 +143,7 @@ public class LeftSideChannelsSearch extends RecyclerView.h<RecyclerView.e0> {
         /* JADX INFO: renamed from: a, reason: collision with root package name */
         public final /* synthetic */ ViewHolder f27312a;
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.LeftSideChannelsSearch$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.LeftSideChannelsSearch$a$a, reason: collision with other inner class name */
         public class C0280a implements c.k.b.e {
             public C0280a() {
             }
@@ -398,7 +398,7 @@ public class LeftSideChannelsSearch extends RecyclerView.h<RecyclerView.e0> {
             Method dump skipped, instruction units count: 529
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.LeftSideChannelsSearch.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.LeftSideChannelsSearch.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
     }
 
     @Override // androidx.recyclerview.widget.RecyclerView.h

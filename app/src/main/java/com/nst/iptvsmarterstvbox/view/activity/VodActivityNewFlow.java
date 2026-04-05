@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.animation.ObjectAnimator;
@@ -38,8 +38,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import com.facebook.ads.NativeAd;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.VodAdapterNewFlow;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.VodAdapterNewFlow;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -460,7 +460,7 @@ public class VodActivityNewFlow extends a.b.k.c implements View.OnClickListener 
             Method dump skipped, instruction units count: 889
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlow.I0():boolean");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.activity.VodActivityNewFlow.I0():boolean");
     }
 
     public final void J0() {

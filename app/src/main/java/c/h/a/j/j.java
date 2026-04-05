@@ -3,7 +3,7 @@ package c.h.a.j;
 import android.content.Context;
 import c.h.a.k.f.m;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
-import com.nst.iptvsmarterstvbox.model.callback.VodInfoCallback;
+import minefarts.iptvsmarters.model.callback.VodInfoCallback;
 import o.l;
 
 /* JADX INFO: loaded from: classes2.dex */

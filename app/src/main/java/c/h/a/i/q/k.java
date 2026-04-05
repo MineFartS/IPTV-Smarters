@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabaseLockedException;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import com.nst.iptvsmarterstvbox.model.pojo.PanelAvailableChannelsPojo;
+import minefarts.iptvsmarters.model.pojo.PanelAvailableChannelsPojo;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 import org.simpleframework.xml.strategy.Name;

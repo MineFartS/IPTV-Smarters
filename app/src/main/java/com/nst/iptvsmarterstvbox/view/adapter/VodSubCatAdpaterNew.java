@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -22,9 +22,9 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.i.e;
 import c.h.a.i.q.f;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.VodActivityLayout;
-import com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSecondSubCategories;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.VodActivityLayout;
+import minefarts.iptvsmarters.view.activity.VodActivityNewFlowSecondSubCategories;
 import java.util.ArrayList;
 import java.util.List;
 import me.zhanghai.android.materialprogressbar.BuildConfig;

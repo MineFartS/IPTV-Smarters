@@ -1,8 +1,8 @@
-package com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature;
+package minefarts.iptvsmarters.miscelleneious.chromecastfeature;
 
 import android.view.Menu;
 import c.f.a.c.d.u.u.m.a;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class ExpandedControlsActivity extends a {

@@ -40,26 +40,26 @@ import c.h.a.h.f;
 import c.h.a.i.q.m;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferService;
 import com.facebook.ads.InterstitialAd;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.GetEpisdoeDetailsCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.CheckAppupdateActivity;
-import com.nst.iptvsmarterstvbox.view.activity.ExoPlayerMoviesSeriesActivity;
-import com.nst.iptvsmarterstvbox.view.activity.HoneyPlayer;
-import com.nst.iptvsmarterstvbox.view.activity.ImportM3uActivity;
-import com.nst.iptvsmarterstvbox.view.activity.LoginActivity;
-import com.nst.iptvsmarterstvbox.view.activity.MultiUserActivity;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.NotificationActivity;
-import com.nst.iptvsmarterstvbox.view.activity.PlayExternalPlayerActivity;
-import com.nst.iptvsmarterstvbox.view.activity.RateUsActivity;
-import com.nst.iptvsmarterstvbox.view.activity.RecordingActivity;
-import com.nst.iptvsmarterstvbox.view.activity.RoutingActivity;
-import com.nst.iptvsmarterstvbox.view.activity.VodActivityNewFlowSubCategories;
-import com.nst.iptvsmarterstvbox.view.adapter.RecordingAdapter;
-import com.nst.iptvsmarterstvbox.view.demo.NSTEXOPlayerSkyActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerEPGActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.activities.NSTIJKPlayerSkyActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.GetEpisdoeDetailsCallback;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.CheckAppupdateActivity;
+import minefarts.iptvsmarters.view.activity.ExoPlayerMoviesSeriesActivity;
+import minefarts.iptvsmarters.view.activity.HoneyPlayer;
+import minefarts.iptvsmarters.view.activity.ImportM3uActivity;
+import minefarts.iptvsmarters.view.activity.LoginActivity;
+import minefarts.iptvsmarters.view.activity.MultiUserActivity;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.NotificationActivity;
+import minefarts.iptvsmarters.view.activity.PlayExternalPlayerActivity;
+import minefarts.iptvsmarters.view.activity.RateUsActivity;
+import minefarts.iptvsmarters.view.activity.RecordingActivity;
+import minefarts.iptvsmarters.view.activity.RoutingActivity;
+import minefarts.iptvsmarters.view.activity.VodActivityNewFlowSubCategories;
+import minefarts.iptvsmarters.view.adapter.RecordingAdapter;
+import minefarts.iptvsmarters.view.demo.NSTEXOPlayerSkyActivity;
+import minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerEPGActivity;
+import minefarts.iptvsmarters.view.ijkplayer.activities.NSTIJKPlayerSkyActivity;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -402,14 +402,14 @@ public class e {
                 java.io.File r7 = r6.f17095b
                 boolean r7 = r7.delete()
                 if (r7 == 0) goto L86
-                com.nst.iptvsmarterstvbox.view.activity.RecordingActivity r7 = r6.f17096c
+                minefarts.iptvsmarters.view.activity.RecordingActivity r7 = r6.f17096c
                 android.content.res.Resources r0 = r7.getResources()
                 r1 = 2132018407(0x7f1404e7, float:1.967512E38)
                 java.lang.String r0 = r0.getString(r1)
                 r1 = 0
                 android.widget.Toast r7 = android.widget.Toast.makeText(r7, r0, r1)
                 r7.show()
-                com.nst.iptvsmarterstvbox.view.activity.RecordingActivity r7 = r6.f17096c
+                minefarts.iptvsmarters.view.activity.RecordingActivity r7 = r6.f17096c
                 java.io.File[] r7 = c.h.a.h.n.e.B(r7)
                 if (r7 == 0) goto L68
                 int r0 = r7.length
@@ -439,13 +439,13 @@ public class e {
                 if (r7 == 0) goto L68
                 int r7 = r7.size()
                 if (r7 <= 0) goto L68
-                com.nst.iptvsmarterstvbox.view.adapter.RecordingAdapter r7 = r6.f17098e
+                minefarts.iptvsmarters.view.adapter.RecordingAdapter r7 = r6.f17098e
                 r7.w()
                 goto L77
             L68:
                 java.util.ArrayList r7 = r6.f17097d
                 r7.clear()
-                com.nst.iptvsmarterstvbox.view.adapter.RecordingAdapter r7 = r6.f17098e
+                minefarts.iptvsmarters.view.adapter.RecordingAdapter r7 = r6.f17098e
                 r7.w()
                 android.widget.TextView r7 = r6.f17099f
                 r7.setVisibility(r1)

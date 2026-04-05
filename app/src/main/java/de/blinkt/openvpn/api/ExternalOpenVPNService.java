@@ -16,7 +16,7 @@ import android.os.Message;
 import android.os.ParcelFileDescriptor;
 import android.os.RemoteCallbackList;
 import android.os.RemoteException;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.c.d;
 import d.a.a.d.c;
 import d.a.a.d.f;

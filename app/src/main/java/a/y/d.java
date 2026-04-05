@@ -6,13 +6,13 @@ import android.R;
 public final class d {
 
     /* JADX INFO: renamed from: a, reason: collision with root package name */
-    public static final int[] f3786a = {R.attr.color, R.attr.alpha, com.nst.iptvsmarterstvbox.R.attr.alpha};
+    public static final int[] f3786a = {R.attr.color, R.attr.alpha, minefarts.iptvsmarters.R.attr.alpha};
 
     /* JADX INFO: renamed from: b, reason: collision with root package name */
-    public static final int[] f3787b = {com.nst.iptvsmarterstvbox.R.attr.fontProviderAuthority, com.nst.iptvsmarterstvbox.R.attr.fontProviderCerts, com.nst.iptvsmarterstvbox.R.attr.fontProviderFetchStrategy, com.nst.iptvsmarterstvbox.R.attr.fontProviderFetchTimeout, com.nst.iptvsmarterstvbox.R.attr.fontProviderPackage, com.nst.iptvsmarterstvbox.R.attr.fontProviderQuery, com.nst.iptvsmarterstvbox.R.attr.fontProviderSystemFontFamily};
+    public static final int[] f3787b = {minefarts.iptvsmarters.R.attr.fontProviderAuthority, minefarts.iptvsmarters.R.attr.fontProviderCerts, minefarts.iptvsmarters.R.attr.fontProviderFetchStrategy, minefarts.iptvsmarters.R.attr.fontProviderFetchTimeout, minefarts.iptvsmarters.R.attr.fontProviderPackage, minefarts.iptvsmarters.R.attr.fontProviderQuery, minefarts.iptvsmarters.R.attr.fontProviderSystemFontFamily};
 
     /* JADX INFO: renamed from: c, reason: collision with root package name */
-    public static final int[] f3788c = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, com.nst.iptvsmarterstvbox.R.attr.font, com.nst.iptvsmarterstvbox.R.attr.fontStyle, com.nst.iptvsmarterstvbox.R.attr.fontVariationSettings, com.nst.iptvsmarterstvbox.R.attr.fontWeight, com.nst.iptvsmarterstvbox.R.attr.ttcIndex};
+    public static final int[] f3788c = {R.attr.font, R.attr.fontWeight, R.attr.fontStyle, R.attr.ttcIndex, R.attr.fontVariationSettings, minefarts.iptvsmarters.R.attr.font, minefarts.iptvsmarters.R.attr.fontStyle, minefarts.iptvsmarters.R.attr.fontVariationSettings, minefarts.iptvsmarters.R.attr.fontWeight, minefarts.iptvsmarters.R.attr.ttcIndex};
 
     /* JADX INFO: renamed from: d, reason: collision with root package name */
     public static final int[] f3789d = {R.attr.startColor, R.attr.endColor, R.attr.type, R.attr.centerX, R.attr.centerY, R.attr.gradientRadius, R.attr.tileMode, R.attr.centerColor, R.attr.startX, R.attr.startY, R.attr.endX, R.attr.endY};
@@ -21,7 +21,7 @@ public final class d {
     public static final int[] f3790e = {R.attr.color, R.attr.offset};
 
     /* JADX INFO: renamed from: f, reason: collision with root package name */
-    public static final int[] f3791f = {R.attr.orientation, R.attr.clipToPadding, R.attr.descendantFocusability, com.nst.iptvsmarterstvbox.R.attr.fastScrollEnabled, com.nst.iptvsmarterstvbox.R.attr.fastScrollHorizontalThumbDrawable, com.nst.iptvsmarterstvbox.R.attr.fastScrollHorizontalTrackDrawable, com.nst.iptvsmarterstvbox.R.attr.fastScrollVerticalThumbDrawable, com.nst.iptvsmarterstvbox.R.attr.fastScrollVerticalTrackDrawable, com.nst.iptvsmarterstvbox.R.attr.layoutManager, com.nst.iptvsmarterstvbox.R.attr.reverseLayout, com.nst.iptvsmarterstvbox.R.attr.spanCount, com.nst.iptvsmarterstvbox.R.attr.stackFromEnd};
+    public static final int[] f3791f = {R.attr.orientation, R.attr.clipToPadding, R.attr.descendantFocusability, minefarts.iptvsmarters.R.attr.fastScrollEnabled, minefarts.iptvsmarters.R.attr.fastScrollHorizontalThumbDrawable, minefarts.iptvsmarters.R.attr.fastScrollHorizontalTrackDrawable, minefarts.iptvsmarters.R.attr.fastScrollVerticalThumbDrawable, minefarts.iptvsmarters.R.attr.fastScrollVerticalTrackDrawable, minefarts.iptvsmarters.R.attr.layoutManager, minefarts.iptvsmarters.R.attr.reverseLayout, minefarts.iptvsmarters.R.attr.spanCount, minefarts.iptvsmarters.R.attr.stackFromEnd};
 
     /* JADX INFO: renamed from: g, reason: collision with root package name */
     public static final int f3792g = 0;

@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabaseLockedException;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
-import com.nst.iptvsmarterstvbox.model.pojo.ExternalPlayerModelClass;
+import minefarts.iptvsmarters.model.pojo.ExternalPlayerModelClass;
 import java.util.ArrayList;
 
 /* JADX INFO: loaded from: classes2.dex */

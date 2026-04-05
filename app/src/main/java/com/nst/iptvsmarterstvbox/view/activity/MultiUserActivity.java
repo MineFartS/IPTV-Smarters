@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.c;
 import android.animation.ObjectAnimator;
@@ -27,8 +27,8 @@ import butterknife.OnClick;
 import c.h.a.i.i;
 import c.h.a.i.q.g;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.adapter.MultiUserAdapter;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.adapter.MultiUserAdapter;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import a.b.k.b;
 import android.annotation.SuppressLint;
@@ -36,12 +36,12 @@ import c.h.a.i.q.f;
 import c.h.a.i.q.i;
 import c.h.a.i.q.m;
 import com.google.android.exoplayer2.ui.PlayerView;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.activity.NewDashboardActivity;
-import com.nst.iptvsmarterstvbox.view.activity.SettingsActivity;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG;
-import com.nst.iptvsmarterstvbox.view.utility.epg.EPG;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.activity.NewDashboardActivity;
+import minefarts.iptvsmarters.view.activity.SettingsActivity;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG;
+import minefarts.iptvsmarters.view.utility.epg.EPG;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -1500,7 +1500,7 @@ public class NewEPGFragment extends Fragment {
             Method dump skipped, instruction units count: 666
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.fragment.NewEPGFragment.u(boolean):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.fragment.NewEPGFragment.u(boolean):void");
     }
 
     public final void v(String str, RelativeLayout relativeLayout, int i2) {

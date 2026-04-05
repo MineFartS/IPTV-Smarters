@@ -2,8 +2,8 @@ package c.h.a.k.b;
 
 import android.content.Context;
 import androidx.fragment.app.Fragment;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
-import com.nst.iptvsmarterstvbox.view.fragment.SubTVArchiveFragment;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.view.fragment.SubTVArchiveFragment;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

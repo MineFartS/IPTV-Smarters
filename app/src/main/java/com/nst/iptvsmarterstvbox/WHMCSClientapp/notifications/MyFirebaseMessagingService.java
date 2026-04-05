@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.notifications;
+package minefarts.iptvsmarters.WHMCSClientapp.notifications;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.util.Log;
 import c.f.c.u.u;
 import c.h.a.e.f.a;
 import com.google.firebase.messaging.FirebaseMessagingService;
-import com.nst.iptvsmarterstvbox.WHMCSClientapp.activities.MyTicketActivity;
+import minefarts.iptvsmarters.WHMCSClientapp.activities.MyTicketActivity;
 import org.achartengine.ChartFactory;
 import org.json.JSONException;
 import org.json.JSONObject;

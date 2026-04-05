@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.vpn.adapters;
+package minefarts.iptvsmarters.vpn.adapters;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -25,8 +25,8 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import c.h.a.h.n.e;
 import c.k.b.t;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.vpn.activities.ProfileActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.vpn.activities.ProfileActivity;
 import de.blinkt.openvpn.LaunchVPN;
 import java.io.File;
 import java.io.Serializable;

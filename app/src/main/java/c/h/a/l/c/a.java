@@ -11,7 +11,7 @@ import android.os.Build;
 import android.os.Environment;
 import android.util.Log;
 import c.h.a.l.e.b;
-import com.nst.iptvsmarterstvbox.miscelleneious.MyApplication;
+import minefarts.iptvsmarters.miscelleneious.MyApplication;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;

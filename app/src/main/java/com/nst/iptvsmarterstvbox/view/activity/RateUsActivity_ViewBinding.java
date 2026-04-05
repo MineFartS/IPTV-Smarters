@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.view.View;
 import android.widget.Button;
@@ -6,7 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class RateUsActivity_ViewBinding implements Unbinder {

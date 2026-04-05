@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import a.b.k.b;
 import android.content.Context;
@@ -25,11 +25,11 @@ import c.h.a.j.h;
 import c.h.a.k.b.x;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.tabs.TabLayout;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamsEpgCallback;
-import com.nst.iptvsmarterstvbox.model.callback.LoginCallback;
-import com.nst.iptvsmarterstvbox.model.pojo.EpgListingPojo;
-import com.nst.iptvsmarterstvbox.model.pojo.XMLTVProgrammePojo;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.model.callback.LiveStreamsEpgCallback;
+import minefarts.iptvsmarters.model.callback.LoginCallback;
+import minefarts.iptvsmarters.model.pojo.EpgListingPojo;
+import minefarts.iptvsmarters.model.pojo.XMLTVProgrammePojo;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

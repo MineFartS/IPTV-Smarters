@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -23,8 +23,8 @@ import c.h.a.i.e;
 import c.h.a.i.q.f;
 import c.h.a.i.q.i;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.activity.ParentalControlActivitity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.activity.ParentalControlActivitity;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

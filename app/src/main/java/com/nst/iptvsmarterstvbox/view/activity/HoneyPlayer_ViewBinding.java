@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.view.View;
 import android.widget.FrameLayout;
@@ -13,8 +13,8 @@ import androidx.mediarouter.app.MediaRouteButton;
 import androidx.recyclerview.widget.RecyclerView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerEpisodes;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class HoneyPlayer_ViewBinding implements Unbinder {

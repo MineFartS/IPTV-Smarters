@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import b.c.c;
 import butterknife.Unbinder;
 import com.google.android.material.appbar.AppBarLayout;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class ViewDetailsCastActivity_ViewBinding implements Unbinder {

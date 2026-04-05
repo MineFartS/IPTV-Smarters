@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.vpn;
+package minefarts.iptvsmarters.vpn;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -10,7 +10,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.i;
 import d.a.a.d.v;
 import d.a.a.d.z;

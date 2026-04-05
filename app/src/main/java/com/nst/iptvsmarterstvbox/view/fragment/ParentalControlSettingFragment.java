@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -18,7 +18,7 @@ import butterknife.Unbinder;
 import c.h.a.i.q.f;
 import c.h.a.i.q.h;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.util.ArrayList;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
 

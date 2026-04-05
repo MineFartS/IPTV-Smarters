@@ -2,7 +2,7 @@ package c.h.a.j;
 
 import android.content.Context;
 import com.amazonaws.mobileconnectors.cognitoauth.util.ClientConstants;
-import com.nst.iptvsmarterstvbox.model.callback.LiveStreamsEpgCallback;
+import minefarts.iptvsmarters.model.callback.LiveStreamsEpgCallback;
 import o.l;
 import o.m;
 

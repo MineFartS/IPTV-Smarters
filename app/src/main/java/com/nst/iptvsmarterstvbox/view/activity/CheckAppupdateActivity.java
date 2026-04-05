@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.activity;
+package minefarts.iptvsmarters.view.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import c.h.a.h.n.e;
 import c.h.a.i.q.m;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.IOException;
 import java.util.Calendar;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -128,7 +128,7 @@ public class CheckAppupdateActivity extends a.b.k.c {
         /* JADX INFO: renamed from: b, reason: merged with bridge method [inline-methods] */
         public String doInBackground(Void... voidArr) {
             try {
-                return Jsoup.connect("https://play.google.com/store/apps/details?id=com.nst.iptvsmarterstvbox&hl=en").timeout(5000).userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6").referrer("http://www.google.com").get().select(" div.hAyfc:nth-child(4) > span:nth-child(2) >div:nth-child(1) > span:nth-child(1)").first().ownText();
+                return Jsoup.connect("https://play.google.com/store/apps/details?id=minefarts.iptvsmarters&hl=en").timeout(5000).userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6").referrer("http://www.google.com").get().select(" div.hAyfc:nth-child(4) > span:nth-child(2) >div:nth-child(1) > span:nth-child(1)").first().ownText();
             } catch (IOException e2) {
                 e2.printStackTrace();
                 return null;

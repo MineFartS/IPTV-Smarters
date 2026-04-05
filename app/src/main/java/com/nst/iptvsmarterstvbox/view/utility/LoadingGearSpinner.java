@@ -1,10 +1,10 @@
-package com.nst.iptvsmarterstvbox.view.utility;
+package minefarts.iptvsmarters.view.utility;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class LoadingGearSpinner extends ImageView {

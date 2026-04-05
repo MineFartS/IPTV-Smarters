@@ -1,6 +1,6 @@
 package c.h.a.k.f;
 
-import com.nst.iptvsmarterstvbox.model.callback.ActivationCallBack;
+import minefarts.iptvsmarters.model.callback.ActivationCallBack;
 
 /* JADX INFO: loaded from: classes2.dex */
 public interface a {

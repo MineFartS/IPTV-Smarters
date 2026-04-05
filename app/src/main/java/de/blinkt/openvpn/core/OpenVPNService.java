@@ -25,7 +25,7 @@ import android.text.TextUtils;
 import android.util.Base64;
 import android.widget.Toast;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferService;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import d.a.a.d.e;
 import d.a.a.d.f;
 import d.a.a.d.g;

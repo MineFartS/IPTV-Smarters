@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.fragment;
+package minefarts.iptvsmarters.view.fragment;
 
 import android.view.View;
 import android.widget.LinearLayout;
@@ -9,9 +9,9 @@ import b.c.b;
 import b.c.c;
 import butterknife.Unbinder;
 import com.google.android.exoplayer2.ui.PlayerView;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG;
-import com.nst.iptvsmarterstvbox.view.utility.epg.EPG;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.view.ijkplayer.widget.media.NSTIJKPlayerSmallEPG;
+import minefarts.iptvsmarters.view.utility.epg.EPG;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class NewEPGFragment_ViewBinding implements Unbinder {

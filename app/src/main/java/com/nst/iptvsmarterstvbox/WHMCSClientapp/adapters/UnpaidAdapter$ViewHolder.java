@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.adapters;
+package minefarts.iptvsmarters.WHMCSClientapp.adapters;
 
 import android.widget.ImageView;
 import android.widget.LinearLayout;

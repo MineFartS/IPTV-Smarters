@@ -27,7 +27,7 @@ public final class R {
     }
 
     public static final class styleable {
-        public static final int[] SignInButton = {com.nst.iptvsmarterstvbox.R.attr.buttonSize, com.nst.iptvsmarterstvbox.R.attr.button_style, com.nst.iptvsmarterstvbox.R.attr.colorScheme, com.nst.iptvsmarterstvbox.R.attr.scopeUris, com.nst.iptvsmarterstvbox.R.attr.text};
+        public static final int[] SignInButton = {minefarts.iptvsmarters.R.attr.buttonSize, minefarts.iptvsmarters.R.attr.button_style, minefarts.iptvsmarters.R.attr.colorScheme, minefarts.iptvsmarters.R.attr.scopeUris, minefarts.iptvsmarters.R.attr.text};
         public static final int SignInButton_buttonSize = 0x00000000;
         public static final int SignInButton_button_style = 0x00000001;
         public static final int SignInButton_colorScheme = 0x00000002;

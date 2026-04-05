@@ -1,4 +1,4 @@
-package com.nst.iptvsmarterstvbox.view.adapter;
+package minefarts.iptvsmarters.view.adapter;
 
 import a.b.q.j0;
 import android.annotation.SuppressLint;
@@ -28,11 +28,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
-import com.nst.iptvsmarterstvbox.miscelleneious.chromecastfeature.ExpandedControlsActivity;
-import com.nst.iptvsmarterstvbox.view.activity.ViewDetailsActivity;
-import com.nst.iptvsmarterstvbox.view.activity.ViewDetailsTMDBActivity;
-import com.nst.iptvsmarterstvbox.view.activity.VodAllDataSingleActivity;
+import minefarts.iptvsmarters.R;
+import minefarts.iptvsmarters.miscelleneious.chromecastfeature.ExpandedControlsActivity;
+import minefarts.iptvsmarters.view.activity.ViewDetailsActivity;
+import minefarts.iptvsmarters.view.activity.ViewDetailsTMDBActivity;
+import minefarts.iptvsmarters.view.activity.VodAllDataSingleActivity;
 import java.util.ArrayList;
 import java.util.List;
 import me.zhanghai.android.materialprogressbar.BuildConfig;
@@ -242,7 +242,7 @@ public class VodAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0> 
         /* JADX INFO: renamed from: a, reason: collision with root package name */
         public final /* synthetic */ ContinueWatchingViewHolder f28500a;
 
-        /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.VodAllDataRightSideAdapter$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.VodAllDataRightSideAdapter$a$a, reason: collision with other inner class name */
         public class C0289a implements c.k.b.e {
             public C0289a() {
             }
@@ -674,7 +674,7 @@ public class VodAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0> 
                 }
             }
 
-            /* JADX INFO: renamed from: com.nst.iptvsmarterstvbox.view.adapter.VodAllDataRightSideAdapter$k$b$b, reason: collision with other inner class name */
+            /* JADX INFO: renamed from: minefarts.iptvsmarters.view.adapter.VodAllDataRightSideAdapter$k$b$b, reason: collision with other inner class name */
             public class ViewOnFocusChangeListenerC0290b implements View.OnFocusChangeListener {
 
                 /* JADX INFO: renamed from: b, reason: collision with root package name */
@@ -1273,7 +1273,7 @@ public class VodAllDataRightSideAdapter extends RecyclerView.h<RecyclerView.e0> 
             Method dump skipped, instruction units count: 1223
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.nst.iptvsmarterstvbox.view.adapter.VodAllDataRightSideAdapter.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
+        throw new UnsupportedOperationException("Method not decompiled: minefarts.iptvsmarters.view.adapter.VodAllDataRightSideAdapter.F(androidx.recyclerview.widget.RecyclerView$e0, int):void");
     }
 
     public final void F0(ArrayList<c.h.a.i.c> arrayList, RecyclerView.e0 e0Var, int i2, ArrayList<c.h.a.i.f> arrayList2) {

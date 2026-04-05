@@ -16,7 +16,7 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.util.Patterns;
 import com.amazonaws.mobileconnectors.s3.transferutility.TransferService;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;

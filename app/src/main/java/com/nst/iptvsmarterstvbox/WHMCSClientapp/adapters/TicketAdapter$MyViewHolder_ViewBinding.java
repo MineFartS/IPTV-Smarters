@@ -1,11 +1,11 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.adapters;
+package minefarts.iptvsmarters.WHMCSClientapp.adapters;
 
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class TicketAdapter$MyViewHolder_ViewBinding implements Unbinder {

@@ -1,10 +1,10 @@
-package com.nst.iptvsmarterstvbox.WHMCSClientapp.fragment;
+package minefarts.iptvsmarters.WHMCSClientapp.fragment;
 
 import android.view.View;
 import android.webkit.WebView;
 import b.c.c;
 import butterknife.Unbinder;
-import com.nst.iptvsmarterstvbox.R;
+import minefarts.iptvsmarters.R;
 
 /* JADX INFO: loaded from: classes2.dex */
 public class InvoiceFragment_ViewBinding implements Unbinder {
